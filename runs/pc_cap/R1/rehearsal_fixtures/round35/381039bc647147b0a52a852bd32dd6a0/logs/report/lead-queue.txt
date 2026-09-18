@@ -1,0 +1,16 @@
+R1 daily status — 2026-09-18T19:22:51.027173+00:00
+Scope: confirmatory; matrix SHA256 2d4abf5ff2dfb6d7a026b71433fbf4a86d1e899495c13b00543f288c19f9d977.
+Artifact-complete cells: 0/3; complete blocks: [].
+Known spend: 0.000000 process-hours; projected total: 0.095833; declared ceiling: 750.000000.
+Projection uses the entire matrix, remaining solo ceilings × 1.15; retry-exhausted incomplete cells are not reserved again. It is not an elapsed-time forecast or a guarantee of full completion.
+Cost ledger: Process envelopes replace covered driver attempts; overlap and failures charged once each. Uncovered legacy driver times exclude process startup. JAX timers are not added.
+Incomplete cells:
+- f960f05840090fbe64f91a87: missing checkpoints [1]; failures 0/2; exhausted=False
+- 5fd987dbba8234da2670c13b: missing checkpoints [1]; failures 0/2; exhausted=False
+- d15d51ef978c04e07e192d20: missing checkpoints [1]; failures 0/2; exhausted=False
+Watch since previous posted snapshot: 1 global observations (0 in this matrix), 1 breach entries, 0 creep alerts.
+- Breach outside this matrix/development/2ab23e19c8bf39f7117fab27de5b2cf9f1b8ed1305e809960c4e7b93a8b05c1d (synthetic/zsre): capoff: KL=0.002, signed ΔNLL=0; original: KL=0.002, signed ΔNLL=0 nats.
+Checks: no snapshot/accounting/watch gaps detected
+Artifact completeness does not assert benchmark success, effect significance, admission or launch authority.
+This text has not been posted; creep alerts require immediate owner relay, not a wait for the next boundary.
+Report digest: 3df10f1c81022549861f15c5b96cd3088da669d4635c5abef58212e91dd37398

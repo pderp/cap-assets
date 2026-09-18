@@ -1,0 +1,23 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "cleared-candidates.json",
+ "bytes": 84636463,
+ "sha256": "47557896a5b0747a5c3e5d713384ccf64c686592d4114ee2a28ef6379fa1197a",
+ "parts": [
+  {
+   "path": "cleared-candidates.part-00.json",
+   "bytes": 41943040,
+   "sha256": "e33fc5a4c038e7431ca2058766fb6d08015c0ce19db846c77e3be143232e92fb"
+  },
+  {
+   "path": "cleared-candidates.part-01.json",
+   "bytes": 41943040,
+   "sha256": "d43daf9179ee391b8e553a4f3510fb6d66282d31b9a07d4a368ddbd78cd96735"
+  },
+  {
+   "path": "cleared-candidates.part-02.json",
+   "bytes": 750383,
+   "sha256": "75911a5ea40d05511050b9eb4aff4c6cd5ac343166d097620c73d6bf91b16d19"
+  }
+ ]
+}
