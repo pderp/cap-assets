@@ -1,0 +1,113 @@
+
+● Codex's review is right on both counts, and the two decisions are yours. Both are in the ledger (commit 2b02fcd) and Codex proceeds with the re-bind the moment you answer, folding your answers into the same package so it is emitted once.
+
+  Q19, the statistical claim. With three fresh realizations, the registered bootstrap resamples three numbers: there are only 27 possible resampling sequences, so both the 97.5 % interval and the Bonferroni-adjusted one collapse to the smallest and largest of the three realization means, and the range of three symmetric
+  estimates covers the truth only 75 % of the time. Bonferroni, more draws, or permutation tests cannot repair three clusters. I agree with Codex, and I should have caught this when I recommended accepting Q11 as proposed. Options:
+  - A (my recommendation): keep the registered computation and classifier for traceability, but label them preliminary decision summaries, show every realization's estimate and the order dispersion, publish effects before category names, and claim no demonstrated 95 % error control. The talk already speaks of preliminary
+    hints; this makes the paper match.
+  - B: a fourth fresh realization for zsRE and CounterFact (capacity allows it; MQuAKE cannot). About 95 more cells and 105 process-hours, the extension would have to go, and four clusters still only reach about 87.5 % range coverage. Not worth it.
+  - C: A plus an assumption-labelled Student-t interval shown beside the registered one. I would take this as a secondary display.
+
+  Q20, the block order. Adopt. Completing the primary / random-reader / v0_stable triplet across all three realizations and datasets first (135 cells, about 78 elapsed hours) secures the central replicated paired panel by roughly day four instead of after block 4 at about 150 hours. Same 285 cells, populations, settings and
+  stopping rules; only the order changes.
+
+  Codex's other points, deferring the unperformed factorial branches explicitly, the U03 qualification, effects before labels, keeping the κ null and stress results bounded, are already in the ledger and protocol or go into the same D.5 text. Nothing else is needed from you; with these two answers the re-bind, the tree freeze
+  and the automated session follow.
+
+✻ Crunched for 1m 37s · done 4:08 PM
+
+❯ Adopt Q20 as proposed. Go into more detail please, from first principles, on Q19 to try to explain things to me in a way that I can better understand the issue(s).                                                                                                                                                                   
+
+● Bash(cd /home/derp/cap/pc_cap; /home/derp/cap/venv/bin/python - <<'EOF'
+      from pathlib import Path…)
+  ⎿  e05f8fe DEC-068: Q20 adopted (triplet-first block order across all realizations)
+  ⎿  Updated pc_cap/docs/decisions.md (+1 -0)
+      80  | DEC-065 | 2026-09-18 | **Cost transfers for receipt v4** (orchestrator, under DEC-033's delegation; the lead may override): (i) CounterFact full-validation phase cost = the measured CounterFact sampled per-position cost × 245,237 positions (its batched sampled drift is measured on 16 cells; the full phase is
+           the same kernel over more windows), stated as a transfer with the measured basis; (ii) the S1 continued-base conditions' extra original-base forward in the full phase = one additional batched pass, priced at the measured v0 full-phase cost × 1.5 (bounded above by two full v0 passes), stated as a transfer; (ii
+          i) full-phase cost is treated as occupancy-independent between 300 and 1,000 records (selection cost per prefix is bounded by the bank size and the measured v0 / learned phases at 300 records already include it), stated as an assumption with the 1.5× ceiling as the guard; (iv) the process-hour projection with
+          full validation is reported as a scenario (Codex R1-58l: ≈ 484 process-hours, ≈ 726 with the 1.5× solo margin against the 750 cap) alongside the expected ≈ 255 h without it; the queue's two-worker wall-clock estimate ≈ 245–260 h against ≈ 360–375 usable. | `docs/tasks/R1-58l-round35-cost-basis.md`; `logs/r1_ro
+          und35/transfer-basis-v2.json`. | These transfers are explicit and reviewed; the first confirmatory block's measured costs replace them (plan v3 at the block-1 boundary). |
+      81  | DEC-066 | 2026-09-18 | **Q18: option B — MQuAKE core reduced prospectively to three conditions** (lead): R1_learned_ff (primary v5), R1_nonlearned (random-reader floor) and v0_stable (the representative radius-0 baseline), 300 edits × 3 realizations × 5 orders = 45 core cells (from 120). The five other MQuAK
+          E conditions (matched_update, v0_live_C1 / C2, S1_LM, S1_literal) are recorded in the protocol as determined by calibration v3 (radius 0 on all banks: retention 0, fidelity ≈ 0 by construction) and not run; MQuAKE's 15 extension cells (learned v2 reader) are unchanged. zsRE and CounterFact, the 63-interval DEC
+          -057 family (MQuAKE's 21 already unavailable under DEC-060), the MQuAKE draw demand (per realization) and the DEC-051 block order are unchanged. Decided before the draw; ≈ 62 process-hours returned to the buffer. | `docs/lead_queue.md` Q18, item 87; calibration v3 receipt. | Lead decision. Codex emits matrix /
+           protocol v5.2-D.4 with candidate v14 (R1-63m). |
+      82  | DEC-067 | 2026-09-18 | **Signing steps 3–8 delegated to the orchestrator** (lead: "I choose the option to delegate steps 3 to 8 to you", after the orchestrator's assessment that the nine-step signing machinery is overbuilt for this project and that the two substantive decisions — protocol admission and cost
+          admission — are already signed by the lead). The orchestrator executes clearance, RNG admission (with a master seed chosen by the lead), draw, endpoints, seal and freeze on the lead's behalf, recording in each form `lead_signature.name = "charlie derr (delegated to the orchestrator, DEC-067)"` and the date, an
+          d hands the lead the receipts and the frozen manifest hash. Scientific content unchanged: populations drawn from the lead's seed before any outcome; protocol, thresholds, code and weights hash-bound; audit trail kept. | `docs/lead_queue.md` item 95. | Lead decision. Post-launch: simpler tooling next time (Code
+          x), not more of this. |
+      83 +| DEC-068 | 2026-09-18 | **Q20: block order amended** (lead: "Adopt Q20 as proposed"; amends DEC-051): the primary / random-reader / v0_stable triplet is completed across all three realizations and all datasets first (135 cells), then matched_update and v0_live C1 / C2 across all realizations, then the S1 cont
+         +rols, then the optional extension; same 285 core cells, populations, settings, measurements and stopping rules (time / resource based, never outcome based). Matrix D.5 carries the block numbers. | `docs/scientific_program_review_2026-09-18.md` §8; `docs/lead_queue.md` Q20. | Lead decision. |                   
+      84  
+  ⎿  Updated pc_cap/docs/lead_queue.md (+1 -1)
+      488  | Q17 (fidelity limit scope) | **ANSWERED 2026-09-18: option 1** (DEC-064) — cap fidelity is a declared secondary benchmark (KL and NLL, pass / fail, concentration statistics), no veto; the continued-base gate unchanged. | — | unblocked: protocol v5.2-D.3 (R1-49m), candidate v14 | — |
+      489  | Q18 (MQuAKE scope) | **ANSWERED 2026-09-18: B** (DEC-066) — MQuAKE core = primary + floor + v0_stable, 45 cells; the five radius-0 conditions recorded as determined by calibration v3. | — | unblocked: matrix / protocol D.4 with candidate v14 | — |
+      490  | Q19 (inference with three realizations; review §2) | The registered DEC-057 bootstrap resamples three realization means; with three clusters both the 97.5 % and the Bonferroni-adjusted intervals collapse to the observed min–max of the three means (only 27 resampling sequences), whose coverage is 75 % under
+           symmetric errors — a nominal label, not calibrated 95 % familywise control; more draws, Bonferroni or permutation tests cannot repair three clusters. Options: **(A)** keep the registered computation and classifier for traceability, relabel them as preliminary decision summaries, show every realization estimat
+           e and order dispersion, publish effects before category names, and make no claim of demonstrated 95 % error control or an established population-level effect; **(B)** add a fourth fresh realization for zsRE and CounterFact (capacity allows: margins 2,034 / 2,071; MQuAKE cannot) — ≈ +95 cells, ≈ +105 process-h
+           ours, still only four clusters (range coverage ≈ 87.5 %), the extension would have to go; **(C)** as A plus a pre-registered Student-t sensitivity interval (2 d.f.) reported alongside, labelled as assumption-dependent. | **A**, with C's t-interval as an explicit secondary display (no change to what is compute
+           d first) | protocol D.5 wording (Codex, in the re-bind) and the report skeleton; not the populations or the run | before launch |
+      491 -| Q20 (block order; review §8) | Amend DEC-051 so the primary / random-reader / v0_stable triplet is completed across all three realizations and datasets first (135 cells, ≈ 148 process-hours, ≈ 78 elapsed hours at two workers), then matched_update / v0_live C1–C2 across all realizations, then the S1 controls
+          -, then the optional extension. Same 285 cells, populations, settings and measurements; only the order changes, so the central replicated paired panel is complete after ≈ 3.5 days instead of after block 4 (≈ 150 elapsed hours). Stopping rules stay time / resource based, never outcome based. | **adopt** | matri
+          -x D.4.1's block numbers (Codex, in the re-bind); nothing else | before launch |                                                                                                                                                                                                                                       
+      491 +| Q20 (block order) | **ANSWERED 2026-09-18: adopt** (DEC-068) — triplet across all realizations first. | — | unblocked: matrix D.5 block numbers in the re-bind | — |                                                                                                                                                
+      492  
+      493  Answered or superseded: sysctl/kdump root commands (held off, item 30); MQuAKE training vs transfer-only (settled by evidence:
+      494  transfer 0.16 vs 0.79 trained, item 25); MQuAKE pool size (superseded by the self-contained v3 slices, 500 train / 100 dev).
+
+● Q20 is recorded as DEC-068 (commit e05f8fe). Now Q19 from first principles.
+
+  What a confidence interval promises. Suppose the true effect of the learned reader over a control, on the whole population of facts we could have drawn, is some number Δ. We never see Δ; we see an estimate from the facts we did draw. A 95 % confidence interval is a procedure that, if you repeated the whole experiment many
+  times with fresh draws, would contain Δ in 95 % of the repetitions. That property is called coverage, and it is the entire content of the label "95 %". A procedure whose intervals contain the truth 75 % of the time is not a 95 % interval no matter what it is called.
+
+  What our data are. Each dataset gives three realizations: three independent draws of 1,000 facts (300 for MQuAKE) from the cleared register, made with your seed. Within a realization we run five edit orders, and each cell scores hundreds of items. Those inner numbers are plentiful, but they are not independent samples of Δ:
+  they all share the same draw of facts, and the items inside a cell share one memory state. The registered analysis (DEC-057) therefore treats the realization as the unit of replication, which is correct, and that leaves three independent numbers per contrast: the three realization means.
+
+  What the bootstrap then does. The percentile bootstrap estimates uncertainty by resampling the data with replacement and asking how much the mean moves. With three values, say −0.02, 0.03 and 0.12, there are only 27 possible resamples. The resampled mean can never be lower than −0.02 (only when the smallest value is drawn
+  all three times, probability 1/27 ≈ 3.7 %) or higher than 0.12. A 97.5 % interval cuts off 1.25 % in each tail, and the Bonferroni-adjusted one cuts off 0.04 %; both cuts fall inside those 3.7 % end atoms, so both intervals come out as [−0.02, 0.12], the observed minimum and maximum. Ten thousand draws instead of a thousand
+  change nothing; the arithmetic is exhausted at 27.
+
+  Why that has 75 % coverage. Take the simplest sampling model: each realization mean equals Δ plus an error that is equally likely to be positive or negative. The interval from the smallest to the largest of three values misses Δ exactly when all three errors have the same sign: probability 2 × (1/2)³ = 25 %. So the procedure
+  covers the truth 75 % of the time, whatever the label says. Codex reproduced 75.1 % in a 200,000-trial simulation. Bonferroni cannot help, because dividing α only asks the interval to be wider, and it is already as wide as three points allow. A permutation or sign-flip test has the same wall from the other side: with three
+  exchangeable signs the smallest attainable two-sided p-value is 2/8 = 0.25.
+
+  Why the inner numbers cannot rescue it. The hundreds of items in a cell make each realization mean precise; they say nothing about how much a fresh draw of facts would change that mean. The between-realization spread is the only evidence we have on that, and with three draws it is estimated from two degrees of freedom. A
+  Student-t interval that uses it honestly multiplies the observed spread by 4.3, giving very wide intervals under an explicit normality assumption. That is option C's secondary display: not a fix, but a calibrated statement under a stated assumption.
+
+  What would actually fix it, and what it costs. Independent realizations. Ten would give the bootstrap something to work with; each costs 1,350 cleared subjects and about 95 cells, so even a fourth (option B) is the most the register allows for zsRE and CounterFact, none for MQuAKE, and four draws only lift the range's
+  coverage to about 87.5 %. The design was sized for effect margins (a 0.05 retention gain), not for calibrated inference across draws, and that is what it can deliver: replicated effect sizes.
+
+  What we can honestly say (option A). For every contrast: the effect in each of the three realizations, the spread across orders inside each, and whether the direction and rough size replicate. The registered classifier labels stay, computed exactly as registered, but described as preliminary decision summaries. No claim of
+  demonstrated 95 % familywise control or of an established population-level effect. That is weaker than the original protocol implied and stronger than most single-draw editing results in the literature, which report one draw with no replication at all.
+
+  Two wording consequences Codex also flagged: "positive" requires a point gain of at least 0.05 with a lower bound above zero, not a lower bound of 0.05; "negative" can mean missing the 0.05 target while a smaller real gain exists. Effects should be published before category names.
+
+  One more option, for completeness: a hierarchical model with items nested in realizations would use both levels of variation. It gives more power to the within-realization comparison, but the between-realization variance is still estimated from three groups, so the population-level claim does not improve. I would not adopt
+  it now; it can be an additive analysis later.
+
+  My recommendation stands: A, with C's t-interval displayed beside it. Your answer goes straight into protocol D.5 within the re-bind.
+
+✻ Baked for 50s · done 4:11 PM
+
+❯ /exit                                                                                                                                                                                                                                                                                                                                 
+  ⎿  Catch you later!
+
+❯ Does this relate to the heavy-tailed issue that is referenced in my abstract which is the ostensible focus of all this work?                                                                                                                                                                                                          
+
+● Only at the edges. They are two different problems, and it is worth keeping them apart in the talk.
+  
+  Q19 is a small-number problem, not a tail problem. It would arise with perfectly Gaussian data: three independent draws of the fact population give three numbers, and no procedure can turn three numbers into a calibrated 95 % statement about the population of draws. Nothing about heavy tails causes it, and it would not go
+  away if every distribution in the study were thin-tailed.
+
+  Where the two touch, in three places:
+
+  - Which endpoints suffer most. The retention and success rates are bounded proportions averaged over 1,000 items per cell; their realization means are well behaved, so the three-cluster limitation is "only" the coverage problem. The tail endpoints, the maximum harm, ES99, the exceedance counts, are dominated by rare
+    positions, so their value in a realization depends on whether that draw happened to contain the few facts that provoke the large collisions. Across draws those statistics fluctuate far more than proportions do, and with three draws the caution is correspondingly stronger. That is the heavy-tailed theme biting the
+    inference.
+  - What is robust anyway. The abstract's central claim is within-population: averages hide harm that is concentrated in a small number of contexts. That is established inside each cell over 245,237 positions, and it recurred in all four development cells (half the KL in 64 to 171 positions). Replication across three fresh
+    draws will show whether the concentration recurs; it does not need a calibrated interval to be a real finding. The talk's structural point survives Q19 intact.
+  - Mean thresholds versus tail summaries. The fidelity result is the theme in miniature: the registered limit is a mean KL of 0.001, the model measures 0.0055, and 99.6 % of positions are untouched. A mean threshold is the wrong instrument for a concentrated quantity, which is exactly what "thriving in the extremes" argues,
+    and why the tail statistics and the concentration shares now sit beside every mean in the reports.
+
+  So the honest framing for October: the heavy-tail claim (harm is concentrated, and summaries built on means misdescribe it) is measured and replicated; the population-level inference about effect sizes is preliminary because three independent draws are all the register allowed. The first is the abstract's subject; the second
+  is a limitation of any editing study of this size, stated plainly.
+
