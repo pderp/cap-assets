@@ -1,0 +1,18 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "independent_population.json",
+ "bytes": 62735831,
+ "sha256": "2fd9085b1461b959afb3b5e6e8a6e84690dba056eefe0ac1fccd1de6c4a59a40",
+ "parts": [
+  {
+   "path": "independent_population.part-00.json",
+   "bytes": 41943040,
+   "sha256": "93f3967eede7e344c18e760236e05f60b5547d7544c3fec0005ae748b78a2a05"
+  },
+  {
+   "path": "independent_population.part-01.json",
+   "bytes": 20792791,
+   "sha256": "f1221005ad5bb045c04aee67a546e81d01034cc3e2d1346ba10c60ff16bab6ea"
+  }
+ ]
+}

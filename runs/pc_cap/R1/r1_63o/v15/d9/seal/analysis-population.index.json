@@ -1,0 +1,28 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "analysis-population.json",
+ "bytes": 128229143,
+ "sha256": "203c8356704fbe410cb64421925b4edbc4d2e6bf2d549de32a7272c2236b7e36",
+ "parts": [
+  {
+   "path": "analysis-population.part-00.json",
+   "bytes": 41943040,
+   "sha256": "4bf948b36957dbca5a713ec3f031fc3c837b03386190628c741286dfab4677bd"
+  },
+  {
+   "path": "analysis-population.part-01.json",
+   "bytes": 41943040,
+   "sha256": "14029cf766218ddfa98e5ad44b59c4049d2045706676ede5312d03d801dc62cf"
+  },
+  {
+   "path": "analysis-population.part-02.json",
+   "bytes": 41943040,
+   "sha256": "472b6913ace62430582bf6539793912812bee00f1762eff8f98490f848837677"
+  },
+  {
+   "path": "analysis-population.part-03.json",
+   "bytes": 2400023,
+   "sha256": "1d06c10b1c71e60d500e5ce5dd4c097dae7ceb6c4e6a8378d8623c79c2be8d5d"
+  }
+ ]
+}
