@@ -29,3 +29,19 @@ summary above. Whether the registered fidelity gate is a mean-KL gate on the cap
 - 99.6 % of positions are untouched; 171 positions (0.07 %) account for half the KL; 83.5 % of windows would pass the limit on their own.
 - Fidelity loss on this substrate is not a diffuse blur of the language model; it is a small number of ordinary-text contexts where the memory fires and rewrites the prediction. That is what a mean threshold cannot see, and what a tail statistic (ES95 / ES99 / exceedance counts / concentration share) does.
 - Development, one cell, one dataset; the same statistics are recorded for every confirmatory cell.
+
+## Update 2026-09-18: all four full-validation development cells (chain S)
+
+| cell | mean KL | mean NLL Δ | ES95 | max | positions for 50 % KL |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| MQuAKE · primary v5 | 0.0055 | +0.0056 | 0.114 | 8.2 | 171 |
+| zsRE · primary v5 | 0.0023 | +0.0023 | 0.047 | 9.9 | 64 |
+| MQuAKE · v0_stable (radius 0) | 0 | 0 | 0 | 0 | — |
+| zsRE · v0_stable | 0.0008 | +0.0009 | — | — | — |
+
+Figure: `figures/tail-survival.{png,pdf}` (HT-6 final: empirical survival of positive loss harm, full population vs the
+128-window sample, both learned cells). Two-sentence result: on the complete validation split the learned reader's
+mean divergence from the base is 0.002–0.006 nats, above the 0.001 benchmark registered for continuation bases and
+below the 0.01 NLL bound, and it is carried by 64–171 positions out of 245,237. The v0 cap, which never fires on
+ordinary text, is at or near zero. Development, one seed, 300 records; the same statistics are recorded for every
+confirmatory cell.
