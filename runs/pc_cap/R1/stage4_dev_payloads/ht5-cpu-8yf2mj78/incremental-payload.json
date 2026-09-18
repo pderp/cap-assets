@@ -1,0 +1,1428 @@
+{
+  "banner": "development, not confirmatory",
+  "fixed_old_fact_probe_ids": [
+    "a",
+    "b",
+    "i2",
+    "i3",
+    "i4",
+    "i5",
+    "i6",
+    "i7",
+    "i8",
+    "i9",
+    "i10",
+    "i11",
+    "i12",
+    "i13",
+    "i14",
+    "i15",
+    "i16",
+    "i17",
+    "i18",
+    "i19"
+  ],
+  "items": [
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "a",
+      "item_id": "a",
+      "paraphrases": [
+        "a para?"
+      ],
+      "prompt": "a?",
+      "subject": "a"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "b",
+      "item_id": "b",
+      "paraphrases": [
+        "b para?"
+      ],
+      "prompt": "b?",
+      "subject": "b"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i2",
+      "item_id": "i2",
+      "paraphrases": [
+        "i2 para?"
+      ],
+      "prompt": "i2?",
+      "subject": "i2"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i3",
+      "item_id": "i3",
+      "paraphrases": [
+        "i3 para?"
+      ],
+      "prompt": "i3?",
+      "subject": "i3"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i4",
+      "item_id": "i4",
+      "paraphrases": [
+        "i4 para?"
+      ],
+      "prompt": "i4?",
+      "subject": "i4"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i5",
+      "item_id": "i5",
+      "paraphrases": [
+        "i5 para?"
+      ],
+      "prompt": "i5?",
+      "subject": "i5"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i6",
+      "item_id": "i6",
+      "paraphrases": [
+        "i6 para?"
+      ],
+      "prompt": "i6?",
+      "subject": "i6"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i7",
+      "item_id": "i7",
+      "paraphrases": [
+        "i7 para?"
+      ],
+      "prompt": "i7?",
+      "subject": "i7"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i8",
+      "item_id": "i8",
+      "paraphrases": [
+        "i8 para?"
+      ],
+      "prompt": "i8?",
+      "subject": "i8"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i9",
+      "item_id": "i9",
+      "paraphrases": [
+        "i9 para?"
+      ],
+      "prompt": "i9?",
+      "subject": "i9"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i10",
+      "item_id": "i10",
+      "paraphrases": [
+        "i10 para?"
+      ],
+      "prompt": "i10?",
+      "subject": "i10"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i11",
+      "item_id": "i11",
+      "paraphrases": [
+        "i11 para?"
+      ],
+      "prompt": "i11?",
+      "subject": "i11"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i12",
+      "item_id": "i12",
+      "paraphrases": [
+        "i12 para?"
+      ],
+      "prompt": "i12?",
+      "subject": "i12"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i13",
+      "item_id": "i13",
+      "paraphrases": [
+        "i13 para?"
+      ],
+      "prompt": "i13?",
+      "subject": "i13"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i14",
+      "item_id": "i14",
+      "paraphrases": [
+        "i14 para?"
+      ],
+      "prompt": "i14?",
+      "subject": "i14"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i15",
+      "item_id": "i15",
+      "paraphrases": [
+        "i15 para?"
+      ],
+      "prompt": "i15?",
+      "subject": "i15"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i16",
+      "item_id": "i16",
+      "paraphrases": [
+        "i16 para?"
+      ],
+      "prompt": "i16?",
+      "subject": "i16"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i17",
+      "item_id": "i17",
+      "paraphrases": [
+        "i17 para?"
+      ],
+      "prompt": "i17?",
+      "subject": "i17"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i18",
+      "item_id": "i18",
+      "paraphrases": [
+        "i18 para?"
+      ],
+      "prompt": "i18?",
+      "subject": "i18"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i19",
+      "item_id": "i19",
+      "paraphrases": [
+        "i19 para?"
+      ],
+      "prompt": "i19?",
+      "subject": "i19"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i20",
+      "item_id": "i20",
+      "paraphrases": [
+        "i20 para?"
+      ],
+      "prompt": "i20?",
+      "subject": "i20"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i21",
+      "item_id": "i21",
+      "paraphrases": [
+        "i21 para?"
+      ],
+      "prompt": "i21?",
+      "subject": "i21"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i22",
+      "item_id": "i22",
+      "paraphrases": [
+        "i22 para?"
+      ],
+      "prompt": "i22?",
+      "subject": "i22"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i23",
+      "item_id": "i23",
+      "paraphrases": [
+        "i23 para?"
+      ],
+      "prompt": "i23?",
+      "subject": "i23"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i24",
+      "item_id": "i24",
+      "paraphrases": [
+        "i24 para?"
+      ],
+      "prompt": "i24?",
+      "subject": "i24"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i25",
+      "item_id": "i25",
+      "paraphrases": [
+        "i25 para?"
+      ],
+      "prompt": "i25?",
+      "subject": "i25"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i26",
+      "item_id": "i26",
+      "paraphrases": [
+        "i26 para?"
+      ],
+      "prompt": "i26?",
+      "subject": "i26"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i27",
+      "item_id": "i27",
+      "paraphrases": [
+        "i27 para?"
+      ],
+      "prompt": "i27?",
+      "subject": "i27"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i28",
+      "item_id": "i28",
+      "paraphrases": [
+        "i28 para?"
+      ],
+      "prompt": "i28?",
+      "subject": "i28"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i29",
+      "item_id": "i29",
+      "paraphrases": [
+        "i29 para?"
+      ],
+      "prompt": "i29?",
+      "subject": "i29"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i30",
+      "item_id": "i30",
+      "paraphrases": [
+        "i30 para?"
+      ],
+      "prompt": "i30?",
+      "subject": "i30"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i31",
+      "item_id": "i31",
+      "paraphrases": [
+        "i31 para?"
+      ],
+      "prompt": "i31?",
+      "subject": "i31"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i32",
+      "item_id": "i32",
+      "paraphrases": [
+        "i32 para?"
+      ],
+      "prompt": "i32?",
+      "subject": "i32"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i33",
+      "item_id": "i33",
+      "paraphrases": [
+        "i33 para?"
+      ],
+      "prompt": "i33?",
+      "subject": "i33"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i34",
+      "item_id": "i34",
+      "paraphrases": [
+        "i34 para?"
+      ],
+      "prompt": "i34?",
+      "subject": "i34"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i35",
+      "item_id": "i35",
+      "paraphrases": [
+        "i35 para?"
+      ],
+      "prompt": "i35?",
+      "subject": "i35"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i36",
+      "item_id": "i36",
+      "paraphrases": [
+        "i36 para?"
+      ],
+      "prompt": "i36?",
+      "subject": "i36"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i37",
+      "item_id": "i37",
+      "paraphrases": [
+        "i37 para?"
+      ],
+      "prompt": "i37?",
+      "subject": "i37"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i38",
+      "item_id": "i38",
+      "paraphrases": [
+        "i38 para?"
+      ],
+      "prompt": "i38?",
+      "subject": "i38"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i39",
+      "item_id": "i39",
+      "paraphrases": [
+        "i39 para?"
+      ],
+      "prompt": "i39?",
+      "subject": "i39"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i40",
+      "item_id": "i40",
+      "paraphrases": [
+        "i40 para?"
+      ],
+      "prompt": "i40?",
+      "subject": "i40"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i41",
+      "item_id": "i41",
+      "paraphrases": [
+        "i41 para?"
+      ],
+      "prompt": "i41?",
+      "subject": "i41"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i42",
+      "item_id": "i42",
+      "paraphrases": [
+        "i42 para?"
+      ],
+      "prompt": "i42?",
+      "subject": "i42"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i43",
+      "item_id": "i43",
+      "paraphrases": [
+        "i43 para?"
+      ],
+      "prompt": "i43?",
+      "subject": "i43"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i44",
+      "item_id": "i44",
+      "paraphrases": [
+        "i44 para?"
+      ],
+      "prompt": "i44?",
+      "subject": "i44"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i45",
+      "item_id": "i45",
+      "paraphrases": [
+        "i45 para?"
+      ],
+      "prompt": "i45?",
+      "subject": "i45"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i46",
+      "item_id": "i46",
+      "paraphrases": [
+        "i46 para?"
+      ],
+      "prompt": "i46?",
+      "subject": "i46"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i47",
+      "item_id": "i47",
+      "paraphrases": [
+        "i47 para?"
+      ],
+      "prompt": "i47?",
+      "subject": "i47"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i48",
+      "item_id": "i48",
+      "paraphrases": [
+        "i48 para?"
+      ],
+      "prompt": "i48?",
+      "subject": "i48"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i49",
+      "item_id": "i49",
+      "paraphrases": [
+        "i49 para?"
+      ],
+      "prompt": "i49?",
+      "subject": "i49"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i50",
+      "item_id": "i50",
+      "paraphrases": [
+        "i50 para?"
+      ],
+      "prompt": "i50?",
+      "subject": "i50"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i51",
+      "item_id": "i51",
+      "paraphrases": [
+        "i51 para?"
+      ],
+      "prompt": "i51?",
+      "subject": "i51"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i52",
+      "item_id": "i52",
+      "paraphrases": [
+        "i52 para?"
+      ],
+      "prompt": "i52?",
+      "subject": "i52"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i53",
+      "item_id": "i53",
+      "paraphrases": [
+        "i53 para?"
+      ],
+      "prompt": "i53?",
+      "subject": "i53"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i54",
+      "item_id": "i54",
+      "paraphrases": [
+        "i54 para?"
+      ],
+      "prompt": "i54?",
+      "subject": "i54"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i55",
+      "item_id": "i55",
+      "paraphrases": [
+        "i55 para?"
+      ],
+      "prompt": "i55?",
+      "subject": "i55"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i56",
+      "item_id": "i56",
+      "paraphrases": [
+        "i56 para?"
+      ],
+      "prompt": "i56?",
+      "subject": "i56"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i57",
+      "item_id": "i57",
+      "paraphrases": [
+        "i57 para?"
+      ],
+      "prompt": "i57?",
+      "subject": "i57"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i58",
+      "item_id": "i58",
+      "paraphrases": [
+        "i58 para?"
+      ],
+      "prompt": "i58?",
+      "subject": "i58"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i59",
+      "item_id": "i59",
+      "paraphrases": [
+        "i59 para?"
+      ],
+      "prompt": "i59?",
+      "subject": "i59"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i60",
+      "item_id": "i60",
+      "paraphrases": [
+        "i60 para?"
+      ],
+      "prompt": "i60?",
+      "subject": "i60"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i61",
+      "item_id": "i61",
+      "paraphrases": [
+        "i61 para?"
+      ],
+      "prompt": "i61?",
+      "subject": "i61"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i62",
+      "item_id": "i62",
+      "paraphrases": [
+        "i62 para?"
+      ],
+      "prompt": "i62?",
+      "subject": "i62"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i63",
+      "item_id": "i63",
+      "paraphrases": [
+        "i63 para?"
+      ],
+      "prompt": "i63?",
+      "subject": "i63"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i64",
+      "item_id": "i64",
+      "paraphrases": [
+        "i64 para?"
+      ],
+      "prompt": "i64?",
+      "subject": "i64"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i65",
+      "item_id": "i65",
+      "paraphrases": [
+        "i65 para?"
+      ],
+      "prompt": "i65?",
+      "subject": "i65"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i66",
+      "item_id": "i66",
+      "paraphrases": [
+        "i66 para?"
+      ],
+      "prompt": "i66?",
+      "subject": "i66"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i67",
+      "item_id": "i67",
+      "paraphrases": [
+        "i67 para?"
+      ],
+      "prompt": "i67?",
+      "subject": "i67"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i68",
+      "item_id": "i68",
+      "paraphrases": [
+        "i68 para?"
+      ],
+      "prompt": "i68?",
+      "subject": "i68"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i69",
+      "item_id": "i69",
+      "paraphrases": [
+        "i69 para?"
+      ],
+      "prompt": "i69?",
+      "subject": "i69"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i70",
+      "item_id": "i70",
+      "paraphrases": [
+        "i70 para?"
+      ],
+      "prompt": "i70?",
+      "subject": "i70"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i71",
+      "item_id": "i71",
+      "paraphrases": [
+        "i71 para?"
+      ],
+      "prompt": "i71?",
+      "subject": "i71"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i72",
+      "item_id": "i72",
+      "paraphrases": [
+        "i72 para?"
+      ],
+      "prompt": "i72?",
+      "subject": "i72"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i73",
+      "item_id": "i73",
+      "paraphrases": [
+        "i73 para?"
+      ],
+      "prompt": "i73?",
+      "subject": "i73"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i74",
+      "item_id": "i74",
+      "paraphrases": [
+        "i74 para?"
+      ],
+      "prompt": "i74?",
+      "subject": "i74"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i75",
+      "item_id": "i75",
+      "paraphrases": [
+        "i75 para?"
+      ],
+      "prompt": "i75?",
+      "subject": "i75"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i76",
+      "item_id": "i76",
+      "paraphrases": [
+        "i76 para?"
+      ],
+      "prompt": "i76?",
+      "subject": "i76"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i77",
+      "item_id": "i77",
+      "paraphrases": [
+        "i77 para?"
+      ],
+      "prompt": "i77?",
+      "subject": "i77"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i78",
+      "item_id": "i78",
+      "paraphrases": [
+        "i78 para?"
+      ],
+      "prompt": "i78?",
+      "subject": "i78"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i79",
+      "item_id": "i79",
+      "paraphrases": [
+        "i79 para?"
+      ],
+      "prompt": "i79?",
+      "subject": "i79"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i80",
+      "item_id": "i80",
+      "paraphrases": [
+        "i80 para?"
+      ],
+      "prompt": "i80?",
+      "subject": "i80"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i81",
+      "item_id": "i81",
+      "paraphrases": [
+        "i81 para?"
+      ],
+      "prompt": "i81?",
+      "subject": "i81"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i82",
+      "item_id": "i82",
+      "paraphrases": [
+        "i82 para?"
+      ],
+      "prompt": "i82?",
+      "subject": "i82"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i83",
+      "item_id": "i83",
+      "paraphrases": [
+        "i83 para?"
+      ],
+      "prompt": "i83?",
+      "subject": "i83"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i84",
+      "item_id": "i84",
+      "paraphrases": [
+        "i84 para?"
+      ],
+      "prompt": "i84?",
+      "subject": "i84"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i85",
+      "item_id": "i85",
+      "paraphrases": [
+        "i85 para?"
+      ],
+      "prompt": "i85?",
+      "subject": "i85"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i86",
+      "item_id": "i86",
+      "paraphrases": [
+        "i86 para?"
+      ],
+      "prompt": "i86?",
+      "subject": "i86"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i87",
+      "item_id": "i87",
+      "paraphrases": [
+        "i87 para?"
+      ],
+      "prompt": "i87?",
+      "subject": "i87"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i88",
+      "item_id": "i88",
+      "paraphrases": [
+        "i88 para?"
+      ],
+      "prompt": "i88?",
+      "subject": "i88"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i89",
+      "item_id": "i89",
+      "paraphrases": [
+        "i89 para?"
+      ],
+      "prompt": "i89?",
+      "subject": "i89"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i90",
+      "item_id": "i90",
+      "paraphrases": [
+        "i90 para?"
+      ],
+      "prompt": "i90?",
+      "subject": "i90"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i91",
+      "item_id": "i91",
+      "paraphrases": [
+        "i91 para?"
+      ],
+      "prompt": "i91?",
+      "subject": "i91"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i92",
+      "item_id": "i92",
+      "paraphrases": [
+        "i92 para?"
+      ],
+      "prompt": "i92?",
+      "subject": "i92"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i93",
+      "item_id": "i93",
+      "paraphrases": [
+        "i93 para?"
+      ],
+      "prompt": "i93?",
+      "subject": "i93"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i94",
+      "item_id": "i94",
+      "paraphrases": [
+        "i94 para?"
+      ],
+      "prompt": "i94?",
+      "subject": "i94"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i95",
+      "item_id": "i95",
+      "paraphrases": [
+        "i95 para?"
+      ],
+      "prompt": "i95?",
+      "subject": "i95"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i96",
+      "item_id": "i96",
+      "paraphrases": [
+        "i96 para?"
+      ],
+      "prompt": "i96?",
+      "subject": "i96"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i97",
+      "item_id": "i97",
+      "paraphrases": [
+        "i97 para?"
+      ],
+      "prompt": "i97?",
+      "subject": "i97"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i98",
+      "item_id": "i98",
+      "paraphrases": [
+        "i98 para?"
+      ],
+      "prompt": "i98?",
+      "subject": "i98"
+    },
+    {
+      "aliases": [
+        "new"
+      ],
+      "answer": "new",
+      "dataset": "mquake",
+      "fact_id": "i99",
+      "item_id": "i99",
+      "paraphrases": [
+        "i99 para?"
+      ],
+      "prompt": "i99?",
+      "subject": "i99"
+    }
+  ],
+  "mode": "stage4_development_cell"
+}

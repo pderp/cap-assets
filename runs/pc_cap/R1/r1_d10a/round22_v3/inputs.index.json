@@ -1,0 +1,18 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "inputs.json",
+ "bytes": 55173238,
+ "sha256": "d56e56faf4481b40bde6bc200bc4b2810b90e25f22e776932070ce58784dd6bc",
+ "parts": [
+  {
+   "path": "inputs.part-00.json",
+   "bytes": 41943040,
+   "sha256": "c12e389521ce85487365d35e54b40f95891ce0d07283beed8d960a217c1578c4"
+  },
+  {
+   "path": "inputs.part-01.json",
+   "bytes": 13230198,
+   "sha256": "54eac1fec49f0d6628eff8247ec5d7d108660ce662eebcc232bd3f368e8f85b7"
+  }
+ ]
+}

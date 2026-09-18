@@ -1,0 +1,18 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "evidence-v5-candidate.json",
+ "bytes": 64319697,
+ "sha256": "4720992e4898d0f25df78b9278fc087228eb7320f94292f8a73bff90a2f57955",
+ "parts": [
+  {
+   "path": "evidence-v5-candidate.part-00.json",
+   "bytes": 41943040,
+   "sha256": "e02e397d76d0e2e7b25437735ca05f705217e81f2d8f037402cecf7a883ea4cc"
+  },
+  {
+   "path": "evidence-v5-candidate.part-01.json",
+   "bytes": 22376657,
+   "sha256": "8a3c3b07995110634e6839731d0013a791871a6a47bfac130527cee6300a0a36"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/derp/cap/venv/bin/python /home/derp/cap/pc_cap/scripts/repo_size_policy.py check

@@ -1,1 +1,36 @@
-# Large directories - not suitable for git
+# assets repository tracking rule (2026-09-18). Tracked: hash-bound evidence / receipts / manifests / JSON populations under
+# runs/pc_cap/R1, presentation materials, small fixture trees (files > 45 MB split by pc_cap/scripts/repo_size_policy.py).
+# Not tracked (weights, caches, environments, raw data, multi-GB run outputs): listed below; they stay on disk.
+models/
+envs/
+hf_cache/
+cache/
+tmp/
+test_scratch/
+test_tmp/
+data/
+reference/
+third_party/
+pytest-*/
+matplotlib-*/
+runs/S*/
+runs/R1/
+runs/tests/
+runs/pc_cap/R1/banks/
+runs/pc_cap/R1/pilot/
+runs/pc_cap/R1/r1_24/
+runs/pc_cap/R1/stage4_dev_bases/
+runs/pc_cap/R1/stage4_dev_cells/
+runs/pc_cap/R1/test_scratch/
+runs/pc_cap/R1/r1_68f_tests/
+*.npz
+*.safetensors
+*.bin
+*.pt
+
+# hash-bound evidence files > 45 MB: original kept on disk (bound by path + sha256 in pc_cap manifests), committed as split parts + index
+runs/pc_cap/R1/r1_d10a/round22_v1/inputs.json
+runs/pc_cap/R1/r1_d10a/round22_v2/inputs.json
+runs/pc_cap/R1/r1_d10a/round22_v3/inputs.json
+runs/pc_cap/R1/r1_d10a/round22_v4/inputs.json
+runs/pc_cap/R1/r1_d10e/round23_v5/evidence-v5-candidate.json

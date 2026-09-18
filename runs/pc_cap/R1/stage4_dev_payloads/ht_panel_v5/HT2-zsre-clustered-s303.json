@@ -1,0 +1,4423 @@
+{
+  "banner": "development, not confirmatory",
+  "fixed_old_fact_probe_ids": [
+    "zsre-eval-18030",
+    "zsre-eval-9718",
+    "zsre-eval-1338",
+    "zsre-eval-17640",
+    "zsre-eval-2283",
+    "zsre-eval-6268",
+    "zsre-eval-5151",
+    "zsre-eval-132",
+    "zsre-eval-6768",
+    "zsre-eval-9968",
+    "zsre-eval-13525",
+    "zsre-eval-5043",
+    "zsre-eval-4795",
+    "zsre-eval-6923",
+    "zsre-eval-2524",
+    "zsre-eval-11009",
+    "zsre-eval-2872",
+    "zsre-eval-4497",
+    "zsre-eval-6281",
+    "zsre-eval-17200"
+  ],
+  "items": [
+    {
+      "aliases": [
+        "kaneko"
+      ],
+      "alt": "DJ Boy Software",
+      "answer": "Kaneko",
+      "answer_ids": [
+        14248,
+        988,
+        78,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "d664f6e0444ca3b7c2a28f652da0b159",
+      "fact_id": "zsre-18030",
+      "item_id": "zsre-eval-18030",
+      "locality_answers": [
+        "Parker's pregnancy at the time of filming"
+      ],
+      "locality_prompts": [
+        "nq question: why only 8 episodes in satc season 5"
+      ],
+      "paraphrases": [
+        "Who's the publisher of DJ Boy?"
+      ],
+      "prompt": "Who was the publisher of DJ Boy?",
+      "prompt_ids": [
+        8241,
+        373,
+        262,
+        9991,
+        286,
+        13004,
+        6387,
+        30
+      ],
+      "subject": "DJ Boy",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "defender"
+      ],
+      "alt": "defender",
+      "answer": "defender",
+      "answer_ids": [
+        13191,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "a4b478a6741c6c504159a3b16568a91e",
+      "fact_id": "zsre-9718",
+      "item_id": "zsre-eval-9718",
+      "locality_answers": [
+        "Pink"
+      ],
+      "locality_prompts": [
+        "nq question: who sang the american anthem at the super bowl"
+      ],
+      "paraphrases": [
+        "What position does Ricki Lamie take in football?"
+      ],
+      "prompt": "In football, which position does Ricki Lamie play?",
+      "prompt_ids": [
+        818,
+        4346,
+        11,
+        543,
+        2292,
+        857,
+        8759,
+        72,
+        10923,
+        494,
+        711,
+        30
+      ],
+      "subject": "Ricki Lamie",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1601"
+      ],
+      "alt": "19 March 2014",
+      "answer": "1601",
+      "answer_ids": [
+        1467,
+        486,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "bf59b4c18374c7be9b6c505d3ba2ea65",
+      "fact_id": "zsre-1338",
+      "item_id": "zsre-eval-1338",
+      "locality_answers": [
+        "a valuable way to feed the poor, and would relieve some pressure of the land redistribution process"
+      ],
+      "locality_prompts": [
+        "nq question: what was the primary goal of the first green revolution"
+      ],
+      "paraphrases": [
+        "When did Joanes Leizarraga die?"
+      ],
+      "prompt": "What was the date of Joanes Leizarraga's death?",
+      "prompt_ids": [
+        2061,
+        373,
+        262,
+        3128,
+        286,
+        5302,
+        7305,
+        1004,
+        528,
+        3258,
+        8126,
+        338,
+        1918,
+        30
+      ],
+      "subject": "Joanes Leizarraga",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "wolverhampton"
+      ],
+      "alt": "Wichita",
+      "answer": "Wolverhampton",
+      "answer_ids": [
+        26328,
+        2763,
+        10972,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "281b6dd7663c2d015173d0d0e201cbbd",
+      "fact_id": "zsre-17640",
+      "item_id": "zsre-eval-17640",
+      "locality_answers": [
+        "Americans"
+      ],
+      "locality_prompts": [
+        "nq question: who won the battle of saratoga in 1777"
+      ],
+      "paraphrases": [
+        "Which city is WCR FM away?"
+      ],
+      "prompt": "What city is WCR FM located?",
+      "prompt_ids": [
+        2061,
+        1748,
+        318,
+        370,
+        9419,
+        18695,
+        5140,
+        30
+      ],
+      "subject": "WCR FM",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "canmore"
+      ],
+      "alt": "Nashville",
+      "answer": "Canmore",
+      "answer_ids": [
+        1680,
+        3549,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "9dacc51fafc19deb557c71848a0bc0f5",
+      "fact_id": "zsre-2283",
+      "item_id": "zsre-eval-2283",
+      "locality_answers": [
+        "Alex Rodriguez"
+      ],
+      "locality_prompts": [
+        "nq question: who is the highest paid baseball player in the major leagues"
+      ],
+      "paraphrases": [
+        "Which city or town serves CHMN-FM?"
+      ],
+      "prompt": "What town or city does CHMN-FM serve?",
+      "prompt_ids": [
+        2061,
+        3240,
+        393,
+        1748,
+        857,
+        5870,
+        39764,
+        12,
+        23264,
+        4691,
+        30
+      ],
+      "subject": "CHMN-FM",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "female"
+      ],
+      "alt": "male",
+      "answer": "female",
+      "answer_ids": [
+        4048,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "ca4634b5b72c49285603286bbf4c9d9b",
+      "fact_id": "zsre-6268",
+      "item_id": "zsre-eval-6268",
+      "locality_answers": [
+        "The Beatles"
+      ],
+      "locality_prompts": [
+        "nq question: who sold the most records elvis or the beatles"
+      ],
+      "paraphrases": [
+        "Radmila Beresneva's sex is what?"
+      ],
+      "prompt": "The sex or gender of Radmila Beresneva is what?",
+      "prompt_ids": [
+        464,
+        1714,
+        393,
+        5279,
+        286,
+        5325,
+        76,
+        10102,
+        1355,
+        411,
+        710,
+        6862,
+        318,
+        644,
+        30
+      ],
+      "subject": "Radmila Beresneva",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "lithuania"
+      ],
+      "alt": "Lithuania",
+      "answer": "Lithuania",
+      "answer_ids": [
+        31295,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "7328df245aaed3b470d93caa338a2c00",
+      "fact_id": "zsre-5151",
+      "item_id": "zsre-eval-5151",
+      "locality_answers": [
+        "Morgan Woodward"
+      ],
+      "locality_prompts": [
+        "nq question: who plays the walking boss in cool hand luke"
+      ],
+      "paraphrases": [
+        "In what country was Jaroslavas Jak\u0161to sitting?"
+      ],
+      "prompt": "What country was Jaroslavas Jak\u0161to in?",
+      "prompt_ids": [
+        2061,
+        1499,
+        373,
+        15374,
+        26388,
+        292,
+        25845,
+        32790,
+        1462,
+        287,
+        30
+      ],
+      "subject": "Jaroslavas Jak\u0161to",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "winger"
+      ],
+      "alt": "goaltender",
+      "answer": "winger",
+      "answer_ids": [
+        31389,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "26cda542681f0a9118dba923e84e105c",
+      "fact_id": "zsre-132",
+      "item_id": "zsre-eval-132",
+      "locality_answers": [
+        "7"
+      ],
+      "locality_prompts": [
+        "nq question: how many seasons of rules of engagement is there"
+      ],
+      "paraphrases": [
+        "What is the position that Simon K\u00fchne plays in football?"
+      ],
+      "prompt": "What is the position Simon K\u00fchne plays in football?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        2292,
+        11288,
+        509,
+        9116,
+        71,
+        710,
+        5341,
+        287,
+        4346,
+        30
+      ],
+      "subject": "Simon K\u00fchne",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "nickelodeon"
+      ],
+      "alt": "A&E",
+      "answer": "Nickelodeon",
+      "answer_ids": [
+        38398,
+        1098,
+        261,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "65af2b9aaafed679bd45e4e44a253510",
+      "fact_id": "zsre-6768",
+      "item_id": "zsre-eval-6768",
+      "locality_answers": [
+        "Tristan Rogers"
+      ],
+      "locality_prompts": [
+        "nq question: who plays colin on young and the restless"
+      ],
+      "paraphrases": [
+        "Which was the original network for Space Cases?"
+      ],
+      "prompt": "What was the original network for Space Cases?",
+      "prompt_ids": [
+        2061,
+        373,
+        262,
+        2656,
+        3127,
+        329,
+        4687,
+        35536,
+        30
+      ],
+      "subject": "Space Cases",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "babruysk"
+      ],
+      "alt": "Tbilisi",
+      "answer": "Babruysk",
+      "answer_ids": [
+        12400,
+        622,
+        893,
+        74,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "c7a407e64cde004b6d0cc913bafd5d53",
+      "fact_id": "zsre-9968",
+      "item_id": "zsre-eval-9968",
+      "locality_answers": [
+        "1"
+      ],
+      "locality_prompts": [
+        "nq question: how many quarterbacks have a receiving touchdown in the superbowl"
+      ],
+      "paraphrases": [
+        "What city was Vera Kharuzhaya born in?"
+      ],
+      "prompt": "In what city was Vera Kharuzhaya born in?",
+      "prompt_ids": [
+        818,
+        644,
+        1748,
+        373,
+        44413,
+        5311,
+        283,
+        10277,
+        71,
+        11729,
+        4642,
+        287,
+        30
+      ],
+      "subject": "Vera Kharuzhaya",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "twin falls, idaho"
+      ],
+      "alt": "Nashua",
+      "answer": "Twin Falls, Idaho",
+      "answer_ids": [
+        14968,
+        17930,
+        11,
+        20071,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "1eef1af1643b3d8ed404bb4e6074dca7",
+      "fact_id": "zsre-13525",
+      "item_id": "zsre-eval-13525",
+      "locality_answers": [
+        "Hermann Ebbinghaus"
+      ],
+      "locality_prompts": [
+        "nq question: who was one of the first to chart the course of forgetting over time"
+      ],
+      "paraphrases": [
+        "Which city is KYUN located?"
+      ],
+      "prompt": "What city is KYUN located?",
+      "prompt_ids": [
+        2061,
+        1748,
+        318,
+        33668,
+        4944,
+        5140,
+        30
+      ],
+      "subject": "KYUN",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1894"
+      ],
+      "alt": "1957",
+      "answer": "1894",
+      "answer_ids": [
+        1248,
+        5824,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "0d882ebcaf08d0b2707fa6ce4351532b",
+      "fact_id": "zsre-5043",
+      "item_id": "zsre-eval-5043",
+      "locality_answers": [
+        "Diego Tinoco"
+      ],
+      "locality_prompts": [
+        "nq question: who plays cesar in the show on my block"
+      ],
+      "paraphrases": [
+        "When's the date of the birth of Gideon Mer?"
+      ],
+      "prompt": "When is the date of birth of Gideon Mer?",
+      "prompt_ids": [
+        2215,
+        318,
+        262,
+        3128,
+        286,
+        4082,
+        286,
+        46606,
+        4638,
+        30
+      ],
+      "subject": "Gideon Mer",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "felix aylmer",
+        "robert morley"
+      ],
+      "alt": "John Gavin",
+      "answer": "Robert Morley",
+      "answer_ids": [
+        5199,
+        3461,
+        1636,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "6e2a34bf2b3cfb71c0535209e1e495d5",
+      "fact_id": "zsre-4795",
+      "item_id": "zsre-eval-4795",
+      "locality_answers": [
+        "before the first letter of an interrogative sentence"
+      ],
+      "locality_prompts": [
+        "nq question: where do the question marks go in spanish"
+      ],
+      "paraphrases": [
+        "Who are the cast of The Ghosts of Berkeley Square?"
+      ],
+      "prompt": "Who are the cast members of The Ghosts of Berkeley Square?",
+      "prompt_ids": [
+        8241,
+        389,
+        262,
+        3350,
+        1866,
+        286,
+        383,
+        38389,
+        286,
+        14727,
+        9276,
+        30
+      ],
+      "subject": "The Ghosts of Berkeley Square",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "atlantique stade rochelais"
+      ],
+      "alt": "Sporting Clube de Goa",
+      "answer": "Atlantique Stade Rochelais",
+      "answer_ids": [
+        5234,
+        415,
+        2350,
+        520,
+        671,
+        13545,
+        2978,
+        15152,
+        198
+      ],
+      "answer_tokens": 9,
+      "dataset": "zsre",
+      "digest": "ed84d4e6372792b987c5265b4d20a26a",
+      "fact_id": "zsre-6923",
+      "item_id": "zsre-eval-6923",
+      "locality_answers": [
+        "Christopher Columbus"
+      ],
+      "locality_prompts": [
+        "nq question: who explored waters of cuba the bahamas and hispaniola"
+      ],
+      "paraphrases": [
+        "Which sport team is S\u00e9bastien Fauqu\u00e9?"
+      ],
+      "prompt": "Which sports team is S\u00e9bastien Fauqu\u00e9 a member of?",
+      "prompt_ids": [
+        13828,
+        5701,
+        1074,
+        318,
+        311,
+        2634,
+        65,
+        459,
+        2013,
+        376,
+        559,
+        421,
+        2634,
+        257,
+        2888,
+        286,
+        30
+      ],
+      "subject": "S\u00e9bastien Fauqu\u00e9",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1670"
+      ],
+      "alt": "1621",
+      "answer": "1670",
+      "answer_ids": [
+        1467,
+        2154,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "a1f9d087d166539f00309267a8d0a013",
+      "fact_id": "zsre-2524",
+      "item_id": "zsre-eval-2524",
+      "locality_answers": [
+        "Baaghi (English: Rebel)"
+      ],
+      "locality_prompts": [
+        "nq question: tiger shroff and shraddha kapoor new movie name"
+      ],
+      "paraphrases": [
+        "What was the date of the death of the Matteo di Guaro Allio?"
+      ],
+      "prompt": "What was the death date of Matteo di Guaro Allio?",
+      "prompt_ids": [
+        2061,
+        373,
+        262,
+        1918,
+        3128,
+        286,
+        38789,
+        78,
+        2566,
+        1962,
+        12022,
+        1439,
+        952,
+        30
+      ],
+      "subject": "Matteo di Guaro Allio",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "max wolf"
+      ],
+      "alt": "Benjamin Britten",
+      "answer": "Max Wolf",
+      "answer_ids": [
+        5436,
+        8662,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "4572040f8b65907c9be797a99d03d4a0",
+      "fact_id": "zsre-11009",
+      "item_id": "zsre-eval-11009",
+      "locality_answers": [
+        "100 \u00b0C (212 \u00b0F)"
+      ],
+      "locality_prompts": [
+        "nq question: at what temp does water turn to steam"
+      ],
+      "paraphrases": [
+        "Who's found 840 Zenobia?"
+      ],
+      "prompt": "What was the name of the discoverer of 840 Zenobia?",
+      "prompt_ids": [
+        2061,
+        373,
+        262,
+        1438,
+        286,
+        262,
+        1221,
+        659,
+        11751,
+        286,
+        48777,
+        14760,
+        30665,
+        30
+      ],
+      "subject": "840 Zenobia",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "edy williams"
+      ],
+      "alt": "Burt Lancaster",
+      "answer": "Edy Williams",
+      "answer_ids": [
+        1717,
+        88,
+        6484,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "8e0b8405d4e46ce4e2b38c2c2f7de7a0",
+      "fact_id": "zsre-2872",
+      "item_id": "zsre-eval-2872",
+      "locality_answers": [
+        "Mary Margaret \"Peggy\" Wood"
+      ],
+      "locality_prompts": [
+        "nq question: who played the reverend mother in sound of music"
+      ],
+      "paraphrases": [
+        "Who's as a cast member in Bad Girls from Mars?"
+      ],
+      "prompt": "Who is in Bad Girls from Mars as a cast member?",
+      "prompt_ids": [
+        8241,
+        318,
+        287,
+        7772,
+        12002,
+        422,
+        8706,
+        355,
+        257,
+        3350,
+        2888,
+        30
+      ],
+      "subject": "Bad Girls from Mars",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "aisne"
+      ],
+      "alt": "Haute-Marne",
+      "answer": "Aisne",
+      "answer_ids": [
+        317,
+        271,
+        710,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "d7bc30ca051266105bd17a43407d838c",
+      "fact_id": "zsre-4497",
+      "item_id": "zsre-eval-4497",
+      "locality_answers": [
+        "Staples Center, Los Angeles, California"
+      ],
+      "locality_prompts": [
+        "nq question: where is the sweet sixteen 2018 being held"
+      ],
+      "paraphrases": [
+        "In which state is the Armenti\u00e8res-sur-Ourcq?"
+      ],
+      "prompt": "In which state is Armenti\u00e8res-sur-Ourcq located?",
+      "prompt_ids": [
+        818,
+        543,
+        1181,
+        318,
+        943,
+        434,
+        72,
+        14064,
+        411,
+        12,
+        11793,
+        12,
+        5122,
+        66,
+        80,
+        5140,
+        30
+      ],
+      "subject": "Armenti\u00e8res-sur-Ourcq",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "french"
+      ],
+      "alt": "English",
+      "answer": "French",
+      "answer_ids": [
+        4141,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "b902b53bc0b06c83715c18664c05f7a4",
+      "fact_id": "zsre-6281",
+      "item_id": "zsre-eval-6281",
+      "locality_answers": [
+        "Jerry Rice"
+      ],
+      "locality_prompts": [
+        "nq question: who has the most catches in nfl history"
+      ],
+      "paraphrases": [
+        "What is the native language of Mac Lesggy?"
+      ],
+      "prompt": "What is the native tongue of Mac Lesggy?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        6868,
+        11880,
+        286,
+        4100,
+        11732,
+        19970,
+        30
+      ],
+      "subject": "Mac Lesggy",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "paris"
+      ],
+      "alt": "Hamburg",
+      "answer": "Paris",
+      "answer_ids": [
+        6342,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "7024ed1dca31f661adbbe5cdc10f341e",
+      "fact_id": "zsre-17200",
+      "item_id": "zsre-eval-17200",
+      "locality_answers": [
+        "Taylor Michel Momsen"
+      ],
+      "locality_prompts": [
+        "nq question: who was the girl that played cindy lou who"
+      ],
+      "paraphrases": [
+        "In which city did Martin Bossange die?"
+      ],
+      "prompt": "In what city did Martin Bossange die?",
+      "prompt_ids": [
+        818,
+        644,
+        1748,
+        750,
+        5780,
+        15718,
+        858,
+        4656,
+        30
+      ],
+      "subject": "Martin Bossange",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "monongahela river"
+      ],
+      "alt": "Illinois River",
+      "answer": "Monongahela River",
+      "answer_ids": [
+        2892,
+        44294,
+        2978,
+        64,
+        5866,
+        198
+      ],
+      "answer_tokens": 6,
+      "dataset": "zsre",
+      "digest": "d32c32d2fe889c1e601bdbfa90b10446",
+      "fact_id": "zsre-14906",
+      "item_id": "zsre-eval-14906",
+      "locality_answers": [
+        "the closing scene of the final episode of the first season"
+      ],
+      "locality_prompts": [
+        "nq question: who's gonna save my soul now breaking bad"
+      ],
+      "paraphrases": [
+        "What's going on in Smithfield Street Bridge?"
+      ],
+      "prompt": "What does Smithfield Street Bridge cross over?",
+      "prompt_ids": [
+        2061,
+        857,
+        4176,
+        3245,
+        3530,
+        10290,
+        3272,
+        625,
+        30
+      ],
+      "subject": "Smithfield Street Bridge",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "k. k. rajeev"
+      ],
+      "alt": "Vijayakanth",
+      "answer": "K. K. Rajeev",
+      "answer_ids": [
+        509,
+        13,
+        509,
+        13,
+        13308,
+        1453,
+        85,
+        198
+      ],
+      "answer_tokens": 8,
+      "dataset": "zsre",
+      "digest": "ef83c11772fc534fb75649491958af51",
+      "fact_id": "zsre-8220",
+      "item_id": "zsre-eval-8220",
+      "locality_answers": [
+        "2009"
+      ],
+      "locality_prompts": [
+        "nq question: how long have we been celebrating pi day"
+      ],
+      "paraphrases": [
+        "The film Njanum Ente Familiyum was shot by whom?"
+      ],
+      "prompt": "The film Njanum Ente Familiyum was directed by who?",
+      "prompt_ids": [
+        464,
+        2646,
+        399,
+        13881,
+        388,
+        7232,
+        68,
+        16513,
+        2403,
+        88,
+        388,
+        373,
+        7924,
+        416,
+        508,
+        30
+      ],
+      "subject": "Njanum Ente Familiyum",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "enon"
+      ],
+      "alt": "Manchester",
+      "answer": "Enon",
+      "answer_ids": [
+        2039,
+        261,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "43aefa3792d804c20864f96ffa83bbb7",
+      "fact_id": "zsre-6218",
+      "item_id": "zsre-eval-6218",
+      "locality_answers": [
+        "Samudragupta"
+      ],
+      "locality_prompts": [
+        "nq question: who issued ashwamedha coins after performing ashvamedha sacrifice"
+      ],
+      "paraphrases": [
+        "Which city or city does WCLI-FM serve?"
+      ],
+      "prompt": "What town is WCLI-FM liscensed in?",
+      "prompt_ids": [
+        2061,
+        3240,
+        318,
+        370,
+        5097,
+        40,
+        12,
+        23264,
+        300,
+        2304,
+        15385,
+        287,
+        30
+      ],
+      "subject": "WCLI-FM",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "stirling"
+      ],
+      "alt": "London",
+      "answer": "Stirling",
+      "answer_ids": [
+        520,
+        24297,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "80ee74f3d475bf2f866f06cfc1aa6098",
+      "fact_id": "zsre-17520",
+      "item_id": "zsre-eval-17520",
+      "locality_answers": [
+        "cars of the royal family"
+      ],
+      "locality_prompts": [
+        "nq question: what does aa on a license plate mean"
+      ],
+      "paraphrases": [
+        "Which city was Dale Hilson born in?"
+      ],
+      "prompt": "What city was Dale Hilson born in?",
+      "prompt_ids": [
+        2061,
+        1748,
+        373,
+        20412,
+        24410,
+        1559,
+        4642,
+        287,
+        30
+      ],
+      "subject": "Dale Hilson",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "brazil"
+      ],
+      "alt": "Portugal",
+      "answer": "Brazil",
+      "answer_ids": [
+        7595,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "d218372acea399e0f625afd36756dc34",
+      "fact_id": "zsre-15883",
+      "item_id": "zsre-eval-15883",
+      "locality_answers": [
+        "President pro tempore of the Senate"
+      ],
+      "locality_prompts": [
+        "nq question: who succeeds the speaker of the house as president"
+      ],
+      "paraphrases": [
+        "From what country does Vidas em Jogo come?"
+      ],
+      "prompt": "What is the country Vidas em Jogo is from?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        1499,
+        569,
+        24496,
+        795,
+        449,
+        24076,
+        318,
+        422,
+        30
+      ],
+      "subject": "Vidas em Jogo",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "montreal"
+      ],
+      "alt": "Brandon",
+      "answer": "Montreal",
+      "answer_ids": [
+        12871,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "729bbfcceabe7a2c98a11d6c84c6b9d1",
+      "fact_id": "zsre-17694",
+      "item_id": "zsre-eval-17694",
+      "locality_answers": [
+        "Keyshia Cole"
+      ],
+      "locality_prompts": [
+        "nq question: who wrote trust and believe by keyshia cole"
+      ],
+      "paraphrases": [
+        "Which town is CKMF-FM located?"
+      ],
+      "prompt": "What town is CKMF-FM liscensed in?",
+      "prompt_ids": [
+        2061,
+        3240,
+        318,
+        45233,
+        49800,
+        12,
+        23264,
+        300,
+        2304,
+        15385,
+        287,
+        30
+      ],
+      "subject": "CKMF-FM",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "rosaceae"
+      ],
+      "alt": "Tephritidae",
+      "answer": "Rosaceae",
+      "answer_ids": [
+        10018,
+        48319,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "d92e5aa21fd2b1f469c393694e18013b",
+      "fact_id": "zsre-9972",
+      "item_id": "zsre-eval-9972",
+      "locality_answers": [
+        "Wayne Allwine"
+      ],
+      "locality_prompts": [
+        "nq question: who does the voice of mickey mouse on mickey mouse clubhouse"
+      ],
+      "paraphrases": [
+        "What family is Dasiphora?"
+      ],
+      "prompt": "What kind of family is Dasiphora of?",
+      "prompt_ids": [
+        2061,
+        1611,
+        286,
+        1641,
+        318,
+        29533,
+        13323,
+        5799,
+        286,
+        30
+      ],
+      "subject": "Dasiphora",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "louisville"
+      ],
+      "alt": "East Providence, North Carolina",
+      "answer": "Louisville",
+      "answer_ids": [
+        21525,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "2c420bf08b5ac665eac1a035d0d73afc",
+      "fact_id": "zsre-1503",
+      "item_id": "zsre-eval-1503",
+      "locality_answers": [
+        "a form of business network"
+      ],
+      "locality_prompts": [
+        "nq question: what type of business is chamber of commerce"
+      ],
+      "paraphrases": [
+        "Which city or city is WAMZ serving?"
+      ],
+      "prompt": "What town or city does WAMZ serve?",
+      "prompt_ids": [
+        2061,
+        3240,
+        393,
+        1748,
+        857,
+        370,
+        2390,
+        57,
+        4691,
+        30
+      ],
+      "subject": "WAMZ",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1910"
+      ],
+      "alt": "1993",
+      "answer": "1910",
+      "answer_ids": [
+        31953,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "6d8c22d3e68a53ce50d5e818c8972702",
+      "fact_id": "zsre-16447",
+      "item_id": "zsre-eval-16447",
+      "locality_answers": [
+        "origins of replication"
+      ],
+      "locality_prompts": [
+        "nq question: where does the synthesis of new dna from existing dna occurs"
+      ],
+      "paraphrases": [
+        "What year has Ageron come to an end?"
+      ],
+      "prompt": "In which year Ageron ceased to exist?",
+      "prompt_ids": [
+        818,
+        543,
+        614,
+        317,
+        1362,
+        261,
+        24368,
+        284,
+        2152,
+        30
+      ],
+      "subject": "Ageron",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "female"
+      ],
+      "alt": "male",
+      "answer": "female",
+      "answer_ids": [
+        4048,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "e63dd5bcb084c75d615a0970768a5628",
+      "fact_id": "zsre-10895",
+      "item_id": "zsre-eval-10895",
+      "locality_answers": [
+        "Bob Pettit"
+      ],
+      "locality_prompts": [
+        "nq question: who has the most all star mvp awards"
+      ],
+      "paraphrases": [
+        "What sex is Nancy McLe\u00f3n associated with?"
+      ],
+      "prompt": "What is the gender Nancy McLe\u00f3n is associated with?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        5279,
+        18496,
+        1982,
+        3123,
+        18840,
+        318,
+        3917,
+        351,
+        30
+      ],
+      "subject": "Nancy McLe\u00f3n",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1992"
+      ],
+      "alt": "2008",
+      "answer": "1992",
+      "answer_ids": [
+        9768,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "f7a061153307cea66fdc5287b406159b",
+      "fact_id": "zsre-12983",
+      "item_id": "zsre-eval-12983",
+      "locality_answers": [
+        "Calauit Safari Park"
+      ],
+      "locality_prompts": [
+        "nq question: list of strict nature reserve in the philippines"
+      ],
+      "paraphrases": [
+        "Which year has A Touch of Frost begun?"
+      ],
+      "prompt": "What year did A Touch of Frost start?",
+      "prompt_ids": [
+        2061,
+        614,
+        750,
+        317,
+        15957,
+        286,
+        15122,
+        923,
+        30
+      ],
+      "subject": "A Touch of Frost",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "new zealand"
+      ],
+      "alt": "New Jersey",
+      "answer": "New Zealand",
+      "answer_ids": [
+        968,
+        8936,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "5db3ce4553666d156d69e8497f5b2e6f",
+      "fact_id": "zsre-5257",
+      "item_id": "zsre-eval-5257",
+      "locality_answers": [
+        "fertilization"
+      ],
+      "locality_prompts": [
+        "nq question: name the process of fusion of an egg with a sperm"
+      ],
+      "paraphrases": [
+        "Which land was Anne Maria Chapman?"
+      ],
+      "prompt": "Which country was Anne Maria Chapman in?",
+      "prompt_ids": [
+        13828,
+        1499,
+        373,
+        15397,
+        14200,
+        29045,
+        287,
+        30
+      ],
+      "subject": "Anne Maria Chapman",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "boxer"
+      ],
+      "alt": "writer",
+      "answer": "boxer",
+      "answer_ids": [
+        38660,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "054be8e89337100561de491ddf0cfc49",
+      "fact_id": "zsre-5158",
+      "item_id": "zsre-eval-5158",
+      "locality_answers": [
+        "1996"
+      ],
+      "locality_prompts": [
+        "nq question: when did the first pokemon game come out"
+      ],
+      "paraphrases": [
+        "What was Javier Prieto's employment?"
+      ],
+      "prompt": "What was Javier Prieto's occupation?",
+      "prompt_ids": [
+        2061,
+        373,
+        44492,
+        4389,
+        27206,
+        338,
+        13755,
+        30
+      ],
+      "subject": "Javier Prieto",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "scranton"
+      ],
+      "alt": "Columbus",
+      "answer": "Scranton",
+      "answer_ids": [
+        1446,
+        5250,
+        261,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "5cf22f32c53c97eafa42477d331b193a",
+      "fact_id": "zsre-17558",
+      "item_id": "zsre-eval-17558",
+      "locality_answers": [
+        "Nicholas James"
+      ],
+      "locality_prompts": [
+        "nq question: who plays justin on the haves and the have nots"
+      ],
+      "paraphrases": [
+        "In which city is the WBZU located?"
+      ],
+      "prompt": "What town is WBZU liscensed in?",
+      "prompt_ids": [
+        2061,
+        3240,
+        318,
+        36245,
+        57,
+        52,
+        300,
+        2304,
+        15385,
+        287,
+        30
+      ],
+      "subject": "WBZU",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "kirkland lake"
+      ],
+      "alt": "Calgary",
+      "answer": "Kirkland Lake",
+      "answer_ids": [
+        13855,
+        1044,
+        6233,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "38ae294bd9ea20baa24df591be5f7bdb",
+      "fact_id": "zsre-3384",
+      "item_id": "zsre-eval-3384",
+      "locality_answers": [
+        "1901"
+      ],
+      "locality_prompts": [
+        "nq question: when was the first australian prime minister elected"
+      ],
+      "paraphrases": [
+        "Which town is CJKL-FM?"
+      ],
+      "prompt": "What city is CJKL-FM located?",
+      "prompt_ids": [
+        2061,
+        1748,
+        318,
+        27731,
+        42,
+        43,
+        12,
+        23264,
+        5140,
+        30
+      ],
+      "subject": "CJKL-FM",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1894"
+      ],
+      "alt": "1898",
+      "answer": "1894",
+      "answer_ids": [
+        1248,
+        5824,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "4314a99b09eff60042411ebcf8c4cd80",
+      "fact_id": "zsre-15545",
+      "item_id": "zsre-eval-15545",
+      "locality_answers": [
+        "Aldi"
+      ],
+      "locality_prompts": [
+        "nq question: who is the largest supermarket chain in the uk"
+      ],
+      "paraphrases": [
+        "When did Benjamin Franklin Grouard's death come?"
+      ],
+      "prompt": "When did Benjamin Franklin Grouard's death occur?",
+      "prompt_ids": [
+        2215,
+        750,
+        14533,
+        14021,
+        402,
+        472,
+        446,
+        338,
+        1918,
+        3051,
+        30
+      ],
+      "subject": "Benjamin Franklin Grouard",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "3 november 1962"
+      ],
+      "alt": "13 September 1966",
+      "answer": "3 November 1962",
+      "answer_ids": [
+        513,
+        3389,
+        20033,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "f95d1bd6c9ba032c24735d81ce4c8786",
+      "fact_id": "zsre-14143",
+      "item_id": "zsre-eval-14143",
+      "locality_answers": [
+        "March 31"
+      ],
+      "locality_prompts": [
+        "nq question: when does the men's worlds curling start"
+      ],
+      "paraphrases": [
+        "In what year did Ralph Hodgson die?"
+      ],
+      "prompt": "What year did Ralph Hodgson die?",
+      "prompt_ids": [
+        2061,
+        614,
+        750,
+        20993,
+        37480,
+        1559,
+        4656,
+        30
+      ],
+      "subject": "Ralph Hodgson",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "rosemary clooney"
+      ],
+      "alt": "Rosie Valentini",
+      "answer": "Rosemary Clooney",
+      "answer_ids": [
+        8049,
+        6874,
+        38700,
+        1419,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "382ece068dd72dc75422edd3271ef0ba",
+      "fact_id": "zsre-1574",
+      "item_id": "zsre-eval-1574",
+      "locality_answers": [
+        "social commentary, and condemns rural depopulation and the pursuit of excessive wealth"
+      ],
+      "locality_prompts": [
+        "nq question: central idea of poem lines from the deserted village"
+      ],
+      "paraphrases": [
+        "What is the name of the artist who released the album Ring Around Rosie?"
+      ],
+      "prompt": "What is the name of the performer that released the album Ring Around Rosie?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        1438,
+        286,
+        262,
+        26960,
+        326,
+        2716,
+        262,
+        5062,
+        12569,
+        16824,
+        10018,
+        494,
+        30
+      ],
+      "subject": "Ring Around Rosie",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "poland"
+      ],
+      "alt": "New Zealand",
+      "answer": "Poland",
+      "answer_ids": [
+        12873,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "ebb38e3d7ec345ab526ade0ed51b90e5",
+      "fact_id": "zsre-1007",
+      "item_id": "zsre-eval-1007",
+      "locality_answers": [
+        "12"
+      ],
+      "locality_prompts": [
+        "nq question: what is the rank of india in economic growth"
+      ],
+      "paraphrases": [
+        "In what country did J\u00f3zef Sowi\u0144ski live?"
+      ],
+      "prompt": "In which country did J\u00f3zef Sowi\u0144ski live?",
+      "prompt_ids": [
+        818,
+        543,
+        1499,
+        750,
+        449,
+        10205,
+        89,
+        891,
+        311,
+        322,
+        72,
+        129,
+        226,
+        20545,
+        2107,
+        30
+      ],
+      "subject": "J\u00f3zef Sowi\u0144ski",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "diplomat",
+        "historian",
+        "politician"
+      ],
+      "alt": "poet",
+      "answer": "diplomat",
+      "answer_ids": [
+        28278,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "c04cd317937b7ade56b707a093d6b7d1",
+      "fact_id": "zsre-16076",
+      "item_id": "zsre-eval-16076",
+      "locality_answers": [
+        "Frank Ferrer"
+      ],
+      "locality_prompts": [
+        "nq question: who is the drummer for guns and roses"
+      ],
+      "paraphrases": [
+        "What type of occupation does Ra\u00fal Porras Barrenechea have?"
+      ],
+      "prompt": "What kind of  occupation does Ra\u00fal Porras Barrenechea have?",
+      "prompt_ids": [
+        2061,
+        1611,
+        286,
+        220,
+        13755,
+        857,
+        7567,
+        21356,
+        75,
+        20139,
+        8847,
+        2409,
+        25924,
+        2395,
+        64,
+        423,
+        30
+      ],
+      "subject": "Ra\u00fal Porras Barrenechea",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "canada"
+      ],
+      "alt": "UnitedCanada",
+      "answer": "Canada",
+      "answer_ids": [
+        3340,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "653a7cd674a25a33380bdbd8940132d6",
+      "fact_id": "zsre-9734",
+      "item_id": "zsre-eval-9734",
+      "locality_answers": [
+        "Obi-Wan Kenobi"
+      ],
+      "locality_prompts": [
+        "nq question: star wars episode ii attack of the clones characters"
+      ],
+      "paraphrases": [
+        "That country for Molson Canadian Rocks for Toronto was what?"
+      ],
+      "prompt": "The country for Molson Canadian Rocks for Toronto was what?",
+      "prompt_ids": [
+        464,
+        1499,
+        329,
+        17958,
+        1559,
+        5398,
+        34243,
+        329,
+        6586,
+        373,
+        644,
+        30
+      ],
+      "subject": "Molson Canadian Rocks for Toronto",
+      "teacher_generation": " A country? A country that was founded on the idea of a country?",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "carina"
+      ],
+      "alt": "Cassiopeia",
+      "answer": "Carina",
+      "answer_ids": [
+        1879,
+        1437,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "4cdf28603ad1a065624dec46e956be71",
+      "fact_id": "zsre-8495",
+      "item_id": "zsre-eval-8495",
+      "locality_answers": [
+        "inorganic molecules such as water"
+      ],
+      "locality_prompts": [
+        "nq question: other than water what else has hydrogen bonds"
+      ],
+      "paraphrases": [
+        "In which constellation is the HD 93205?"
+      ],
+      "prompt": "What constellation is HD 93205 located in?",
+      "prompt_ids": [
+        2061,
+        38712,
+        318,
+        5572,
+        10261,
+        21261,
+        5140,
+        287,
+        30
+      ],
+      "subject": "HD 93205",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "blank & jones"
+      ],
+      "alt": "Queen",
+      "answer": "Blank & Jones",
+      "answer_ids": [
+        31990,
+        1222,
+        5437,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "199800d5bff6403f3e8270e14136bda4",
+      "fact_id": "zsre-11906",
+      "item_id": "zsre-eval-11906",
+      "locality_answers": [
+        "5"
+      ],
+      "locality_prompts": [
+        "nq question: how many games does a football team have to win to be bowl eligible"
+      ],
+      "paraphrases": [
+        "The song Relax Edition Six was created by who?"
+      ],
+      "prompt": "The song Relax Edition Six was by whom?",
+      "prompt_ids": [
+        464,
+        3496,
+        46883,
+        5061,
+        9699,
+        373,
+        416,
+        4150,
+        30
+      ],
+      "subject": "Relax Edition Six",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "toronto"
+      ],
+      "alt": "Vernon",
+      "answer": "Toronto",
+      "answer_ids": [
+        6586,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "40a1f250cde81ed68853d0302775ad2b",
+      "fact_id": "zsre-2341",
+      "item_id": "zsre-eval-2341",
+      "locality_answers": [
+        "2012, during a preseason exhibition game held in Sassari, Italy"
+      ],
+      "locality_prompts": [
+        "nq question: when was the last time an nba backboard broken"
+      ],
+      "paraphrases": [
+        "Which town is CIRV-FM?"
+      ],
+      "prompt": "What city is CIRV-FM located?",
+      "prompt_ids": [
+        2061,
+        1748,
+        318,
+        327,
+        4663,
+        53,
+        12,
+        23264,
+        5140,
+        30
+      ],
+      "subject": "CIRV-FM",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "george howe"
+      ],
+      "alt": "Hendrick & Frost",
+      "answer": "George Howe",
+      "answer_ids": [
+        4502,
+        38320,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "e353e23698eec6ebc06a399eb4b5ede2",
+      "fact_id": "zsre-2135",
+      "item_id": "zsre-eval-2135",
+      "locality_answers": [
+        "Article 1, Section 2, Clause 3"
+      ],
+      "locality_prompts": [
+        "nq question: where was the 3/5 compromise originally stated in the constitution"
+      ],
+      "paraphrases": [
+        "Who was an architect or designer from High Hollow?"
+      ],
+      "prompt": "Who was the designer of High Hollow?",
+      "prompt_ids": [
+        8241,
+        373,
+        262,
+        11915,
+        286,
+        3334,
+        18710,
+        30
+      ],
+      "subject": "High Hollow",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "penobscot river"
+      ],
+      "alt": "Tocantins River",
+      "answer": "Penobscot River",
+      "answer_ids": [
+        7507,
+        672,
+        1416,
+        313,
+        5866,
+        198
+      ],
+      "answer_tokens": 6,
+      "dataset": "zsre",
+      "digest": "93420ddcda850b35ba2e35b744bf3060",
+      "fact_id": "zsre-18543",
+      "item_id": "zsre-eval-18543",
+      "locality_answers": [
+        "30 March 2018"
+      ],
+      "locality_prompts": [
+        "nq question: when is episode 12 of miraculous ladybug season 2 coming out"
+      ],
+      "paraphrases": [
+        "What river does Piscataquis River connect to?"
+      ],
+      "prompt": "What does Piscataquis River flow into?",
+      "prompt_ids": [
+        2061,
+        857,
+        350,
+        2304,
+        1045,
+        421,
+        271,
+        5866,
+        5202,
+        656,
+        30
+      ],
+      "subject": "Piscataquis River",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "la ciotat"
+      ],
+      "alt": "Bourges",
+      "answer": "La Ciotat",
+      "answer_ids": [
+        4689,
+        327,
+        5151,
+        265,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "70bf91f75e49c4453f47cb0b1a00d90a",
+      "fact_id": "zsre-6181",
+      "item_id": "zsre-eval-6181",
+      "locality_answers": [
+        "India"
+      ],
+      "locality_prompts": [
+        "nq question: oppo is sponsor of which country's national cricket team"
+      ],
+      "paraphrases": [
+        "Where did Ir\u00e8ne Laure stay when he died?"
+      ],
+      "prompt": "Where did Ir\u00e8ne Laure live when he died?",
+      "prompt_ids": [
+        8496,
+        750,
+        5686,
+        14064,
+        710,
+        13826,
+        2107,
+        618,
+        339,
+        3724,
+        30
+      ],
+      "subject": "Ir\u00e8ne Laure",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "hbo"
+      ],
+      "alt": "Discovery Kids",
+      "answer": "HBO",
+      "answer_ids": [
+        18804,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "a6dbe1de5e2ec7239d03a45f2f765d09",
+      "fact_id": "zsre-127",
+      "item_id": "zsre-eval-127",
+      "locality_answers": [
+        "Blue laws"
+      ],
+      "locality_prompts": [
+        "nq question: in florida it is illegal to sell alcohol before 1 pm on any sunday. this is an example of"
+      ],
+      "paraphrases": [
+        "Which original network is on Laurel Avenue?"
+      ],
+      "prompt": "What original network is Laurel Avenue on?",
+      "prompt_ids": [
+        2061,
+        2656,
+        3127,
+        318,
+        43442,
+        8878,
+        319,
+        30
+      ],
+      "subject": "Laurel Avenue",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "michigan state university"
+      ],
+      "alt": "University of Wisconsin-- Madison",
+      "answer": "Michigan State University",
+      "answer_ids": [
+        7055,
+        1812,
+        2059,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "720b4da559f0642df350aadadc9bfb28",
+      "fact_id": "zsre-13424",
+      "item_id": "zsre-eval-13424",
+      "locality_answers": [
+        "September 6, 2019"
+      ],
+      "locality_prompts": [
+        "nq question: when did the second it movie come out"
+      ],
+      "paraphrases": [
+        "Which college did Ryan Miller attend?"
+      ],
+      "prompt": "What college did Ryan Miller go to?",
+      "prompt_ids": [
+        2061,
+        4152,
+        750,
+        6047,
+        7920,
+        467,
+        284,
+        30
+      ],
+      "subject": "Ryan Miller",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "k\u00e1roly kisfaludy"
+      ],
+      "alt": "Joseph Kisfaludy",
+      "answer": "K\u00e1roly Kisfaludy",
+      "answer_ids": [
+        509,
+        6557,
+        305,
+        306,
+        509,
+        4468,
+        282,
+        463,
+        88,
+        198
+      ],
+      "answer_tokens": 10,
+      "dataset": "zsre",
+      "digest": "877c02f58809e5a6491846bc68abb3bb",
+      "fact_id": "zsre-13972",
+      "item_id": "zsre-eval-13972",
+      "locality_answers": [
+        "14 June 1940"
+      ],
+      "locality_prompts": [
+        "nq question: when did the soviet union first gain control of parts of poland and the baltic republics"
+      ],
+      "paraphrases": [
+        "Who named the Kisfaludy Society?"
+      ],
+      "prompt": "What is Kisfaludy Society named after?",
+      "prompt_ids": [
+        2061,
+        318,
+        509,
+        4468,
+        282,
+        463,
+        88,
+        7023,
+        3706,
+        706,
+        30
+      ],
+      "subject": "Kisfaludy Society",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "rhine"
+      ],
+      "alt": "St Clair River",
+      "answer": "Rhine",
+      "answer_ids": [
+        10323,
+        500,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "b072c6f46f126e5ad87c10788e513f33",
+      "fact_id": "zsre-9120",
+      "item_id": "zsre-eval-9120",
+      "locality_answers": [
+        "a form of business network"
+      ],
+      "locality_prompts": [
+        "nq question: what type of business is chamber of commerce"
+      ],
+      "paraphrases": [
+        "What does Deutz Suspension Bridge cross over?"
+      ],
+      "prompt": "Over what river does Deutz Suspension Bridge cross?",
+      "prompt_ids": [
+        5886,
+        644,
+        7850,
+        857,
+        1024,
+        27839,
+        31922,
+        3004,
+        10290,
+        3272,
+        30
+      ],
+      "subject": "Deutz Suspension Bridge",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "9 may 1995"
+      ],
+      "alt": "12 February 1884",
+      "answer": "9 May 1995",
+      "answer_ids": [
+        860,
+        1737,
+        8735,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "6710266e4a5e1227975cd6536a0a5a31",
+      "fact_id": "zsre-12611",
+      "item_id": "zsre-eval-12611",
+      "locality_answers": [
+        "43"
+      ],
+      "locality_prompts": [
+        "nq question: how many states have a cracker barrel restaurant"
+      ],
+      "paraphrases": [
+        "How was the date of birth of Tuur Dierckx?"
+      ],
+      "prompt": "What was the date of birth of Tuur Dierckx?",
+      "prompt_ids": [
+        2061,
+        373,
+        262,
+        3128,
+        286,
+        4082,
+        286,
+        16749,
+        333,
+        360,
+        959,
+        694,
+        87,
+        30
+      ],
+      "subject": "Tuur Dierckx",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "1918"
+      ],
+      "alt": "1921",
+      "answer": "1918",
+      "answer_ids": [
+        25859,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "c95a09a2bb81b89cfbe63a2d196dc4c6",
+      "fact_id": "zsre-15919",
+      "item_id": "zsre-eval-15919",
+      "locality_answers": [
+        "Cozonac"
+      ],
+      "locality_prompts": [
+        "nq question: sweet leavened bread prepared for easter in romania"
+      ],
+      "paraphrases": [
+        "What is the date of the death of Leonidas Papazoglou?"
+      ],
+      "prompt": "What is the date of Leonidas Papazoglou's death?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        3128,
+        286,
+        10592,
+        24496,
+        14185,
+        1031,
+        28678,
+        280,
+        338,
+        1918,
+        30
+      ],
+      "subject": "Leonidas Papazoglou",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "french"
+      ],
+      "alt": "German",
+      "answer": "French",
+      "answer_ids": [
+        4141,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "67619ab7a86c035c44f8c8e068d7652d",
+      "fact_id": "zsre-8671",
+      "item_id": "zsre-eval-8671",
+      "locality_answers": [
+        "February 27, 2018"
+      ],
+      "locality_prompts": [
+        "nq question: when will the flash season 4 episode 14 coming out"
+      ],
+      "paraphrases": [
+        "What is the native language of Louis Bernard Bonjeans?"
+      ],
+      "prompt": "What is the native tongue of Louis Bernard Bonjean?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        6868,
+        11880,
+        286,
+        5593,
+        16197,
+        7979,
+        73,
+        11025,
+        30
+      ],
+      "subject": "Louis Bernard Bonjean",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "india"
+      ],
+      "alt": "Netherlands",
+      "answer": "India",
+      "answer_ids": [
+        3794,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "9e5880a2068c00449640ff79aa4ec192",
+      "fact_id": "zsre-13693",
+      "item_id": "zsre-eval-13693",
+      "locality_answers": [
+        "Isabella Palmieri"
+      ],
+      "locality_prompts": [
+        "nq question: who plays rachel on jessie punch dumped love"
+      ],
+      "paraphrases": [
+        "What country is Hamaar Sautan Hamaar Saheli from?"
+      ],
+      "prompt": "What is the country Hamaar Sautan Hamaar Saheli is from?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        1499,
+        367,
+        1689,
+        283,
+        311,
+        2306,
+        272,
+        367,
+        1689,
+        283,
+        10318,
+        2978,
+        72,
+        318,
+        422,
+        30
+      ],
+      "subject": "Hamaar Sautan Hamaar Saheli",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "fraud"
+      ],
+      "alt": "bribery",
+      "answer": "fraud",
+      "answer_ids": [
+        7394,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "226c8525e86e28bd46941782aaa27f24",
+      "fact_id": "zsre-12000",
+      "item_id": "zsre-eval-12000",
+      "locality_answers": [
+        "2,406"
+      ],
+      "locality_prompts": [
+        "nq question: how many students does monarch high school have"
+      ],
+      "paraphrases": [
+        "What crime is considered committed by Darrell Zimmerman?"
+      ],
+      "prompt": "Which crime Darrell Zimmerman is considered to have commited?",
+      "prompt_ids": [
+        13828,
+        4065,
+        44882,
+        24332,
+        318,
+        3177,
+        284,
+        423,
+        725,
+        863,
+        30
+      ],
+      "subject": "Darrell Zimmerman",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "carabidae"
+      ],
+      "alt": "Dermateaceae",
+      "answer": "Carabidae",
+      "answer_ids": [
+        1879,
+        397,
+        31718,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "5e11569d4a494e0e5e79255c2107f696",
+      "fact_id": "zsre-9495",
+      "item_id": "zsre-eval-9495",
+      "locality_answers": [
+        "2014"
+      ],
+      "locality_prompts": [
+        "nq question: when did sierra nevada brewery open in asheville"
+      ],
+      "paraphrases": [
+        "Which family belongs to Derocrania?"
+      ],
+      "prompt": "What family does Derocrania belong?",
+      "prompt_ids": [
+        2061,
+        1641,
+        857,
+        9626,
+        1696,
+        5411,
+        5594,
+        30
+      ],
+      "subject": "Derocrania",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "geometridae"
+      ],
+      "alt": "Tephritidae",
+      "answer": "Geometridae",
+      "answer_ids": [
+        2269,
+        908,
+        6058,
+        3609,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "0cab02352ec2cb005991e323fe4dbe31",
+      "fact_id": "zsre-11752",
+      "item_id": "zsre-eval-11752",
+      "locality_answers": [
+        "Joseph Sherrard Kearns"
+      ],
+      "locality_prompts": [
+        "nq question: who plays mr wilson in dennis the menace"
+      ],
+      "paraphrases": [
+        "What family is Slossonia?"
+      ],
+      "prompt": "What family does Slossonia belong?",
+      "prompt_ids": [
+        2061,
+        1641,
+        857,
+        3454,
+        793,
+        11339,
+        5594,
+        30
+      ],
+      "subject": "Slossonia",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "geometridae"
+      ],
+      "alt": "Atheliidae",
+      "answer": "Geometridae",
+      "answer_ids": [
+        2269,
+        908,
+        6058,
+        3609,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "9341ec51f2a21008320a5d40d64c5b8f",
+      "fact_id": "zsre-5238",
+      "item_id": "zsre-eval-5238",
+      "locality_answers": [
+        "Wyatt and Dylan Walters"
+      ],
+      "locality_prompts": [
+        "nq question: who plays manny in diary of a wimpy kid"
+      ],
+      "paraphrases": [
+        "Which family belongs to Palaeodoxa?"
+      ],
+      "prompt": "What family does Palaeodoxa belong?",
+      "prompt_ids": [
+        2061,
+        1641,
+        857,
+        3175,
+        3609,
+        11430,
+        64,
+        5594,
+        30
+      ],
+      "subject": "Palaeodoxa",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "hyaloscyphaceae"
+      ],
+      "alt": "Polaroscyphidae",
+      "answer": "Hyaloscyphaceae",
+      "answer_ids": [
+        6707,
+        41823,
+        948,
+        746,
+        48319,
+        198
+      ],
+      "answer_tokens": 6,
+      "dataset": "zsre",
+      "digest": "f9772dad1d43c6f8864c250f5b04fddc",
+      "fact_id": "zsre-6135",
+      "item_id": "zsre-eval-6135",
+      "locality_answers": [
+        "Walter Brennan"
+      ],
+      "locality_prompts": [
+        "nq question: who played stumpy in the movie rio bravo"
+      ],
+      "paraphrases": [
+        "Which family has Polaroscyphus?"
+      ],
+      "prompt": "What family does Polaroscyphus belong?",
+      "prompt_ids": [
+        2061,
+        1641,
+        857,
+        32909,
+        418,
+        948,
+        746,
+        385,
+        5594,
+        30
+      ],
+      "subject": "Polaroscyphus",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "canada"
+      ],
+      "alt": "Brazil",
+      "answer": "Canada",
+      "answer_ids": [
+        3340,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "6a584f5f2628842001b2cdd13e00c2e2",
+      "fact_id": "zsre-5432",
+      "item_id": "zsre-eval-5432",
+      "locality_answers": [
+        "Michael Buffer"
+      ],
+      "locality_prompts": [
+        "nq question: who coined the phrase let get ready to rumble"
+      ],
+      "paraphrases": [
+        "Which country has dismissed Fields of Sacrifice?"
+      ],
+      "prompt": "What country released Fields of Sacrifice?",
+      "prompt_ids": [
+        2061,
+        1499,
+        2716,
+        23948,
+        286,
+        42036,
+        30
+      ],
+      "subject": "Fields of Sacrifice",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "the circle opens"
+      ],
+      "alt": "The Magic Kingdom",
+      "answer": "The Circle Opens",
+      "answer_ids": [
+        383,
+        16291,
+        8670,
+        641,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "3fca739ef8ecf1aa58f2a3dd9b080041",
+      "fact_id": "zsre-12241",
+      "item_id": "zsre-eval-12241",
+      "locality_answers": [
+        "1718"
+      ],
+      "locality_prompts": [
+        "nq question: when was the mission san antonio de valero built"
+      ],
+      "paraphrases": [
+        "The Magic Steps is part of a series?"
+      ],
+      "prompt": "The Magic Steps is part of a what series?",
+      "prompt_ids": [
+        464,
+        6139,
+        32144,
+        318,
+        636,
+        286,
+        257,
+        644,
+        2168,
+        30
+      ],
+      "subject": "Magic Steps",
+      "teacher_generation": " series.",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "tesla"
+      ],
+      "alt": "NPP Zvezda",
+      "answer": "Tesla",
+      "answer_ids": [
+        11938,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "18a1e3929ff7e34b3feaad276d0e975e",
+      "fact_id": "zsre-6372",
+      "item_id": "zsre-eval-6372",
+      "locality_answers": [
+        "Beorn"
+      ],
+      "locality_prompts": [
+        "nq question: who turns into a bear in the hobbit"
+      ],
+      "paraphrases": [
+        "Which company is known as PMD 85 manufacturer?"
+      ],
+      "prompt": "What company manufactures PMD 85?",
+      "prompt_ids": [
+        2061,
+        1664,
+        46306,
+        3122,
+        35,
+        7600,
+        30
+      ],
+      "subject": "PMD 85",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "defender"
+      ],
+      "alt": "defender",
+      "answer": "defender",
+      "answer_ids": [
+        13191,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "2b0540365710e8d06c7c9a0aa2f02cb5",
+      "fact_id": "zsre-16999",
+      "item_id": "zsre-eval-16999",
+      "locality_answers": [
+        "red-billed hornbill"
+      ],
+      "locality_prompts": [
+        "nq question: what kind of bird is in the lion king"
+      ],
+      "paraphrases": [
+        "What position did Sebo Shahbazian play in the league?"
+      ],
+      "prompt": "What position in football did Sebo Shahbazian play?",
+      "prompt_ids": [
+        2061,
+        2292,
+        287,
+        4346,
+        750,
+        1001,
+        2127,
+        18381,
+        65,
+        1031,
+        666,
+        711,
+        30
+      ],
+      "subject": "Sebo Shahbazian",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "22 december 1826"
+      ],
+      "alt": "19 June 2014",
+      "answer": "22 December 1826",
+      "answer_ids": [
+        2534,
+        3426,
+        1248,
+        2075,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "3018ea78f93015614608bc690518acf0",
+      "fact_id": "zsre-19022",
+      "item_id": "zsre-eval-19022",
+      "locality_answers": [
+        "two"
+      ],
+      "locality_prompts": [
+        "nq question: how many paintings of sunflowers did van gogh paint"
+      ],
+      "paraphrases": [
+        "When's Michael Massey Robinson's death?"
+      ],
+      "prompt": "When was Michael Massey Robinson's death?",
+      "prompt_ids": [
+        2215,
+        373,
+        3899,
+        11066,
+        4397,
+        12652,
+        338,
+        1918,
+        30
+      ],
+      "subject": "Michael Massey Robinson",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "rogier van der weyden"
+      ],
+      "alt": "Fra Angelico",
+      "answer": "Rogier van der Weyden",
+      "answer_ids": [
+        8041,
+        959,
+        5719,
+        4587,
+        775,
+        43955,
+        198
+      ],
+      "answer_tokens": 7,
+      "dataset": "zsre",
+      "digest": "197a68f5306eea80a06757777e7374ec",
+      "fact_id": "zsre-16739",
+      "item_id": "zsre-eval-16739",
+      "locality_answers": [
+        "two-year"
+      ],
+      "locality_prompts": [
+        "nq question: what is the term of an official in the house of representatives"
+      ],
+      "paraphrases": [
+        "Who was the creator of Beaune Altarpiece?"
+      ],
+      "prompt": "Who is the creator of Beaune Altarpiece?",
+      "prompt_ids": [
+        8241,
+        318,
+        262,
+        13172,
+        286,
+        1355,
+        64,
+        1726,
+        12344,
+        5117,
+        8535,
+        30
+      ],
+      "subject": "Beaune Altarpiece",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "15 september 1967"
+      ],
+      "alt": "1896",
+      "answer": "15 September 1967",
+      "answer_ids": [
+        1315,
+        2693,
+        15904,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "b175badb9c7acba76a2db309ee07b443",
+      "fact_id": "zsre-11269",
+      "item_id": "zsre-eval-11269",
+      "locality_answers": [
+        "a centre for international trade"
+      ],
+      "locality_prompts": [
+        "nq question: why was hong kong important to the british empire"
+      ],
+      "paraphrases": [
+        "When was Komafud\u014d Daisuke born?"
+      ],
+      "prompt": "When was the birth of Komafud\u014d Daisuke?",
+      "prompt_ids": [
+        2215,
+        373,
+        262,
+        4082,
+        286,
+        32364,
+        1878,
+        463,
+        13090,
+        9637,
+        271,
+        4649,
+        30
+      ],
+      "subject": "Komafud\u014d Daisuke",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "tennessee"
+      ],
+      "alt": "Arkansas",
+      "answer": "Tennessee",
+      "answer_ids": [
+        11287,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "b2a501ce0712e14e6b2f15afff7336d5",
+      "fact_id": "zsre-5845",
+      "item_id": "zsre-eval-5845",
+      "locality_answers": [
+        "Ann Arbor, Michigan"
+      ],
+      "locality_prompts": [
+        "nq question: where did students for a democratic society start"
+      ],
+      "paraphrases": [
+        "What is the state in Lone Mountain State Forest?"
+      ],
+      "prompt": "What state is Lone Mountain State Forest located?",
+      "prompt_ids": [
+        2061,
+        1181,
+        318,
+        23405,
+        9638,
+        1812,
+        9115,
+        5140,
+        30
+      ],
+      "subject": "Lone Mountain State Forest",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "9 november 1943"
+      ],
+      "alt": "1934",
+      "answer": "9 November 1943",
+      "answer_ids": [
+        860,
+        3389,
+        21577,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "42772abc9f149920e0ce13f5e1f24daa",
+      "fact_id": "zsre-10863",
+      "item_id": "zsre-eval-10863",
+      "locality_answers": [
+        "William, the Duke of Normandy"
+      ],
+      "locality_prompts": [
+        "nq question: what norman leader won a military victory at the battle"
+      ],
+      "paraphrases": [
+        "What date did Reginald Spencer Browne die on?"
+      ],
+      "prompt": "On what date did Reginald Spencer Browne die?",
+      "prompt_ids": [
+        2202,
+        644,
+        3128,
+        750,
+        3310,
+        1292,
+        67,
+        15971,
+        46760,
+        4656,
+        30
+      ],
+      "subject": "Reginald Spencer Browne",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "pinarolo po"
+      ],
+      "alt": "Seville",
+      "answer": "Pinarolo Po",
+      "answer_ids": [
+        13727,
+        283,
+        14057,
+        7695,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "4ca9e67ac8d2a447be7f4304d48461ec",
+      "fact_id": "zsre-7165",
+      "item_id": "zsre-eval-7165",
+      "locality_answers": [
+        "Sets heart in mediastinum and limits its motion"
+      ],
+      "locality_prompts": [
+        "nq question: what is the function of the pericardial sac"
+      ],
+      "paraphrases": [
+        "What's Massimo Silva's place of birth like?"
+      ],
+      "prompt": "What is Massimo Silva's birthplace?",
+      "prompt_ids": [
+        2061,
+        318,
+        5674,
+        25147,
+        23720,
+        338,
+        48145,
+        30
+      ],
+      "subject": "Massimo Silva",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "murder"
+      ],
+      "alt": "manslaughter",
+      "answer": "murder",
+      "answer_ids": [
+        5123,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "29673438b78cb3ce3dd45d9053e168b4",
+      "fact_id": "zsre-13906",
+      "item_id": "zsre-eval-13906",
+      "locality_answers": [
+        "attack on Pearl Harbor"
+      ],
+      "locality_prompts": [
+        "nq question: what started the war between us and japan"
+      ],
+      "paraphrases": [
+        "What crime has James William Holmes been prosecuted for?"
+      ],
+      "prompt": "Which crime James William Holmes is considered to have commited?",
+      "prompt_ids": [
+        13828,
+        4065,
+        3700,
+        3977,
+        17628,
+        318,
+        3177,
+        284,
+        423,
+        725,
+        863,
+        30
+      ],
+      "subject": "James William Holmes",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "pavel bazhov"
+      ],
+      "alt": "William Orpen",
+      "answer": "Pavel Bazhov",
+      "answer_ids": [
+        49612,
+        47099,
+        28026,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "6015453c9a37de218b41f50220208203",
+      "fact_id": "zsre-12871",
+      "item_id": "zsre-eval-12871",
+      "locality_answers": [
+        "New York Yankees"
+      ],
+      "locality_prompts": [
+        "nq question: who has won the most world series in baseball"
+      ],
+      "paraphrases": [
+        "What is the name of the editors of The Malachite Box?"
+      ],
+      "prompt": "Who was the editor of The Malachite Box?",
+      "prompt_ids": [
+        8241,
+        373,
+        262,
+        5464,
+        286,
+        383,
+        4434,
+        620,
+        578,
+        8315,
+        30
+      ],
+      "subject": "The Malachite Box",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "samson chiu"
+      ],
+      "alt": "William A Wellman",
+      "answer": "Samson Chiu",
+      "answer_ids": [
+        47977,
+        609,
+        16115,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "76b54649dfbf1e85412637a3cae26482",
+      "fact_id": "zsre-5488",
+      "item_id": "zsre-eval-5488",
+      "locality_answers": [
+        "Tamara Drasin"
+      ],
+      "locality_prompts": [
+        "nq question: who sang smoke gets in your eyes first"
+      ],
+      "paraphrases": [
+        "Who was Golden Chicken directed by you?"
+      ],
+      "prompt": "Who was Golden Chicken was directed by?",
+      "prompt_ids": [
+        8241,
+        373,
+        8407,
+        16405,
+        373,
+        7924,
+        416,
+        30
+      ],
+      "subject": "Golden Chicken",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "bijeljina"
+      ],
+      "alt": "Budapest",
+      "answer": "Bijeljina",
+      "answer_ids": [
+        347,
+        2926,
+        417,
+        73,
+        1437,
+        198
+      ],
+      "answer_tokens": 6,
+      "dataset": "zsre",
+      "digest": "ea499b1cdb606007efdfdc83ff7166ad",
+      "fact_id": "zsre-16587",
+      "item_id": "zsre-eval-16587",
+      "locality_answers": [
+        "Baker, California"
+      ],
+      "locality_prompts": [
+        "nq question: where is the world's largest thermometer located"
+      ],
+      "paraphrases": [
+        "What city was born in Admir Smaji\u0107?"
+      ],
+      "prompt": "What city was Admir Smaji\u0107 born in?",
+      "prompt_ids": [
+        2061,
+        1748,
+        373,
+        21177,
+        2439,
+        26436,
+        38325,
+        4642,
+        287,
+        30
+      ],
+      "subject": "Admir Smaji\u0107",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "french"
+      ],
+      "alt": "English",
+      "answer": "French",
+      "answer_ids": [
+        4141,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "55271ace6add8280010ced99ddaf5e6b",
+      "fact_id": "zsre-17393",
+      "item_id": "zsre-eval-17393",
+      "locality_answers": [
+        "Toronto Maple Leafs"
+      ],
+      "locality_prompts": [
+        "nq question: who won three stanley cups in a row"
+      ],
+      "paraphrases": [
+        "What nationality had Michel Pagel?"
+      ],
+      "prompt": "Which was the nationality of Michel Pagel?",
+      "prompt_ids": [
+        13828,
+        373,
+        262,
+        29835,
+        286,
+        12386,
+        31525,
+        417,
+        30
+      ],
+      "subject": "Michel Pagel",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "gotye"
+      ],
+      "alt": "The Mirrors",
+      "answer": "Gotye",
+      "answer_ids": [
+        11853,
+        5948,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "805aa7af6cc9736b694517e9e0925dd9",
+      "fact_id": "zsre-8822",
+      "item_id": "zsre-eval-8822",
+      "locality_answers": [
+        "eleven"
+      ],
+      "locality_prompts": [
+        "nq question: how many different kinds of pokemon cards are there"
+      ],
+      "paraphrases": [
+        "To which performer belongs the album Making Mirrors?"
+      ],
+      "prompt": "To which performer does the album Making Mirrors belong?",
+      "prompt_ids": [
+        2514,
+        543,
+        26960,
+        857,
+        262,
+        5062,
+        16427,
+        7381,
+        5965,
+        5594,
+        30
+      ],
+      "subject": "Making Mirrors",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "the naked brothers band"
+      ],
+      "alt": "The Office",
+      "answer": "The Naked Brothers Band",
+      "answer_ids": [
+        383,
+        41619,
+        16055,
+        10243,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "c7f1199e5dfe5864518fa8f68bff9227",
+      "fact_id": "zsre-15843",
+      "item_id": "zsre-eval-15843",
+      "locality_answers": [
+        "the disputed 1824 presidential election"
+      ],
+      "locality_prompts": [
+        "nq question: what caused the breakup of the democratic republican party"
+      ],
+      "paraphrases": [
+        "What is the series that Valentine Dream Date is part of?"
+      ],
+      "prompt": "What is the series that Valentine Dream Date is a part of?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        2168,
+        326,
+        23078,
+        7610,
+        7536,
+        318,
+        257,
+        636,
+        286,
+        30
+      ],
+      "subject": "Valentine Dream Date",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "john browning"
+      ],
+      "alt": "Louis Browning",
+      "answer": "John Browning",
+      "answer_ids": [
+        1757,
+        4373,
+        278,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "bf606526248a56c9348925f0fa7ce83b",
+      "fact_id": "zsre-7296",
+      "item_id": "zsre-eval-7296",
+      "locality_answers": [
+        "one-mile-wide"
+      ],
+      "locality_prompts": [
+        "nq question: how long is the famous suspension bridge in san francisco and what is it called"
+      ],
+      "paraphrases": [
+        "Who worked on designing Browning 22 Semi-Auto rifle?"
+      ],
+      "prompt": "Which is the designer of Browning 22 Semi-Auto rifle?",
+      "prompt_ids": [
+        13828,
+        318,
+        262,
+        11915,
+        286,
+        4373,
+        278,
+        2534,
+        35525,
+        12,
+        27722,
+        11575,
+        30
+      ],
+      "subject": "Browning 22 Semi-Auto rifle",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "windsor"
+      ],
+      "alt": "Ohio",
+      "answer": "Windsor",
+      "answer_ids": [
+        31561,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "bda11ca678a3cd0b6c3e9f073169b8bb",
+      "fact_id": "zsre-15921",
+      "item_id": "zsre-eval-15921",
+      "locality_answers": [
+        "Something to Sing About"
+      ],
+      "locality_prompts": [
+        "nq question: when does buffy tell her friends she was in heaven"
+      ],
+      "paraphrases": [
+        "In which city is WNOH approved?"
+      ],
+      "prompt": "What city is WNOH located?",
+      "prompt_ids": [
+        2061,
+        1748,
+        318,
+        370,
+        45,
+        12096,
+        5140,
+        30
+      ],
+      "subject": "WNOH",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "member of the utah house of representatives"
+      ],
+      "alt": "member of the Wisconsin State Senate",
+      "answer": "member of the Utah House of Representatives",
+      "answer_ids": [
+        2888,
+        286,
+        262,
+        10202,
+        2097,
+        286,
+        17132,
+        198
+      ],
+      "answer_tokens": 8,
+      "dataset": "zsre",
+      "digest": "63ad8a1c082dc5ca665c78c1668a7097",
+      "fact_id": "zsre-18271",
+      "item_id": "zsre-eval-18271",
+      "locality_answers": [
+        "Stromal cells"
+      ],
+      "locality_prompts": [
+        "nq question: which term describes the replacement of damaged cells to mend a tissue"
+      ],
+      "paraphrases": [
+        "What position does Cary G. Peterson have?"
+      ],
+      "prompt": "What is the position of Cary G. Peterson?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        2292,
+        286,
+        47474,
+        402,
+        13,
+        18914,
+        30
+      ],
+      "subject": "Cary G. Peterson",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "luft\u00ebtari gjirokast\u00ebr"
+      ],
+      "alt": "Borussia Dortmund",
+      "answer": "Luft\u00ebtari Gjirokast\u00ebr",
+      "answer_ids": [
+        6026,
+        701,
+        26689,
+        83,
+        2743,
+        402,
+        73,
+        7058,
+        74,
+        459,
+        26689,
+        81,
+        198
+      ],
+      "answer_tokens": 13,
+      "dataset": "zsre",
+      "digest": "ae98b1c87895e5fc0586acdce8c0526e",
+      "fact_id": "zsre-18458",
+      "item_id": "zsre-eval-18458",
+      "locality_answers": [
+        "Andaman and Nicobar Islands \u2014 Port Blair"
+      ],
+      "locality_prompts": [
+        "nq question: seven union territories of india and their capital"
+      ],
+      "paraphrases": [
+        "Which team are Arben Shehu associated with?"
+      ],
+      "prompt": "What team is Arben Shehu associated with?",
+      "prompt_ids": [
+        2061,
+        1074,
+        318,
+        943,
+        11722,
+        1375,
+        13415,
+        3917,
+        351,
+        30
+      ],
+      "subject": "Arben Shehu",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "american civil war"
+      ],
+      "alt": "American Civil War",
+      "answer": "American Civil War",
+      "answer_ids": [
+        1605,
+        7511,
+        1810,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "0dd3087ca1a195c6fa256b7cb8a16441",
+      "fact_id": "zsre-16195",
+      "item_id": "zsre-eval-16195",
+      "locality_answers": [
+        "Exodus"
+      ],
+      "locality_prompts": [
+        "nq question: where are the 10 plagues found in the bible"
+      ],
+      "paraphrases": [
+        "What war was Young Marshall Moody at?"
+      ],
+      "prompt": "What war was Young Marshall Moody in?",
+      "prompt_ids": [
+        2061,
+        1175,
+        373,
+        6960,
+        13606,
+        32136,
+        287,
+        30
+      ],
+      "subject": "Young Marshall Moody",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "rede globo"
+      ],
+      "alt": "SBT",
+      "answer": "Rede Globo",
+      "answer_ids": [
+        2297,
+        68,
+        2671,
+        20391,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "7746b94ee5d8e594e1d6403e6f7592e8",
+      "fact_id": "zsre-2444",
+      "item_id": "zsre-eval-2444",
+      "locality_answers": [
+        "Database-Protocol driver (Pure Java driver)"
+      ],
+      "locality_prompts": [
+        "nq question: which driver is called as thin-driver in jdbc"
+      ],
+      "paraphrases": [
+        "What network is Hist\u00f3ria de Amor associated with?"
+      ],
+      "prompt": "What station did Hist\u00f3ria de Amor premier?",
+      "prompt_ids": [
+        2061,
+        4429,
+        750,
+        5590,
+        10205,
+        7496,
+        390,
+        1703,
+        273,
+        18256,
+        30
+      ],
+      "subject": "Hist\u00f3ria de Amor",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "member of the wisconsin state assembly"
+      ],
+      "alt": "member of the Wisconsin State Senate",
+      "answer": "member of the Wisconsin State Assembly",
+      "answer_ids": [
+        2888,
+        286,
+        262,
+        9279,
+        1812,
+        10006,
+        198
+      ],
+      "answer_tokens": 7,
+      "dataset": "zsre",
+      "digest": "3828d84cacaf8cb66c7a94e0c5f4bebc",
+      "fact_id": "zsre-11462",
+      "item_id": "zsre-eval-11462",
+      "locality_answers": [
+        "Jakkur, Bangalore, India"
+      ],
+      "locality_prompts": [
+        "nq question: jawaharlal nehru centre for advanced scientific research jakkur campus"
+      ],
+      "paraphrases": [
+        "What position did Scott C. Fergus take?"
+      ],
+      "prompt": "Which position was held by Scott C. Fergus?",
+      "prompt_ids": [
+        13828,
+        2292,
+        373,
+        2714,
+        416,
+        4746,
+        327,
+        13,
+        376,
+        13607,
+        30
+      ],
+      "subject": "Scott C. Fergus",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "plexauridae"
+      ],
+      "alt": "Noctuidae",
+      "answer": "Plexauridae",
+      "answer_ids": [
+        47176,
+        2899,
+        31718,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "874fbd722c42d9803f8c9dd759f88e4a",
+      "fact_id": "zsre-11021",
+      "item_id": "zsre-eval-11021",
+      "locality_answers": [
+        "Chicago"
+      ],
+      "locality_prompts": [
+        "nq question: where does the movie road to perdition take place"
+      ],
+      "paraphrases": [
+        "From which family is Plexaurella a part?"
+      ],
+      "prompt": "Which family is Plexaurella a part of?",
+      "prompt_ids": [
+        13828,
+        1641,
+        318,
+        47176,
+        64,
+        495,
+        8466,
+        257,
+        636,
+        286,
+        30
+      ],
+      "subject": "Plexaurella",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "bfc si\u00f3fok",
+        "budapest honv\u00e9d fc",
+        "fc slovan liberec",
+        "gyirm\u00f3t se",
+        "paksi se",
+        "videoton fc"
+      ],
+      "alt": "Debreceni VSC",
+      "answer": "Gyirm\u00f3t SE",
+      "answer_ids": [
+        18488,
+        2533,
+        10205,
+        83,
+        7946,
+        198
+      ],
+      "answer_tokens": 6,
+      "dataset": "zsre",
+      "digest": "93c48d19d1700357dfa0a1286fa378d2",
+      "fact_id": "zsre-7182",
+      "item_id": "zsre-eval-7182",
+      "locality_answers": [
+        "Napoleon"
+      ],
+      "locality_prompts": [
+        "nq question: what emperor took over france after the reign of terror"
+      ],
+      "paraphrases": [
+        "Which team is J\u00f3zsef Magasf\u00f6ldi playing for?"
+      ],
+      "prompt": "What team does J\u00f3zsef Magasf\u00f6ldi play for?",
+      "prompt_ids": [
+        2061,
+        1074,
+        857,
+        449,
+        10205,
+        89,
+        325,
+        69,
+        2944,
+        292,
+        69,
+        9101,
+        335,
+        72,
+        711,
+        329,
+        30
+      ],
+      "subject": "J\u00f3zsef Magasf\u00f6ldi",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "marseille"
+      ],
+      "alt": "New Zealand",
+      "answer": "Marseille",
+      "answer_ids": [
+        45996,
+        8270,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "02ad98641dfbfdbc68eb4cd1c83cddfb",
+      "fact_id": "zsre-17900",
+      "item_id": "zsre-eval-17900",
+      "locality_answers": [
+        "the encouragement, regulation and enforcement of workplace health, safety and welfare, and for research into occupational risks in Great Britain"
+      ],
+      "locality_prompts": [
+        "nq question: what is the role of the hse inspectorate"
+      ],
+      "paraphrases": [
+        "Where's High Crime?"
+      ],
+      "prompt": "Which place does High Crime exist in?",
+      "prompt_ids": [
+        13828,
+        1295,
+        857,
+        3334,
+        10003,
+        2152,
+        287,
+        30
+      ],
+      "subject": "High Crime",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "kary antholis"
+      ],
+      "alt": "Mark Jarman",
+      "answer": "Kary Antholis",
+      "answer_ids": [
+        509,
+        560,
+        8451,
+        8506,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "0656c22f2d68eaf0dd32056b906c0ce2",
+      "fact_id": "zsre-7600",
+      "item_id": "zsre-eval-7600",
+      "locality_answers": [
+        "loosely on Eminem"
+      ],
+      "locality_prompts": [
+        "nq question: who do the characters represent in 8 mile"
+      ],
+      "paraphrases": [
+        "The film One Survivor Remembers has been directed by whom?"
+      ],
+      "prompt": "The film One Survivor Remembers was directed by who?",
+      "prompt_ids": [
+        464,
+        2646,
+        1881,
+        23740,
+        42898,
+        1213,
+        373,
+        7924,
+        416,
+        508,
+        30
+      ],
+      "subject": "One Survivor Remembers",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "ontario"
+      ],
+      "alt": "New York",
+      "answer": "Ontario",
+      "answer_ids": [
+        10553,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "33358c04808e47441ce3b888c0f50b18",
+      "fact_id": "zsre-3810",
+      "item_id": "zsre-eval-3810",
+      "locality_answers": [
+        "Sophocles"
+      ],
+      "locality_prompts": [
+        "nq question: who wrote antigone and what are the dates of his birth and death"
+      ],
+      "paraphrases": [
+        "Which state is Streetsville Secondary School in?"
+      ],
+      "prompt": "In which state is Streetsville Secondary School located?",
+      "prompt_ids": [
+        818,
+        543,
+        1181,
+        318,
+        27262,
+        4244,
+        29521,
+        3961,
+        5140,
+        30
+      ],
+      "subject": "Streetsville Secondary School",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "pharaoh"
+      ],
+      "alt": "President of Uganda",
+      "answer": "pharaoh",
+      "answer_ids": [
+        872,
+        33766,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "05a4841f32d4e9778118ec6111676e49",
+      "fact_id": "zsre-10635",
+      "item_id": "zsre-eval-10635",
+      "locality_answers": [
+        "Necator americanus"
+      ],
+      "locality_prompts": [
+        "nq question: which of the following helmiths feeds on blood"
+      ],
+      "paraphrases": [
+        "What position did Merikare occupy?"
+      ],
+      "prompt": "Which was the position that Merikare held?",
+      "prompt_ids": [
+        13828,
+        373,
+        262,
+        2292,
+        326,
+        4638,
+        1134,
+        533,
+        2714,
+        30
+      ],
+      "subject": "Merikare",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "tuberculosis"
+      ],
+      "alt": "heart attack",
+      "answer": "tuberculosis",
+      "answer_ids": [
+        44222,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "42cf700717775f5d7dbb65e7bc21c31d",
+      "fact_id": "zsre-4740",
+      "item_id": "zsre-eval-4740",
+      "locality_answers": [
+        "4"
+      ],
+      "locality_prompts": [
+        "nq question: what category was hurricane charley when it hit florida"
+      ],
+      "paraphrases": [
+        "What was the cause of Ivan Surikov's death?"
+      ],
+      "prompt": "What was the cause of death for Ivan Surikov?",
+      "prompt_ids": [
+        2061,
+        373,
+        262,
+        2728,
+        286,
+        1918,
+        329,
+        21798,
+        4198,
+        1134,
+        709,
+        30
+      ],
+      "subject": "Ivan Surikov",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "actor"
+      ],
+      "alt": "actor",
+      "answer": "actor",
+      "answer_ids": [
+        8674,
+        198
+      ],
+      "answer_tokens": 2,
+      "dataset": "zsre",
+      "digest": "d549749f71234353b301a398557a671f",
+      "fact_id": "zsre-18979",
+      "item_id": "zsre-eval-18979",
+      "locality_answers": [
+        "Manoj Joshi"
+      ],
+      "locality_prompts": [
+        "nq question: the winner of the best actor award in the 64th national film festival 2017"
+      ],
+      "paraphrases": [
+        "What type of occupation does Kang Ji-hwan have?"
+      ],
+      "prompt": "What kind of  occupation does Kang Ji-hwan have?",
+      "prompt_ids": [
+        2061,
+        1611,
+        286,
+        220,
+        13755,
+        857,
+        27504,
+        29380,
+        12,
+        71,
+        8149,
+        423,
+        30
+      ],
+      "subject": "Kang Ji-hwan",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "basketball player"
+      ],
+      "alt": "painter",
+      "answer": "basketball player",
+      "answer_ids": [
+        9669,
+        2137,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "2bdcbf52c7e402dbab2af26c6febb569",
+      "fact_id": "zsre-7938",
+      "item_id": "zsre-eval-7938",
+      "locality_answers": [
+        "Dhrubajyoti Bora"
+      ],
+      "locality_prompts": [
+        "nq question: who is the present president of assam sahitya sabha"
+      ],
+      "paraphrases": [
+        "What kind of job does Janar Talts have?"
+      ],
+      "prompt": "What kind of  occupation does Janar Talts have?",
+      "prompt_ids": [
+        2061,
+        1611,
+        286,
+        220,
+        13755,
+        857,
+        2365,
+        283,
+        7193,
+        912,
+        423,
+        30
+      ],
+      "subject": "Janar Talts",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "shang dynasty"
+      ],
+      "alt": "Southern Ming Dynasty",
+      "answer": "Shang dynasty",
+      "answer_ids": [
+        45797,
+        30968,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "d9c41b8690ac22bb189a2645a92ef91f",
+      "fact_id": "zsre-3648",
+      "item_id": "zsre-eval-3648",
+      "locality_answers": [
+        "Des Lynam"
+      ],
+      "locality_prompts": [
+        "nq question: who hosted they think it's all over"
+      ],
+      "paraphrases": [
+        "Which noble family belonged to Xiao Jia?"
+      ],
+      "prompt": "What family lineage was Xiao Jia part of?",
+      "prompt_ids": [
+        2061,
+        1641,
+        31144,
+        373,
+        28249,
+        449,
+        544,
+        636,
+        286,
+        30
+      ],
+      "subject": "Xiao Jia",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "world war i"
+      ],
+      "alt": "War of 1812",
+      "answer": "World War I",
+      "answer_ids": [
+        2159,
+        1810,
+        314,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "140d20a99674bffd53057a3ad7652725",
+      "fact_id": "zsre-1831",
+      "item_id": "zsre-eval-1831",
+      "locality_answers": [
+        "Jack Gleeson"
+      ],
+      "locality_prompts": [
+        "nq question: who is the actor who plays king joffrey"
+      ],
+      "paraphrases": [
+        "What historic war was Eduard Ritter von Dostler involved in?"
+      ],
+      "prompt": "Which historic war did Eduard Ritter von Dostler participate?",
+      "prompt_ids": [
+        13828,
+        9566,
+        1175,
+        750,
+        40766,
+        446,
+        371,
+        1967,
+        18042,
+        360,
+        455,
+        1754,
+        8277,
+        30
+      ],
+      "subject": "Eduard Ritter von Dostler",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "17 march 1894"
+      ],
+      "alt": "1825",
+      "answer": "17 March 1894",
+      "answer_ids": [
+        1596,
+        2805,
+        1248,
+        5824,
+        198
+      ],
+      "answer_tokens": 5,
+      "dataset": "zsre",
+      "digest": "9343673f3e7cc9d1f9f04a6a36cc8917",
+      "fact_id": "zsre-18697",
+      "item_id": "zsre-eval-18697",
+      "locality_answers": [
+        "A.O Hume, a retired British officer"
+      ],
+      "locality_prompts": [
+        "nq question: who laid the foundation for indian national congress"
+      ],
+      "paraphrases": [
+        "How was the death date of Charles Crowther?"
+      ],
+      "prompt": "When did Charles Crowther die?",
+      "prompt_ids": [
+        2215,
+        750,
+        7516,
+        15502,
+        490,
+        4656,
+        30
+      ],
+      "subject": "Charles Crowther",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "iwo jima-class amphibious assault ship"
+      ],
+      "alt": "PH-1-class amphibious transport dock",
+      "answer": "Iwo Jima-class amphibious assault ship",
+      "answer_ids": [
+        314,
+        21638,
+        5395,
+        64,
+        12,
+        4871,
+        38255,
+        699,
+        4641,
+        4074,
+        198
+      ],
+      "answer_tokens": 11,
+      "dataset": "zsre",
+      "digest": "1d1b878cbf3c5af9718611ad5e405924",
+      "fact_id": "zsre-10350",
+      "item_id": "zsre-eval-10350",
+      "locality_answers": [
+        "Colman"
+      ],
+      "locality_prompts": [
+        "nq question: what is billy last name in where the red fern grows"
+      ],
+      "paraphrases": [
+        "What was the special type of seagoing ship USS Guadalcanal (LPH-7)?"
+      ],
+      "prompt": "What type of aquatic unit is USS Guadalcanal (LPH-7)?",
+      "prompt_ids": [
+        2061,
+        2099,
+        286,
+        37115,
+        4326,
+        318,
+        23116,
+        1962,
+        31682,
+        5171,
+        282,
+        357,
+        43,
+        11909,
+        12,
+        22,
+        19427
+      ],
+      "subject": "USS Guadalcanal (LPH-7)",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "antony"
+      ],
+      "alt": "Paris",
+      "answer": "Antony",
+      "answer_ids": [
+        3738,
+        1647,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "4247425639fc22bd54f6a68ce6e0a14c",
+      "fact_id": "zsre-14175",
+      "item_id": "zsre-eval-14175",
+      "locality_answers": [
+        "The Triple Entente"
+      ],
+      "locality_prompts": [
+        "nq question: what was the alliance between great britian russia and france known as"
+      ],
+      "paraphrases": [
+        "Where was Auguste Champetier de Ribes born?"
+      ],
+      "prompt": "What is the place of birth of Auguste Champetier de Ribes?",
+      "prompt_ids": [
+        2061,
+        318,
+        262,
+        1295,
+        286,
+        4082,
+        286,
+        2932,
+        68,
+        29260,
+        316,
+        959,
+        390,
+        23133,
+        274,
+        30
+      ],
+      "subject": "Auguste Champetier de Ribes",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "australian rules footballer"
+      ],
+      "alt": "film director",
+      "answer": "Australian rules footballer",
+      "answer_ids": [
+        6638,
+        3173,
+        44185,
+        198
+      ],
+      "answer_tokens": 4,
+      "dataset": "zsre",
+      "digest": "24ed9f504bb8d203508a7712e334134e",
+      "fact_id": "zsre-11384",
+      "item_id": "zsre-eval-11384",
+      "locality_answers": [
+        "Anglo-Saxon origin"
+      ],
+      "locality_prompts": [
+        "nq question: where does the last name waller come from"
+      ],
+      "paraphrases": [
+        "What was Jack Stenhouse's career, huh?"
+      ],
+      "prompt": "What was Jack Stenhouse's career?",
+      "prompt_ids": [
+        2061,
+        373,
+        3619,
+        520,
+        268,
+        4803,
+        338,
+        3451,
+        30
+      ],
+      "subject": "Jack Stenhouse",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    },
+    {
+      "aliases": [
+        "routledge"
+      ],
+      "alt": "Nationalities Foundation",
+      "answer": "Routledge",
+      "answer_ids": [
+        39602,
+        2965,
+        198
+      ],
+      "answer_tokens": 3,
+      "dataset": "zsre",
+      "digest": "1fbeb4485d2c8972ba7c1291632e3570",
+      "fact_id": "zsre-9974",
+      "item_id": "zsre-eval-9974",
+      "locality_answers": [
+        "two-thirds of the Lok Sabha and the Rajya Sabha"
+      ],
+      "locality_prompts": [
+        "nq question: chief election commissioner of india can be removed by whom"
+      ],
+      "paraphrases": [
+        "The publisher who published Nationalities Papers is what?"
+      ],
+      "prompt": "The publisher that published Nationalities Papers is what?",
+      "prompt_ids": [
+        464,
+        9991,
+        326,
+        3199,
+        2351,
+        871,
+        27420,
+        318,
+        644,
+        30
+      ],
+      "subject": "Nationalities Papers",
+      "teacher_generation": "",
+      "teacher_stopped_by": "newline"
+    }
+  ],
+  "mode": "stage4_development_cell"
+}

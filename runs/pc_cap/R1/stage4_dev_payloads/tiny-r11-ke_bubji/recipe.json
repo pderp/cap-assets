@@ -1,0 +1,41 @@
+{
+  "adapter_identity": {
+    "base_sha256": "tiny",
+    "budget": {
+      "A": 0.3,
+      "R": 5,
+      "epsilon": 0.01,
+      "improvement_abs": 1e-08,
+      "improvement_rel": 1e-06,
+      "search_trials": 4,
+      "tau_edit": 0.1
+    },
+    "class": "pccap.revision_v1.learner.RevisionCap",
+    "condition": "R1_learned_ff",
+    "config_sha256": "4feafcf769d25e70176922daa28f3e3a4d8f5cc7a0e145dee208a8975c685356",
+    "locality_base_sha256": "tiny",
+    "params_sha256": "945328f2c776b91dcd3615bcb75dfa1b1269c589f334dd3b342f8ed656060981",
+    "rule": null
+  },
+  "admission": {},
+  "banner": "development, not confirmatory",
+  "cell": {
+    "condition": "R1_learned_ff",
+    "dataset": "mquake",
+    "order": "0",
+    "realization": "tiny"
+  },
+  "checkpoints": [
+    1,
+    2
+  ],
+  "code_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "max_new": 4,
+  "mode": "stage4_development_cell",
+  "payload": {
+    "path": "/home/derp/cap/assets/runs/pc_cap/R1/stage4_dev_payloads/tiny-r11-ke_bubji/payload.json",
+    "sha256": "1116e5d8ef9863d192d178f6be9b56ff334bae43f5d91efb747313ec580a48fc"
+  },
+  "schema_version": 1,
+  "test_fixture": true
+}
