@@ -1,0 +1,136 @@
+{
+  "endpoint_missing": [],
+  "layout": {
+    "counterfact": {
+      "checkpoints": [
+        100,
+        300,
+        1000
+      ],
+      "demand_by_role": {
+        "edits": 3000,
+        "near_miss_neighbour": 300,
+        "near_miss_support": 300,
+        "outside": 300,
+        "revision": 150
+      },
+      "demand_per_realization": 1350,
+      "demand_subjects": 4050,
+      "realizations": [
+        0,
+        1,
+        2
+      ],
+      "roles_per_realization": {
+        "edits": 1000,
+        "near_miss_neighbour": 100,
+        "near_miss_support": 100,
+        "outside": 100,
+        "revision": 50
+      }
+    },
+    "mquake": {
+      "checkpoints": [
+        100,
+        300
+      ],
+      "demand_by_role": {
+        "edits": 900,
+        "near_miss_neighbour": 300,
+        "near_miss_support": 300,
+        "outside": 300,
+        "revision": 150
+      },
+      "demand_per_realization": 650,
+      "demand_subjects": 1950,
+      "realizations": [
+        0,
+        1,
+        2
+      ],
+      "roles_per_realization": {
+        "edits": 300,
+        "near_miss_neighbour": 100,
+        "near_miss_support": 100,
+        "outside": 100,
+        "revision": 50
+      }
+    },
+    "zsre": {
+      "checkpoints": [
+        100,
+        300,
+        1000
+      ],
+      "demand_by_role": {
+        "edits": 3000,
+        "near_miss_neighbour": 300,
+        "near_miss_support": 300,
+        "outside": 300,
+        "revision": 150
+      },
+      "demand_per_realization": 1350,
+      "demand_subjects": 4050,
+      "realizations": [
+        0,
+        1,
+        2
+      ],
+      "roles_per_realization": {
+        "edits": 1000,
+        "near_miss_neighbour": 100,
+        "near_miss_support": 100,
+        "outside": 100,
+        "revision": 50
+      }
+    }
+  },
+  "production_admission": false,
+  "public_producer_execution_and_authorization_checks": true,
+  "receipts": {
+    "clearance_authorization": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/clearance.authorization.json",
+      "sha256": "e48c7222ced367a07bc1cb3410c0e2df4446fd2476de653dfd2719dd82154684"
+    },
+    "draw_authorization": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/draw.authorization.json",
+      "sha256": "3960a32488730029cdf8a694426f7c35ba7751774638948ad437158297655c64"
+    },
+    "draw_receipt": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/draw.receipt.json",
+      "sha256": "6b7d06973d758d423aa383309b92f096880e14f2e2f8aac6035411dc7956e638"
+    },
+    "endpoint_construction": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/endpoints.receipt.json",
+      "sha256": "8922267d30d5cd0b1d1e7c0bccec26b276e4b5abf162f6862f72d864802de5b9"
+    },
+    "joint_clearance": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/clearance.receipt.json",
+      "sha256": "310810266f081d224ceda77256a0b5c6b817c1ce14d53142e25d96ea3995e6ef"
+    },
+    "protocol_admission": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/protocol_admission.json",
+      "sha256": "c7952348f94b2432bb7a11a9ee0f479a50710e21836d19ff239a090d8f67839f"
+    },
+    "rng_admission": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/rng_admission.json",
+      "sha256": "298db5cab88add65c78bb1b5af0c03feda5cd90b95cee206f4d5f9b43d9db510"
+    },
+    "seal_authorization": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/seal.authorization.json",
+      "sha256": "5a7ece09ee1185b4f943fbc407c0e52393a858260c01fb5ee4f81bf9647fcf2b"
+    },
+    "seal_receipt": {
+      "path": "/home/derp/cap/pc_cap/logs/r1_round24/rehearsal/016a25d1a2064750aeb1ea338e8e667e/docs/tasks/seal.receipt.json",
+      "sha256": "76d49ffb8f5e5c0ec4f5f0dcb9298d0d57c01e0943e166cf8959ca38af3a0627"
+    }
+  },
+  "source_loader_injected": true,
+  "stages": [
+    "clearance",
+    "draw",
+    "endpoint construction",
+    "seal"
+  ],
+  "synthetic": true
+}

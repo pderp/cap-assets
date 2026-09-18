@@ -1,0 +1,18 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "matrix.json",
+ "bytes": 68490293,
+ "sha256": "f131020dd132e815aca1c268b0456ff28fc370cb5ade94bf8469bd6c0e8669ad",
+ "parts": [
+  {
+   "path": "matrix.part-00.json",
+   "bytes": 41943040,
+   "sha256": "08766fdbbc5141710fd7745f2a0f6fda352076d0a5ac09ffba558250ed498dee"
+  },
+  {
+   "path": "matrix.part-01.json",
+   "bytes": 26547253,
+   "sha256": "5f72bdd8883cec053f8d1f69dec768e652404ba70127cc0195a74d9f795bc4f9"
+  }
+ ]
+}
