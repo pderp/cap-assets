@@ -1,0 +1,1 @@
+{"cell": {"condition": "R1_learned_ff", "dataset": "zsre", "realization": 0, "order": 100}, "manifest_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "status": "complete", "completed_checkpoint": 300, "last_receipt_sha256": "a1a278fc873464bd566fa72a6b0569aa39d343baa4b81670f9987e989db20f30"}
