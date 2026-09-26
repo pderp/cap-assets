@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#faf9f5"/>
+<style>text{font-family:Arial,sans-serif;fill:#18252e} .title{font-size:32px;font-weight:bold} .head{font-size:24px;font-weight:bold} .line{font-size:19px} .note{font-size:17px;fill:#465763}</style>
+<text x="48" y="60" class="title">From the active-inference programme to the testbed</text>
+<rect x="45" y="160" width="280" height="220" rx="16" fill="#e0ecef"/>
+<rect x="460" y="160" width="280" height="220" rx="16" fill="#e5eddd"/>
+<rect x="875" y="160" width="280" height="220" rx="16" fill="#f3e5d6"/>
+<text x="64" y="202" class="head">Environment / data</text>
+<text x="64" y="250" class="line">Supplied factual edits</text><text x="64" y="282" class="line">Queries and ordinary text</text><text x="64" y="336" class="note">Controlled streams and assays</text>
+<text x="479" y="202" class="head">Adaptive cap</text>
+<text x="479" y="250" class="line">Memory + reader/null gate</text><text x="479" y="282" class="line">Bounded residual writes</text><text x="479" y="336" class="note">Credit: adjoint or PC treatment</text>
+<text x="894" y="202" class="head">Frozen transformer</text>
+<text x="894" y="250" class="line">Predictions and features</text><text x="894" y="282" class="line">Base weights stay fixed</text><text x="894" y="336" class="note">A generative prior / substrate</text>
+<path d="M325 243 H450 M440 237 L450 243 L440 249 M460 304 H335 M345 298 L335 304 L345 310 M740 304 H865 M855 298 L865 304 L855 310 M875 243 H750 M760 237 L750 243 L760 249" stroke="#465763" stroke-width="3" fill="none"/>
+<text x="340" y="229" class="note">observations</text><text x="342" y="330" class="note">predictions</text>
+<text x="752" y="229" class="note">features</text><text x="753" y="330" class="note">writes</text>
+<rect x="45" y="430" width="1110" height="118" rx="12" fill="none" stroke="#617481" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="65" y="468" class="head">Proposed active-inference extension</text>
+<text x="65" y="503" class="line">Preferences + policy inference + information-seeking audits; coupled boundary/objective hypotheses</text>
+<text x="48" y="590" class="note">Interfaces are implemented. Expected-free-energy policy choice and blanket theorems are not established.</text></svg>

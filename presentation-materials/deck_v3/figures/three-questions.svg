@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="#faf9f5"/>
+<style>text{font-family:Arial,sans-serif;fill:#18252e} .title{font-size:32px;font-weight:bold} .head{font-size:24px;font-weight:bold} .line{font-size:19px} .note{font-size:17px;fill:#465763}</style>
+<text x="48" y="60" class="title">Active Inference in the Extremes</text>
+<text x="48" y="103" class="line">Three questions connect the programme to the experiments</text>
+<rect x="45" y="148" width="350" height="326" rx="16" fill="#e0ecef"/>
+<rect x="425" y="148" width="350" height="326" rx="16" fill="#e5eddd"/>
+<rect x="805" y="148" width="350" height="326" rx="16" fill="#f3e5d6"/>
+<text x="65" y="192" class="head">Active inference</text>
+<text x="65" y="246" class="line">What should the agent</text><text x="65" y="275" class="line">learn or do next?</text>
+<text x="65" y="338" class="line">Beliefs, preferences,</text><text x="65" y="367" class="line">outcomes and information</text>
+<text x="65" y="435" class="note">Programme and next mechanisms</text>
+<text x="445" y="192" class="head">Predictive coding</text>
+<text x="445" y="246" class="line">Can iterative error inference</text><text x="445" y="275" class="line">supply useful learning credit?</text>
+<text x="445" y="338" class="line">Corrected SE-E vs SE-A:</text><text x="445" y="367" class="line">efficacy, harm and cost</text>
+<text x="445" y="435" class="note">Paired experimental question</text>
+<text x="825" y="192" class="head">Heavy-tailed distributions</text>
+<text x="825" y="246" class="line">What can a mean conceal</text><text x="825" y="275" class="line">about rare consequences?</text>
+<text x="825" y="338" class="line">Exceedances, maxima,</text><text x="825" y="367" class="line">concentration and trade-offs</text>
+<text x="825" y="435" class="note">Measured distributional evidence</text>
+<text x="48" y="538" class="line">A small adaptive system on a frozen prior is our testbed.</text>
+<text x="48" y="577" class="note">Conceptual framing: observed concentration alone does not establish a heavy-tail family.</text></svg>
