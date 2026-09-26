@@ -1,0 +1,20 @@
+{
+  "report": {
+    "path": "/home/derp/cap/pc_cap/logs/additional_work/PC-v0/report/report.json",
+    "sha256": "df6bd66bef3f929b012ad2729e9d46d1bd1afe86c61ceb63d6a6bf40b8c26dc8"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/pc_v0/pending-20260926/efficacy-cost.png",
+      "sha256": "c0595cae29ec39d3a1e2f84eea5df60b295ac1279bfe6ee00b33c81dd4ef423f"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/pc_v0/pending-20260926/efficacy-cost.pdf",
+      "sha256": "02e9c385d2178a4628ab58b41ce0646a89a1131a470876b201a5c95722b3575e"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/pc_v0/pending-20260926/efficacy-cost.svg",
+      "sha256": "c268007638c1754c117809f6c06e06ed620d1ddd6016b0d61a6fbda50c2e5c27"
+    }
+  ]
+}

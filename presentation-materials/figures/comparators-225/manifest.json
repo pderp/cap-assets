@@ -1,0 +1,48 @@
+{
+  "source": {
+    "path": "/home/derp/cap/pc_cap/logs/R1/reports/comparators-225/report.json",
+    "sha256": "d19fe9ac34c315b43b38abf3b22aa4aea24e78042c3ee1dc2fd482c25893471f"
+  },
+  "producer": {
+    "path": "/home/derp/cap/pc_cap/aw/comparator_report.py",
+    "sha256": "b9a9bdb365a7dc1419061ae7502a825f3d72af3c15ede9767a33e81d23cbd73e"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/zsre-retention-harm.png",
+      "sha256": "2b20847f1c71fa3103a5d6e79c7b0bf905ad68f2cde23f0465eab9a00c74ebe8"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/zsre-retention-harm.pdf",
+      "sha256": "fa8e20d83511a9e8a602248006b109b8151999a09fb38a20c0a86efffee9da23"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/zsre-retention-harm.svg",
+      "sha256": "1be283b60f097feb1fc7da294d8652b1e9aaa220469bbf29b787d2d06a5d5eb0"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/counterfact-retention-harm.png",
+      "sha256": "05fdf276cc8a060f68c0930ed7f3a76970fe09a3298562dc828b2eb740266fb5"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/counterfact-retention-harm.pdf",
+      "sha256": "1d3cd5a9e05911d516e158b3b82490a24adbf119365cc7a2ee4621980edfab8e"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/counterfact-retention-harm.svg",
+      "sha256": "4ac82dd44ee46ef38eaf37d7708a8174fe11f69070292ecd596b22fa1fa8dd60"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/mquake-retention-harm.png",
+      "sha256": "7ccca594f8df9413a1f72aa26dcfc4612ccbeda753d5e5224f0abddd4c5541a3"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/mquake-retention-harm.pdf",
+      "sha256": "3aa2a697bec5269dc69aeda577cabfd4d3d4951b2a737df6ed0e06d5efc72e2b"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/comparators-225/mquake-retention-harm.svg",
+      "sha256": "fc0eb7684ad329fced0c68263e14830b804094873c16154a4dad77e603794879"
+    }
+  ]
+}

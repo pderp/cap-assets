@@ -3,7 +3,7 @@
 2026-09-26, Claude. Source: the saved per-position full-validation vectors of every completed cell
 (`results/R1/stage4_sealed_cells/*/attempt-0000/full-validation-*.npz`; 1,931 reset-context windows × 127 positions =
 245,237 positions per cell; the quantity is the per-token loss change of the cap against its own cap-off base, in nats).
-Generator: `aw/tail_figures.py` (pc_cap); data `figures/tails/tails.json`; table `figures/tails/table.md`. Read-only;
+Generator: `aw/tail_figures.py` (pc_cap, canonical) with a copy at `figures/tails/tail_figures.py`; data `figures/tails/tails.json`; table `figures/tails/table.md`; run with the system `python3` (matplotlib) from the pc_cap root: `python3 -m aw.tail_figures --out /home/derp/cap/assets/presentation-materials/figures/tails`. Read-only;
 descriptive; reruns after the halt to add the S1 cells. Coverage at this run: blocks 1–4 complete and 26 of the 45
 block-5 cells in scope (S1_LM zsRE 15/15, S1_LM CounterFact 11/15).
 
