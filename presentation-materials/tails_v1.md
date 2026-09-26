@@ -1,58 +1,79 @@
-# Distributional harm on ordinary text — all completed Stage-4 cells (HT-13, v1)
+# Rare severe ordinary-text harm — all receipted Stage-4 cells (HT-13, v1.1)
 
-2026-09-26, Claude. Source: the saved per-position full-validation vectors of every completed cell
-(`results/R1/stage4_sealed_cells/*/attempt-0000/full-validation-*.npz`; 1,931 reset-context windows × 127 positions =
-245,237 positions per cell; the quantity is the per-token loss change of the cap against its own cap-off base, in nats).
-Generator: `aw/tail_figures.py` (pc_cap, canonical) with a copy at `figures/tails/tail_figures.py`; data `figures/tails/tails.json`; table `figures/tails/table.md`; run with the system `python3` (matplotlib) from the pc_cap root: `python3 -m aw.tail_figures --out /home/derp/cap/assets/presentation-materials/figures/tails`. Read-only;
-descriptive; reruns after the halt to add the S1 cells. Coverage at this run: blocks 1–4 complete and 26 of the 45
-block-5 cells in scope (S1_LM zsRE 15/15, S1_LM CounterFact 11/15).
+2026-09-26, Capstan (Claude, orchestrator); v1.1 after Capex's review (`pc_cap/docs/tasks/HT-13-round46-review.md`).
+Source: the saved per-position full-validation vectors of every cell **with a queue finish receipt**
+(`results/R1/stage4_sealed_cells/*/attempt-0000/full-validation-*.npz`, filtered by `logs/R1/final_queue/*/finish.json`;
+1,931 reset-context windows × 127 positions = 245,237 positions per cell). The quantity is the per-token loss change of
+the cap against **its own cap-off base**, in nats. Generator: `aw/tail_figures.py` (pc_cap, canonical) with a copy at
+`figures/tails/tail_figures.py`; run from the pc_cap root with the system `python3` (matplotlib):
+`python3 -m aw.tail_figures --out /home/derp/cap/assets/presentation-materials/figures/tails`. Data
+`figures/tails/tails.json`; table `figures/tails/table.md`. Descriptive; reruns after the halt (R1-D14f).
+Coverage at this run: blocks 1–4 complete; block 5 in scope 37 of 45 (S1_LM zsRE 15, S1_LM CounterFact 15,
+S1_literal zsRE 7).
 
 ## Figures
 
-- `figures/tails/survival_by_dataset.png` — P(loss increase > x) on log–log axes, one panel per dataset, all cells of a
-  condition pooled (≈ 3.7 million positions per condition × dataset).
-- `figures/tails/rarity_vs_severity.png` — fraction of positions with a loss increase above 0.01 nats (how often the
-  cap disturbs ordinary text) against the maximum single-token loss increase (how badly), one point per condition ×
-  dataset.
+- `figures/tails/survival_by_dataset.png` — empirical P(loss increase > x) on log–log axes, one panel per dataset,
+  all receipted cells of a condition pooled. Zero survival is floored at 10⁻⁹ for display only; nothing beyond each
+  curve's maximum has nonzero probability in these data.
+- `figures/tails/rarity_vs_severity.png` — fraction of positions with a loss increase above 0.01 nats against the
+  maximum single-token loss increase, one point per condition × dataset.
+
+## Definitions
+
+- **ES99+**: the mean of the worst 1 % of positions (fractional boundary, zero mass included), i.e. an expected
+  shortfall, not a percentile. v1 of this page reported the 99th percentile under this name; that was wrong (a single
+  10-nat loss among 1,000 positions has percentile 0 and ES99 1.0) and is corrected here.
+- **Half of all harm sits in**: the smallest number of positions, taken in descending order, carrying half of the
+  total positive loss change.
+- The pool repeats the same 245,237 positions across five orders and three realizations: it is a mixture of cell ×
+  position observations, not millions of independent test items. Proportions are descriptive.
 
 ## What the pooled tails show
 
-| condition | dataset | P(> 0.01) | P(> 1 nat) | P(> 5) | max (nats) | half of all harm sits in |
-|---|---|---:|---:|---:|---:|---:|
-| learned reader (v5) | zsRE | 0.159 % | 0.080 % | 0.009 % | 11.1 | 1,024 positions (0.03 %) |
-| learned reader (v5) | CounterFact | 0.298 % | 0.165 % | 0.027 % | 15.4 | 1,900 (0.05 %) |
-| learned reader (v5) | MQuAKE | 0.313 % | 0.194 % | 0.023 % | 17.1 | 2,336 (0.06 %) |
-| random reader | zsRE | 0.027 % | 0.017 % | 0.001 % | 7.0 | 225 |
-| random reader | CounterFact | 2.05 % | 1.70 % | 0.52 % | 20.3 | 18,856 (0.5 %) |
-| stable v0 cap | zsRE | 0.104 % | 0.034 % | 0.009 % | 27.7 | 262 |
-| live v0 cap C1 | zsRE | 0.096 % | 0.046 % | 0.013 % | 27.7 | 497 |
-| live v0 cap C2 | zsRE | 0.019 % | 0.016 % | 0.015 % | 50.6 | 175 |
-| matched update | zsRE | 0.105 % | 0.034 % | 0.009 % | 33.8 | 280 |
-| continued base (LM) + stable cap | zsRE | 0.105 % | 0.034 % | 0.010 % | 27.6 | 266 |
-| every v0-family cap | CounterFact, MQuAKE | 0 | 0 | 0 | 0 | — (never fires on ordinary text) |
+| condition | dataset | cells | P(> 0.01) | P(> 1 nat) | P(> 5) | max (nats) | ES99+ | half of all harm sits in |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| learned reader (v5) | zsRE | 15 | 0.159 % | 0.080 % | 0.009 % | 11.1 | 0.26 | 1,024 positions (0.03 %) |
+| learned reader (v5) | CounterFact | 15 | 0.298 % | 0.165 % | 0.027 % | 15.4 | 0.57 | 1,900 (0.05 %) |
+| learned reader (v5) | MQuAKE | 15 | 0.313 % | 0.194 % | 0.023 % | 17.1 | 0.62 | 2,336 (0.06 %) |
+| random reader | zsRE | 15 | 0.027 % | 0.017 % | 0.001 % | 7.0 | 0.05 | 225 |
+| random reader | CounterFact | 15 | 2.05 % | 1.70 % | 0.52 % | 20.3 | 5.53 | 18,856 (0.5 %) |
+| random reader | MQuAKE | 15 | 0.409 % | 0.336 % | 0.069 % | 15.1 | 1.22 | 3,818 |
+| stable v0 cap | zsRE | 15 | 0.104 % | 0.034 % | 0.009 % | 27.7 | 0.18 | 262 |
+| live v0 cap C1 | zsRE | 15 | 0.096 % | 0.046 % | 0.013 % | 27.7 | 0.21 | 497 |
+| live v0 cap C2 | zsRE | 15 | 0.019 % | 0.016 % | 0.015 % | 50.6 | 0.32 | 175 |
+| matched update | zsRE | 15 | 0.105 % | 0.034 % | 0.009 % | 33.8 | 0.18 | 280 |
+| continued base (LM) + stable cap | zsRE | 15 | 0.105 % | 0.034 % | 0.010 % | 27.6 | 0.18 | 266 |
+| continued base (literal) + stable cap | zsRE | 7 | 0.112 % | 0.028 % | 0.008 % | 27.7 | 0.17 | 101 of 1.7 M |
+| every v0-family cap | CounterFact, MQuAKE | | 0 | 0 | 0 | 0 | 0 | never fires on ordinary text |
 
 Three statements the figures support, and their limits:
 
-1. **Harm is rare and concentrated for every condition that writes.** For the learned reader, between 0.16 % and
-   0.31 % of positions change by more than 0.01 nats, and half of all the harm sits in 0.03–0.06 % of positions. Mean
-   drift (0.002–0.007 nats) is a poor description of this: it is the average of a very small number of large losses.
-2. **The learned cap and the v0-family caps have qualitatively different tails.** The learned cap disturbs more
-   positions but its worst tokens are 11–17 nats; the v0-family caps (stable, live C1/C2, matched update, continued
-   base) disturb fewer positions on zsRE but their worst tokens reach 28–51 nats. Live C2 is the extreme case:
-   almost every position it disturbs at all is disturbed by more than 5 nats. "Rarer but heavier" versus "more
-   frequent but milder" is the trade-off the survival curves show; the mean cannot distinguish them.
-3. **On CounterFact and MQuAKE the v0-family caps never fire on ordinary text** (calibration radius 0: exact-prompt
-   matching only), so their harm is exactly zero there, while their paraphrase retention is also zero. A cap that
-   never generalises never harms; the interesting region is where retention and harm are both nonzero.
+1. **Harm is rare and concentrated for every condition that writes.** For the learned reader, 0.16–0.31 % of positions
+   change by more than 0.01 nats and half of all the harm sits in 0.03–0.06 % of positions. Mean drift (0.002–0.007
+   nats) is the average of a very small number of large losses; ES99+ of 0.26–0.62 nats says what the worst 1 % of
+   positions cost on average.
+2. **The learned cap and the v0-family caps differ in the shape of the tail, not in mean drift.** The learned cap
+   disturbs more positions but its worst tokens are 11–17 nats; the v0-family caps disturb fewer positions on zsRE and
+   their worst tokens reach 28–51 nats. Live C2 is the extreme: almost every position it disturbs at all loses more
+   than 5 nats. "Rarer but heavier" versus "more frequent but milder" is what the survival curves show and the mean
+   cannot.
+3. **On CounterFact and MQuAKE the v0-family caps never fire on ordinary text** (exact-prompt matching only), so their
+   harm against their own cap-off base is exactly zero there, while their paraphrase retention is also zero.
 
-What this does not establish: a power law or any asymptotic tail class (the survival curves are empirical over a finite
-population and the losses are bounded by the vocabulary), independence of positions (windows share text), robustness
-to unobserved inputs, or anything about temporal clustering. The κ pilot (DEC-054) and the bounded-correction
-experiment (AW-B, if run) address whether the tail can be shaped; this page only measures it.
+Reference caveat: these curves compare each cap with **its own** cap-off base. For the continued-base controls (S1)
+that base is the continued checkpoint, not the original model, so a zero or small curve does not measure the total
+departure from the original GPT-2; the saved vectors also hold the original-base reference (fields 2 and 4) and a
+second view can be produced from them.
+
+What this does not establish: a heavy-tailed distribution class, a power law or any asymptotic tail (the curves are
+empirical over a finite population and losses are bounded by the vocabulary); independence of positions; robustness
+to unobserved inputs; temporal clustering. The κ pilot (DEC-054) and the bounded-correction experiment (if run) ask
+whether the tail can be shaped; this page only measures it.
 
 ## For the deck
 
-Suggested placement under the heavy-tailed-distributions theme: the survival figure as the "why the mean misleads"
-slide; the rarity-versus-severity figure as the comparator slide, with the sentence that the registered comparators
-differ from the learned cap in the shape of the tail, not in mean drift. Numbers above are the current pooled values;
-the generator reruns after the halt and the table is replaced, not edited.
+Under the heavy-tailed-distributions theme: the survival figure as the "why the mean misleads" slide (outline slide
+6), the rarity-versus-severity figure as the comparator slide (slide 7), with the sentence that the registered
+comparators differ from the learned cap in the shape of the tail, not in mean drift. The generator reruns after the
+halt and this table is replaced, not edited.
