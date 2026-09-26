@@ -38,3 +38,4 @@ runs/pc_cap/R1/r1_d9_v14/clearance/cleared-candidates.json
 runs/pc_cap/R1/operator-operator_v10/endpoints/independent_population.json
 runs/pc_cap/R1/r1_63o/v15/d9/clearance/cleared-candidates.json
 runs/pc_cap/R1/r1_63o/v15/d9/seal/analysis-population.json
+*.snapshot
