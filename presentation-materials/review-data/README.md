@@ -44,7 +44,9 @@ heavy-tailed distributions.
    sealed on 18 September and run by a receipted queue with a 750 process-hour cap. The queue was **halted by decision
    at 270 cells** on 26 September (`decisions.md` DEC-074/074b) to free the GPU for the predictive-coding question;
    what was not run is listed with reasons in `pc_cap/logs/R1/reports/comparators-270/unavailable.csv`.
-3. **Results that exist** (all descriptive until the registered inference is read; three realizations give wide
+3. **Results that exist** (assembled in one document: `pc_cap/docs/R1_stage4_report.md`; the receipt chain of every
+   cell was audited independently, X22 for block 1 and X23 for cells 136–270, both PASS; full 270-cell spend 392.4
+   process-hours of the 750 cap) (all descriptive until the registered inference is read; three realizations give wide
    intervals by design, DEC-069):
    - The learned reader keeps paraphrased edits far better than the controls: mean final paraphrase retention 0.960
      on zsRE, 0.678 on CounterFact, 0.716 on MQuAKE (300 edits), recurring in every realization; three of the four
