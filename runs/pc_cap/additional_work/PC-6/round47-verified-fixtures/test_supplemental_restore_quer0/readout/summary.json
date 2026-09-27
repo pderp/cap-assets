@@ -1,0 +1,138 @@
+{
+  "summary": {
+    "capoff": {
+      "loss": {
+        "positions": 6,
+        "mean_signed": 0.04793938299829185,
+        "mean_positive": 0.04793938299829185,
+        "es99_positive": 0.11103483091874367,
+        "maximum_signed": 0.11103483091874367,
+        "maximum_positive": 0.11103483091874367,
+        "maximum_location": "w0:p3",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 2,
+        "half_mass_fraction": 0.3333333333333333,
+        "positive_mass": 0.2876362979897511,
+        "exceedance": {
+          "0.01": {
+            "count": 6,
+            "fraction": 1.0
+          },
+          "0.1": {
+            "count": 1,
+            "fraction": 0.16666666666666666
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      },
+      "kl": {
+        "positions": 6,
+        "mean_signed": 0.0027340639695497496,
+        "mean_positive": 0.0027340639695497496,
+        "es99_positive": 0.0038004654149619496,
+        "maximum_signed": 0.0038004654149619496,
+        "maximum_positive": 0.0038004654149619496,
+        "maximum_location": "w1:p2",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 3,
+        "half_mass_fraction": 0.5,
+        "positive_mass": 0.016404383817298498,
+        "exceedance": {
+          "0.01": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "0.1": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      }
+    },
+    "original": {
+      "loss": {
+        "positions": 6,
+        "mean_signed": 0.04793938299829185,
+        "mean_positive": 0.04793938299829185,
+        "es99_positive": 0.11103483091874367,
+        "maximum_signed": 0.11103483091874367,
+        "maximum_positive": 0.11103483091874367,
+        "maximum_location": "w0:p3",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 2,
+        "half_mass_fraction": 0.3333333333333333,
+        "positive_mass": 0.2876362979897511,
+        "exceedance": {
+          "0.01": {
+            "count": 6,
+            "fraction": 1.0
+          },
+          "0.1": {
+            "count": 1,
+            "fraction": 0.16666666666666666
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      },
+      "kl": {
+        "positions": 6,
+        "mean_signed": 0.0027340639695497496,
+        "mean_positive": 0.0027340639695497496,
+        "es99_positive": 0.0038004654149619496,
+        "maximum_signed": 0.0038004654149619496,
+        "maximum_positive": 0.0038004654149619496,
+        "maximum_location": "w1:p2",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 3,
+        "half_mass_fraction": 0.5,
+        "positive_mass": 0.016404383817298498,
+        "exceedance": {
+          "0.01": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "0.1": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      }
+    }
+  },
+  "selection": {
+    "mode": "cpu_fixture",
+    "positions": 6,
+    "windows_sha256": "65727c94df72c088340377335e826e9861c67c3b121bd32a7e389465955f7110"
+  },
+  "fields": [
+    "loss_cap",
+    "loss_capoff",
+    "loss_original",
+    "kl_capoff_to_cap",
+    "kl_original_to_cap"
+  ],
+  "vectors": {
+    "path": "/home/derp/cap/assets/runs/pc_cap/additional_work/PC-6/round47-verified-fixtures/test_supplemental_restore_quer0/readout/vectors.npz",
+    "sha256": "c2df36f4fc1eac3193790634ac58bb09dd269f2f11f516b1c80411028eace873"
+  },
+  "state_sha256": "95d7a964bfa1fafd4fad8f0af6b7a99504e45b25c7d2f970ae29f436472e5a8d",
+  "base_sha256": "e08435c622b74af1047891f1f1bb21a260e28278430aa847e22c4dae43158032"
+}

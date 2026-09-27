@@ -1,0 +1,41 @@
+{
+  "status": "failed",
+  "cost_scope": "harm readout only; separate from acquisition/replication",
+  "selection": {
+    "positions": 2,
+    "windows_sha256": "abaaf24ddffbd9294d727a06a4b940d4270bbd2890eaa66e6ba2702bf334b77e"
+  },
+  "state_before": "57b9667d2c53bc266deef9ded6bcaaac4a39b9181874cd2a8cc41131e0a17988",
+  "base_before": "e08435c622b74af1047891f1f1bb21a260e28278430aa847e22c4dae43158032",
+  "error": "RuntimeError: simulated batch interruption",
+  "positions_completed": 0,
+  "elapsed_process_seconds": 0.0005380619550123811,
+  "query_costs": {
+    "already_reported": {
+      "phase": "query",
+      "model": "already_reported",
+      "batches": 1,
+      "failed_batches": 0,
+      "returned_cost": {
+        "full_forwards": 1,
+        "tokens": 4,
+        "phase": "query"
+      }
+    },
+    "failed_work_not_already_reported": {
+      "phase": "query",
+      "model": "failed_work_not_already_reported",
+      "batches": 1,
+      "failed_batches": 1,
+      "returned_cost": {
+        "full_forwards": 1,
+        "partial_forwards": 0,
+        "reverses": 0,
+        "tokens": 4,
+        "wall_seconds": 0,
+        "accel_seconds": 0,
+        "phase": "query"
+      }
+    }
+  }
+}

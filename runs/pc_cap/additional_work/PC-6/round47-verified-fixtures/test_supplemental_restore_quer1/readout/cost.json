@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "cost_scope": "harm readout only; separate from acquisition/replication",
+  "selection": {
+    "mode": "cpu_fixture",
+    "positions": 6,
+    "windows_sha256": "65727c94df72c088340377335e826e9861c67c3b121bd32a7e389465955f7110"
+  },
+  "state_before": "4b1eaaa7b8ea7781cf73f9f85f9d4c1c47454788045eaa2528f151164bce11b7",
+  "base_before": "e08435c622b74af1047891f1f1bb21a260e28278430aa847e22c4dae43158032",
+  "positions_completed": 6,
+  "elapsed_process_seconds": 0.0077181069646030664,
+  "query_costs": {
+    "shared_capoff_selection": {
+      "phase": "query",
+      "model": "shared_capoff_selection",
+      "batches": 3,
+      "failed_batches": 0,
+      "returned_cost": {
+        "full_forwards": 6,
+        "partial_forwards": 0,
+        "reverses": 0,
+        "settle_iters": 0,
+        "prefix_microsteps": 0,
+        "router_probes": 0,
+        "search_candidates": 0,
+        "memory_search_seconds": 0.0,
+        "wall_seconds": 0.0013019050238654017,
+        "accel_seconds": 0.0013019050238654017,
+        "peak_mem_mib": 0,
+        "tokens": 12,
+        "phase": "query"
+      }
+    },
+    "cap_corrected_batch": {
+      "phase": "query",
+      "model": "cap_corrected_batch",
+      "batches": 3,
+      "failed_batches": 0,
+      "returned_cost": {
+        "full_forwards": 0,
+        "partial_forwards": 6,
+        "reverses": 0,
+        "settle_iters": 0,
+        "prefix_microsteps": 0,
+        "router_probes": 0,
+        "search_candidates": 0,
+        "memory_search_seconds": 0.0,
+        "wall_seconds": 0.000765026081353426,
+        "accel_seconds": 0.000765026081353426,
+        "peak_mem_mib": 0,
+        "tokens": 12,
+        "phase": "query"
+      }
+    }
+  }
+}
