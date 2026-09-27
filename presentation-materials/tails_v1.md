@@ -1,4 +1,4 @@
-# Rare severe ordinary-text harm — all receipted Stage-4 cells (HT-13, v1.1)
+# Rare severe ordinary-text harm — all receipted Stage-4 cells (HT-13, v1.2)
 
 2026-09-26, Capstan (Claude, orchestrator); v1.1 after Capex's review (`pc_cap/docs/tasks/HT-13-round46-review.md`).
 Source: the saved per-position full-validation vectors of every cell **with a queue finish receipt**
@@ -8,8 +8,9 @@ the cap against **its own cap-off base**, in nats. Generator: `aw/tail_figures.p
 `figures/tails/tail_figures.py`; run from the pc_cap root with the system `python3` (matplotlib):
 `python3 -m aw.tail_figures --out /home/derp/cap/assets/presentation-materials/figures/tails`. Data
 `figures/tails/tails.json`; table `figures/tails/table.md`. Descriptive; reruns after the halt (R1-D14f).
-Coverage at this run: blocks 1–4 complete; block 5 in scope 37 of 45 (S1_LM zsRE 15, S1_LM CounterFact 15,
-S1_literal zsRE 7).
+Coverage at this run (v1.2, post-halt refresh 2026-09-27): the reconciled 270-cell state — blocks 1–4 complete and
+the 45 block-5 cells in scope (S1_LM zsRE and CounterFact, S1_literal zsRE), i.e. every receipted cell of the halted
+queue. `figures/tails/table.md` is the authoritative table; the one below is transcribed from it.
 
 ## Figures
 
@@ -44,7 +45,7 @@ S1_literal zsRE 7).
 | live v0 cap C2 | zsRE | 15 | 0.019 % | 0.016 % | 0.015 % | 50.6 | 0.32 | 175 |
 | matched update | zsRE | 15 | 0.105 % | 0.034 % | 0.009 % | 33.8 | 0.18 | 280 |
 | continued base (LM) + stable cap | zsRE | 15 | 0.105 % | 0.034 % | 0.010 % | 27.6 | 0.18 | 266 |
-| continued base (literal) + stable cap | zsRE | 7 | 0.112 % | 0.028 % | 0.008 % | 27.7 | 0.17 | 101 of 1.7 M |
+| continued base (literal) + stable cap | zsRE | 15 | 0.104 % | 0.034 % | 0.009 % | 27.7 | 0.18 | 263 |
 | every v0-family cap | CounterFact, MQuAKE | | 0 | 0 | 0 | 0 | 0 | never fires on ordinary text |
 
 Three statements the figures support, and their limits:
