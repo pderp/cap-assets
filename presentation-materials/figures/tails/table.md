@@ -8,7 +8,7 @@
 | random reader | zsre | 15 | 0.029 % | 0.0266 % | 0.0173 % | 0.0010 % | 7.00 | 0.048 | 225 of 3678555 |
 | continued base (LM) + stable cap | counterfact | 15 | 0.000 % | 0.0000 % | 0.0000 % | 0.0000 % | 0.00 | 0.000 | 0 of 3678555 |
 | continued base (LM) + stable cap | zsre | 15 | 0.172 % | 0.1049 % | 0.0335 % | 0.0096 % | 27.61 | 0.181 | 266 of 3678555 |
-| continued base (literal) + stable cap | zsre | 7 | 0.187 % | 0.1120 % | 0.0284 % | 0.0080 % | 27.69 | 0.165 | 101 of 1716659 |
+| continued base (literal) + stable cap | zsre | 15 | 0.171 % | 0.1041 % | 0.0337 % | 0.0094 % | 27.69 | 0.179 | 263 of 3678555 |
 | matched update | counterfact | 15 | 0.000 % | 0.0000 % | 0.0000 % | 0.0000 % | 0.00 | 0.000 | 0 of 3678555 |
 | matched update | zsre | 15 | 0.169 % | 0.1053 % | 0.0338 % | 0.0092 % | 33.77 | 0.177 | 280 of 3678555 |
 | live v0 cap C1 | counterfact | 15 | 0.000 % | 0.0000 % | 0.0000 % | 0.0000 % | 0.00 | 0.000 | 0 of 3678555 |
