@@ -53,22 +53,36 @@ Three statements the figures support, and their limits:
    change by more than 0.01 nats and half of all the harm sits in 0.03–0.06 % of positions. Mean drift (0.002–0.007
    nats) is the average of a very small number of large losses; ES99+ of 0.26–0.62 nats says what the worst 1 % of
    positions cost on average.
-2. **The learned cap and the v0-family caps differ in the shape of the tail, not in mean drift.** The learned cap
-   disturbs more positions but its worst tokens are 11–17 nats; the v0-family caps disturb fewer positions on zsRE and
-   their worst tokens reach 28–51 nats. Live C2 is the extreme: almost every position it disturbs at all loses more
-   than 5 nats. "Rarer but heavier" versus "more frequent but milder" is what the survival curves show and the mean
-   cannot.
-3. **On CounterFact and MQuAKE the v0-family caps never fire on ordinary text** (exact-prompt matching only), so their
-   harm against their own cap-off base is exactly zero there, while their paraphrase retention is also zero.
+2. **Small means conceal differences in frequency, severity and concentration between the learned cap and the
+   v0-family caps.** The learned cap disturbs more positions but its worst tokens are 11–17 nats; the v0-family caps
+   disturb fewer positions on zsRE and their worst tokens reach 28–51 nats. Live C2 is the extreme: almost every
+   position it disturbs at all loses more than 5 nats. "Rarer but heavier" versus "more frequent but milder" is what
+   the survival curves show; the means differ too, and no equivalence between them was tested.
+3. **On CounterFact and MQuAKE the saved ordinary-text loss differences of the observed v0-family groups are exactly
+   zero** (their calibration matches exact prompts only), while their paraphrase retention is also zero. This is a
+   statement about the saved target-token losses of those groups; whether the cap "never fired" is a mechanistic claim
+   that would need the selection traces, and unrun groups (S1_literal CounterFact) are not included.
+
+The cell-level analysis (HT-15, Capex; `figures/tails/tail_spread.md`, `cell_tails.csv`) adds the spread hidden by
+pooling. Each cell uses the same 245,237 positions; its fractional ES99+ is computed first, then the five stream
+orders are averaged within each realization. For the learned reader the three realization means are 0.259, 0.266 and
+0.254 nats on zsRE; 0.610, 0.480 and 0.622 on CounterFact; and 0.731, 0.710 and 0.421 on MQuAKE (300 edits): ranges
+0.254–0.266, 0.480–0.622 and 0.421–0.731. Live C2 on zsRE has 0.243, 0.346 and 0.375: its average exceeds the learned
+reader's, but realization 0 has the opposite ordering. These are descriptive three-realization ranges, not confidence
+intervals or a superiority test. Mean per-cell half-mass counts are 68.7 positions for the learned reader and 12.5 for
+live C2 on zsRE; they have a per-cell denominator and differ from the pooled counts above. Mean cell ES99+ and pooled
+ES99+ are different estimands that happen to coincide for the learned-reader groups; their equality does not make
+positions independent. The S1_literal zsRE snapshot had seven cells (5 / 2 / 0 by realization) at that run; no
+three-realization range is reported for it until the post-halt refresh.
 
 Reference caveat: these curves compare each cap with **its own** cap-off base. For the continued-base controls (S1)
 that base is the continued checkpoint, not the original model, so a zero or small curve does not measure the total
 departure from the original GPT-2; the saved vectors also hold the original-base reference (fields 2 and 4) and a
 second view can be produced from them.
 
-What this does not establish: a heavy-tailed distribution class, a power law or any asymptotic tail (the curves are
-empirical over a finite population and losses are bounded by the vocabulary); independence of positions; robustness
-to unobserved inputs; temporal clustering. The κ pilot (DEC-054) and the bounded-correction experiment (if run) ask
+What this does not establish: a heavy-tailed distribution class, a power law or any asymptotic tail (finite
+empirical data do not establish an asymptotic tail class; a token's loss −log p is not bounded by the vocabulary
+size); independence of positions; robustness to unobserved inputs; temporal clustering. The κ pilot (DEC-054) and the bounded-correction experiment (if run) ask
 whether the tail can be shaped; this page only measures it.
 
 ## For the deck
