@@ -1,0 +1,86 @@
+{
+  "population": "cpu_smoke",
+  "item_ids": [
+    "item-0",
+    "item-1"
+  ],
+  "endpoints_sha256": "96895ea155af547de2328672607993d59661f9a5e0283eaa9493a4e63e1821c5",
+  "initial_state": "ab9a1eb5a06f66685b94bff2d6d8258422d03f561c08b25538aed4bed77344af",
+  "initial_inference_state": "ab9a1eb5a06f66685b94bff2d6d8258422d03f561c08b25538aed4bed77344af",
+  "base_sha256": "e08435c622b74af1047891f1f1bb21a260e28278430aa847e22c4dae43158032",
+  "reader_sha256": "945328f2c776b91dcd3615bcb75dfa1b1269c589f334dd3b342f8ed656060981",
+  "max_new": 2,
+  "semantic_config": {
+    "base": "e08435c622b74af1047891f1f1bb21a260e28278430aa847e22c4dae43158032",
+    "binary_mass": true,
+    "cache_prompt_pass": true,
+    "ceiling_bytes": 67108864,
+    "controller": {
+      "A": 0.3,
+      "bank_scales": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "d": 16,
+      "d_code": 6,
+      "delta_replaces_controller": true,
+      "hidden": 8,
+      "n_banks": 3,
+      "width": 8
+    },
+    "encoder_version": 1,
+    "fast": {
+      "code_norm_max": null,
+      "delta_lr": 0.1,
+      "delta_steps": 1,
+      "improvement_abs": 1e-08,
+      "lr": 0.01,
+      "steps": 0,
+      "tau": 0.1
+    },
+    "hard_top1": true,
+    "min_score": null,
+    "null_threshold": 1.01,
+    "rare_df_max": 2,
+    "rare_overlap_min": null,
+    "reader": {
+      "cosine": true,
+      "d": 16,
+      "d_code": 6,
+      "hidden": 8,
+      "lex_idf": false,
+      "lexical": true,
+      "null_bias": 0.0,
+      "pairwise_null": true,
+      "query_null": true,
+      "score_scale": 10.0,
+      "stop_tokens": [],
+      "taps": [
+        1,
+        2,
+        3
+      ],
+      "temperature": 1.0,
+      "tie_heads": true,
+      "top_k": 2,
+      "width": 8
+    },
+    "single_site": false
+  },
+  "checkpoints": [
+    2
+  ],
+  "determinism": {
+    "xla_flags": "--xla_gpu_deterministic_ops=true --xla_gpu_autotune_level=0",
+    "omp_num_threads": "2",
+    "jax_default_matmul_precision": "highest",
+    "jax_enable_x64": false,
+    "jax_threefry_partitionable": false,
+    "jax_version": "0.11.1",
+    "backend": "cpu",
+    "devices": [
+      "cpu:0"
+    ]
+  }
+}

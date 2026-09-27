@@ -1,6 +1,6 @@
 # HT-15 — cell tails and realization spread
 
-Snapshot: 2026-09-26T23:20:29.456477+00:00; 262 successfully finished cells. CPU analysis of saved vectors.
+Snapshot: 2026-09-27T10:52:47.607550+00:00; 270 successfully finished cells. CPU analysis of saved vectors.
 
 Reference: each cap's own cap-off base. S1 base-continuation effects are outside this contrast. Each cell has 245,237 repeated ordinary-text positions; they are not independent replicates. ES99+ is the fractional average over the worst 1% of positive-part losses, zeros retained. Ranges below are descriptive ranges of three realization means, not confidence intervals. Within each realization five dependent stream orders are averaged. Incomplete groups have no full range. Zero positive mass leaves half-mass concentration undefined. Cell CSV includes maximum locations; all indices are zero-based, and target_token_offset starts at 1 because the first token supplies context.
 
@@ -62,13 +62,13 @@ Reference: each cap's own cap-off base. S1 base-continuation effects are outside
 | S1_LM | zsre | 15 | exceed_1 | 0.000335458 | 0.000247923 (5) | 0.00034905 (5) | 0.0004094 (5) | 0.000247923 to 0.0004094 |
 | S1_LM | zsre | 15 | exceed_5 | 9.59616e-05 | 5.79032e-05 (5) | 0.000127224 (5) | 0.000102758 (5) | 5.79032e-05 to 0.000127224 |
 | S1_LM | zsre | 15 | half_mass_positions | 19.4 | 15 (5) | 19.8 (5) | 23.4 (5) | 15 to 23.4 |
-| S1_literal | zsre | 7 | mean_signed | 0.0013972 | 0.00108576 (5) | 0.0021758 (2) | undefined / incomplete (0) | — |
-| S1_literal | zsre | 7 | es99_positive | 0.165132 | 0.132983 (5) | 0.245505 (2) | undefined / incomplete (0) | — |
-| S1_literal | zsre | 7 | maximum | 26.7776 | 26.951 (5) | 26.3442 (2) | undefined / incomplete (0) | — |
-| S1_literal | zsre | 7 | exceed_0.01 | 0.00111962 | 0.00100393 (5) | 0.00140884 (2) | undefined / incomplete (0) | — |
-| S1_literal | zsre | 7 | exceed_1 | 0.000283691 | 0.000251186 (5) | 0.000364953 (2) | undefined / incomplete (0) | — |
-| S1_literal | zsre | 7 | exceed_5 | 8.03887e-05 | 5.70876e-05 (5) | 0.000138641 (2) | undefined / incomplete (0) | — |
-| S1_literal | zsre | 7 | half_mass_positions | 16.8571 | 15.2 (5) | 21 (2) | undefined / incomplete (0) | — |
+| S1_literal | zsre | 15 | mean_signed | 0.00154643 | 0.00108576 (5) | 0.00189067 (5) | 0.00166286 (5) | 0.00108576 to 0.00189067 |
+| S1_literal | zsre | 15 | es99_positive | 0.179436 | 0.132983 (5) | 0.21308 (5) | 0.192244 (5) | 0.132983 to 0.21308 |
+| S1_literal | zsre | 15 | maximum | 25.3237 | 26.951 (5) | 26.3442 (5) | 22.6758 (5) | 22.6758 to 26.951 |
+| S1_literal | zsre | 15 | exceed_0.01 | 0.0010409 | 0.00100393 (5) | 0.0011336 (5) | 0.000985169 (5) | 0.000985169 to 0.0011336 |
+| S1_literal | zsre | 15 | exceed_1 | 0.000337089 | 0.000251186 (5) | 0.000351497 (5) | 0.000408584 (5) | 0.000251186 to 0.000408584 |
+| S1_literal | zsre | 15 | exceed_5 | 9.40587e-05 | 5.70876e-05 (5) | 0.000123962 (5) | 0.000101127 (5) | 5.70876e-05 to 0.000123962 |
+| S1_literal | zsre | 15 | half_mass_positions | 19.1333 | 15.2 (5) | 19.4 (5) | 22.8 (5) | 15.2 to 22.8 |
 | matched_update | counterfact | 15 | mean_signed | 0 | 0 (5) | 0 (5) | 0 (5) | 0 to 0 |
 | matched_update | counterfact | 15 | es99_positive | 0 | 0 (5) | 0 (5) | 0 (5) | 0 to 0 |
 | matched_update | counterfact | 15 | maximum | 0 | 0 (5) | 0 (5) | 0 (5) | 0 to 0 |

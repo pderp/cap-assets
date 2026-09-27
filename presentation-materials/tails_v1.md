@@ -45,7 +45,7 @@ queue. `figures/tails/table.md` is the authoritative table; the one below is tra
 | live v0 cap C2 | zsRE | 15 | 0.019 % | 0.016 % | 0.015 % | 50.6 | 0.32 | 175 |
 | matched update | zsRE | 15 | 0.105 % | 0.034 % | 0.009 % | 33.8 | 0.18 | 280 |
 | continued base (LM) + stable cap | zsRE | 15 | 0.105 % | 0.034 % | 0.010 % | 27.6 | 0.18 | 266 |
-| continued base (literal) + stable cap | zsRE | 15 | 0.104 % | 0.034 % | 0.009 % | 27.7 | 0.18 | 263 |
+| continued base (literal) + stable cap | zsRE | 15 | 0.104 % | 0.034 % | 0.009 % | 27.7 | 0.18 | 263 of 3,678,555 |
 | every v0-family cap | CounterFact, MQuAKE | | 0 | 0 | 0 | 0 | 0 | never fires on ordinary text |
 
 Three statements the figures support, and their limits:
@@ -73,8 +73,12 @@ reader's, but realization 0 has the opposite ordering. These are descriptive thr
 intervals or a superiority test. Mean per-cell half-mass counts are 68.7 positions for the learned reader and 12.5 for
 live C2 on zsRE; they have a per-cell denominator and differ from the pooled counts above. Mean cell ES99+ and pooled
 ES99+ are different estimands that happen to coincide for the learned-reader groups; their equality does not make
-positions independent. The S1_literal zsRE snapshot had seven cells (5 / 2 / 0 by realization) at that run; no
-three-realization range is reported for it until the post-halt refresh.
+positions independent. After the reconciled halt, S1_literal zsRE has all fifteen cells (5 / 5 / 5). Its
+realization ES99+ means are 0.133, 0.213 and 0.192 nats, range 0.133–0.213; the equal-weight cell mean is 0.179
+(previously 0.165 across seven cells). The mean cell maximum is 25.324 nats, with realization means ranging
+22.676–26.951; this is distinct from the pooled maximum of 27.688 nats. Mean per-cell half-mass count is 19.13
+positions (realization means 15.2, 19.4, 22.8). The eight added cells are all S1_literal zsRE; every previously
+reported cell is unchanged. Canonical refresh and change record: `pc_cap/logs/additional_work/round48/HT-15b-270/`.
 
 Reference caveat: these curves compare each cap with **its own** cap-off base. For the continued-base controls (S1)
 that base is the continued checkpoint, not the original model, so a zero or small curve does not measure the total
@@ -90,5 +94,5 @@ whether the tail can be shaped; this page only measures it.
 
 Under the heavy-tailed-distributions theme: the survival figure as the "why the mean misleads" slide (outline slide
 6), the rarity-versus-severity figure as the comparator slide (slide 7), with the sentence that the registered
-comparators differ from the learned cap in the shape of the tail, not in mean drift. The generator reruns after the
-halt and this table is replaced, not edited.
+comparators have small mean changes but different frequency, severity and concentration. The current table and
+HT-15b spread use the reconciled 270-cell state.

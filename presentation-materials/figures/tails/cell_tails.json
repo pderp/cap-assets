@@ -2,7 +2,7 @@
   "schema_version": 1,
   "task": "HT-15",
   "gpu_seconds": 0,
-  "created_utc": "2026-09-26T23:20:29.456477+00:00",
+  "created_utc": "2026-09-27T10:52:47.607550+00:00",
   "cells": [
     {
       "condition": "R1_learned_ff",
@@ -755,6 +755,56 @@
       "exceed_5": 0.0
     },
     {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 102,
+      "realization": 1,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-102-580ca7dc1537df5cb3bd/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/0f466b21fb4514acd9d1ff1e-d8be035a09114f4bb9b4ab7f9441132d/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-102-580ca7dc1537df5cb3bd/attempt-0000/full-validation-1000.npz",
+        "sha256": "9376b60113c23a88e883109c5943d14f0488ecbd5b3bb48fdeb1288a8638267e",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6170201,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0020763225638381236,
+      "es99_positive": 0.2359057372799034,
+      "maximum": 26.34424909745804,
+      "maximum_location": {
+        "flat_index": 67696,
+        "window_index": 533,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 24,
+      "half_mass_fraction": 9.7864514734726e-05,
+      "positive_mass": 578.5281529331172,
+      "exceed_0.01_count": 274,
+      "exceed_0.01": 0.0011172865432214551,
+      "exceed_1_count": 99,
+      "exceed_1": 0.00040369112328074474,
+      "exceed_5_count": 41,
+      "exceed_5": 0.00016718521267182357
+    },
+    {
       "condition": "v0_stable",
       "dataset": "zsre",
       "order": 103,
@@ -1103,6 +1153,56 @@
       "exceed_1": 0.0014557346566790492,
       "exceed_5_count": 51,
       "exceed_5": 0.00020796209381129276
+    },
+    {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 103,
+      "realization": 1,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-103-2705bac2822c05e55d67/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/151bacf1f85b74f88864784e-8737af6fa78744b0bfc8cdcb3065c4ee/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-103-2705bac2822c05e55d67/attempt-0000/full-validation-1000.npz",
+        "sha256": "625f54dd87b117e3cfd49eb7c68989bab98636a9ea898541c41eba2fcebe6623",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6168177,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0015707458857295983,
+      "es99_positive": 0.17311666794321076,
+      "maximum": 26.34424909745804,
+      "maximum_location": {
+        "flat_index": 67696,
+        "window_index": 533,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 15,
+      "half_mass_fraction": 6.116532170920375e-05,
+      "positive_mass": 424.5461229638921,
+      "exceed_0.01_count": 205,
+      "exceed_0.01": 0.0008359260633591179,
+      "exceed_1_count": 79,
+      "exceed_1": 0.0003221373610018064,
+      "exceed_5_count": 23,
+      "exceed_5": 9.378682662077908e-05
     },
     {
       "condition": "matched_update",
@@ -2503,6 +2603,56 @@
       "exceed_1": 0.0,
       "exceed_5_count": 0,
       "exceed_5": 0.0
+    },
+    {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 104,
+      "realization": 1,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-104-8683c5477fd92172d367/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/330479ee3f94e169b8496e0b-391244c8a973494db7ed32d13aadc99e/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-104-8683c5477fd92172d367/attempt-0000/full-validation-1000.npz",
+        "sha256": "3c839f311e8dcddf624125d3317ef3176e4dc7cec21f8b2d2295b3330d8ce782",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6168637,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.001454687995268253,
+      "es99_positive": 0.16536597342283532,
+      "maximum": 26.34424909745804,
+      "maximum_location": {
+        "flat_index": 67696,
+        "window_index": 533,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 16,
+      "half_mass_fraction": 6.524300982315066e-05,
+      "positive_mass": 405.53855224295893,
+      "exceed_0.01_count": 220,
+      "exceed_0.01": 0.0008970913850683217,
+      "exceed_1_count": 74,
+      "exceed_1": 0.0003017489204320718,
+      "exceed_5_count": 20,
+      "exceed_5": 8.155376227893833e-05
     },
     {
       "condition": "v0_live_C2",
@@ -4955,6 +5105,56 @@
       "exceed_5": 0.00020796209381129276
     },
     {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 104,
+      "realization": 2,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-104-38b34a8267b08a6124a8/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/6885c03ed3db8fb41a5e20dd-dd413353fe8d488491a8f36451acfcc6/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-104-38b34a8267b08a6124a8/attempt-0000/full-validation-1000.npz",
+        "sha256": "1b6bde1a0f09241bf76079ea6a58757c1954d98d31e3d124c4882686d730ce4f",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6168733,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0015276954365856727,
+      "es99_positive": 0.1778928932601947,
+      "maximum": 23.50881121261694,
+      "maximum_location": {
+        "flat_index": 220350,
+        "window_index": 1735,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 18,
+      "half_mass_fraction": 7.33983860510445e-05,
+      "positive_mass": 436.2591946445041,
+      "exceed_0.01_count": 212,
+      "exceed_0.01": 0.0008644698801567463,
+      "exceed_1_count": 90,
+      "exceed_1": 0.0003669919302552225,
+      "exceed_5_count": 21,
+      "exceed_5": 8.563145039288525e-05
+    },
+    {
       "condition": "v0_live_C2",
       "dataset": "zsre",
       "order": 101,
@@ -5503,6 +5703,56 @@
       "exceed_1": 0.0,
       "exceed_5_count": 0,
       "exceed_5": 0.0
+    },
+    {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 102,
+      "realization": 2,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-102-03b4ef294573bdebdcb7/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/70aacd394ef41b887377260a-0bb616f5caa647d083d0c5d3c23a1f8d/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-102-03b4ef294573bdebdcb7/attempt-0000/full-validation-1000.npz",
+        "sha256": "4b7dee1fa6b77e7d176f80e0bd84dc3e336b7a1f3bd12f7ca68f6dd30ba3a801",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6168832,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0014108592769638227,
+      "es99_positive": 0.16696636107888718,
+      "maximum": 23.50881121261694,
+      "maximum_location": {
+        "flat_index": 220350,
+        "window_index": 1735,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 22,
+      "half_mass_fraction": 8.970913850683216e-05,
+      "positive_mass": 409.463294919031,
+      "exceed_0.01_count": 225,
+      "exceed_0.01": 0.0009174798256380562,
+      "exceed_1_count": 95,
+      "exceed_1": 0.0003873803708249571,
+      "exceed_5_count": 21,
+      "exceed_5": 8.563145039288525e-05
     },
     {
       "condition": "R1_learned_ff",
@@ -9155,6 +9405,56 @@
       "exceed_5": 0.00025689435117865573
     },
     {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 103,
+      "realization": 2,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-103-d0a4bd493724a6925299/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/b3f4ad21a596171a9a43e0aa-0cdf8f88fe674a1ab26ed8bc629adbd5/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-103-d0a4bd493724a6925299/attempt-0000/full-validation-1000.npz",
+        "sha256": "56b83faa9a04aa5177268eead99ab906a868b3f2a34f20fff0c4df5905c193ee",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6168708,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0018410319072526072,
+      "es99_positive": 0.20750198621230342,
+      "maximum": 23.50881121261694,
+      "maximum_location": {
+        "flat_index": 220350,
+        "window_index": 1735,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 22,
+      "half_mass_fraction": 8.970913850683216e-05,
+      "positive_mass": 508.87164592746694,
+      "exceed_0.01_count": 236,
+      "exceed_0.01": 0.0009623343948914723,
+      "exceed_1_count": 94,
+      "exceed_1": 0.00038330268271101014,
+      "exceed_5_count": 29,
+      "exceed_5": 0.00011825295530446058
+    },
+    {
       "condition": "v0_live_C1",
       "dataset": "zsre",
       "order": 102,
@@ -9953,6 +10253,56 @@
       "exceed_1": 0.0,
       "exceed_5_count": 0,
       "exceed_5": 0.0
+    },
+    {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 101,
+      "realization": 2,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-101-47735134735b81ee33e0/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/bf89e6ad180b60ad56c35a7e-b66f1a3074504d77b7b14daa5b1a0e9b/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-101-47735134735b81ee33e0/attempt-0000/full-validation-1000.npz",
+        "sha256": "3eda3575cbdf01131119bab4b42e3fb02e400ebd6b02e68a4cc25efc29db9bb3",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6169447,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0017529888484682683,
+      "es99_positive": 0.20371572674386673,
+      "maximum": 23.50881121261694,
+      "maximum_location": {
+        "flat_index": 220350,
+        "window_index": 1735,
+        "target_column": 5,
+        "target_token_offset": 6
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 26,
+      "half_mass_fraction": 0.00010601989096261983,
+      "positive_mass": 499.586336794857,
+      "exceed_0.01_count": 278,
+      "exceed_0.01": 0.0011335972956772427,
+      "exceed_1_count": 110,
+      "exceed_1": 0.00044854569253416083,
+      "exceed_5_count": 24,
+      "exceed_5": 9.7864514734726e-05
     },
     {
       "condition": "R1_nonlearned",
@@ -11903,6 +12253,56 @@
       "exceed_1": 0.0,
       "exceed_5_count": 0,
       "exceed_5": 0.0
+    },
+    {
+      "condition": "S1_literal",
+      "dataset": "zsre",
+      "order": 100,
+      "realization": 2,
+      "checkpoint": 1000,
+      "reference": "own_capoff",
+      "attempt": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-100-ca467c252738fb71461a/attempt-0000",
+      "finish_receipt": "/home/derp/cap/pc_cap/logs/R1/final_queue/e4019672011694d495923c6f-cb543ab40e584fcbb7bab1cbcf7dc1c4/finish.json",
+      "vector": {
+        "dtype": "float64",
+        "fields": [
+          "loss_cap",
+          "loss_capoff",
+          "loss_original",
+          "kl_capoff_to_cap",
+          "kl_original_to_cap"
+        ],
+        "order": "window,target_position,field",
+        "path": "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-100-ca467c252738fb71461a/attempt-0000/full-validation-1000.npz",
+        "sha256": "b6746dfb5cea52b049b9594a92fe4c6fe1e3643446260e2d763ff15380920f0f",
+        "shape": [
+          1931,
+          127,
+          5
+        ],
+        "storage_bytes": 6169229,
+        "uncompressed_bytes": 9809480
+      },
+      "positions": 245237,
+      "mean_signed": 0.0017817334962662381,
+      "es99_positive": 0.2051423555002489,
+      "maximum": 19.343604892268853,
+      "maximum_location": {
+        "flat_index": 113302,
+        "window_index": 892,
+        "target_column": 18,
+        "target_token_offset": 19
+      },
+      "maximum_ties": 1,
+      "half_mass_positions": 26,
+      "half_mass_fraction": 0.00010601989096261983,
+      "positive_mass": 503.0849583581458,
+      "exceed_0.01_count": 257,
+      "exceed_0.01": 0.0010479658452843576,
+      "exceed_1_count": 112,
+      "exceed_1": 0.00045670106876205465,
+      "exceed_5_count": 29,
+      "exceed_5": 0.00011825295530446058
     },
     {
       "condition": "v0_stable",
@@ -13858,17 +14258,17 @@
     "S1_literal|zsre": {
       "condition": "S1_literal",
       "dataset": "zsre",
-      "cells": 7,
+      "cells": 15,
       "expected_cells": 15,
-      "complete": false,
+      "complete": true,
       "observed_cell_means": {
-        "mean_signed": 0.0013971991990215933,
-        "es99_positive": 0.16513239849696978,
-        "maximum": 26.777613337387294,
-        "exceed_0.01": 0.0011196166507151395,
-        "exceed_1": 0.0002836905873560212,
-        "exceed_5": 8.038870853209635e-05,
-        "half_mass_positions": 16.857142857142858
+        "mean_signed": 0.001546430653568249,
+        "es99_positive": 0.17943563272801594,
+        "maximum": 25.323659359788117,
+        "exceed_0.01": 0.0010408978525535163,
+        "exceed_1": 0.0003370888840862784,
+        "exceed_5": 9.405867249504221e-05,
+        "half_mass_positions": 19.133333333333333
       },
       "realization_means": [
         {
@@ -13888,43 +14288,64 @@
         },
         {
           "realization": 1,
-          "cells": 2,
+          "cells": 5,
           "expected_cells": 5,
-          "complete": false,
+          "complete": true,
           "means": {
-            "mean_signed": 0.002175803954302271,
-            "es99_positive": 0.24550476090733467,
+            "mean_signed": 0.0018906728706881034,
+            "es99_positive": 0.21307958009212377,
             "maximum": 26.34424909745804,
-            "exceed_0.01": 0.0014088412433686597,
-            "exceed_1": 0.00036495308619824906,
-            "exceed_5": 0.00013864139587419516,
-            "half_mass_positions": 21.0
+            "exceed_0.01": 0.0011335972956772427,
+            "exceed_1": 0.00035149671542222414,
+            "exceed_5": 0.00012396171866398625,
+            "half_mass_positions": 19.4
           }
         },
         {
           "realization": 2,
-          "cells": 0,
+          "cells": 5,
           "expected_cells": 5,
-          "complete": false,
+          "complete": true,
           "means": {
-            "mean_signed": null,
-            "es99_positive": null,
-            "maximum": null,
-            "exceed_0.01": null,
-            "exceed_1": null,
-            "exceed_5": null,
-            "half_mass_positions": null
+            "mean_signed": 0.001662861793107322,
+            "es99_positive": 0.1922438645591002,
+            "maximum": 22.675769948547323,
+            "exceed_0.01": 0.000985169448329575,
+            "exceed_1": 0.000408584349017481,
+            "exceed_5": 0.00010112666522588353,
+            "half_mass_positions": 22.8
           }
         }
       ],
       "full_realization_range": {
-        "mean_signed": null,
-        "es99_positive": null,
-        "maximum": null,
-        "exceed_0.01": null,
-        "exceed_1": null,
-        "exceed_5": null,
-        "half_mass_positions": null
+        "mean_signed": [
+          0.0010857572969093221,
+          0.0018906728706881034
+        ],
+        "es99_positive": [
+          0.13298345353282387,
+          0.21307958009212377
+        ],
+        "maximum": [
+          22.675769948547323,
+          26.95095903335899
+        ],
+        "exceed_0.01": [
+          0.000985169448329575,
+          0.0011335972956772427
+        ],
+        "exceed_1": [
+          0.0002511855878191301,
+          0.000408584349017481
+        ],
+        "exceed_5": [
+          5.708763359525684e-05,
+          0.00012396171866398625
+        ],
+        "half_mass_positions": [
+          15.2,
+          22.8
+        ]
       },
       "zero_positive_mass_cells": 0
     },
@@ -14858,6 +15279,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-counterfact-2-102-e6ac0f2092fcb62df79c/attempt-0000/checkpoint-1000.receipt.json": "7d6abff120802c58504f7ab9a76c4078616369e4a81293ee0a946ee89471c87d",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-counterfact-2-102-e6ac0f2092fcb62df79c/attempt-0000/checkpoint-1000.json": "80ede52efbd665b3f88a688cd6730d465517611e8e7c60f3dbba54ec8ffd9e52",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-counterfact-2-102-e6ac0f2092fcb62df79c/attempt-0000/full-validation-1000.npz": "930bec5e74802bb89fdc624f3aa07920852952c409063639ef36b8918d386b53",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/0f466b21fb4514acd9d1ff1e-d8be035a09114f4bb9b4ab7f9441132d/finish.json": "8e66c24e33b53e0dbf092da918c9e010321663296199aec8997ed7b96638b0b3",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/0f466b21fb4514acd9d1ff1e.json": "00901dd69c0440422b3d02880045de12dc6fc0228acd6e81e58f0eb36db73e81",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-102-580ca7dc1537df5cb3bd/attempt-0000/result.json": "e0135e9f02ae80e6a4b160f5f9d6b6a5270dc338f33bfe7d3a7dde1094a3632f",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-102-580ca7dc1537df5cb3bd/attempt-0000/checkpoint-1000.receipt.json": "a8d74a71132284b1f0b71cd6dc6c2d4e05624bdca9a2f80eb8ad2aa791b441ca",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-102-580ca7dc1537df5cb3bd/attempt-0000/checkpoint-1000.json": "824e8528d08bebaf4a76c86d47fcf8580907976696c9da48baa471bec633648b",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-102-580ca7dc1537df5cb3bd/attempt-0000/full-validation-1000.npz": "9376b60113c23a88e883109c5943d14f0488ecbd5b3bb48fdeb1288a8638267e",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/0ff8a61a760d6836f469629b-174a65a1081446c0b61fe5addfcaeb18/finish.json": "4895731b4fa89b137d921c3b9e67578d692f4ef28d02a36cca29ab5e13b36e42",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/0ff8a61a760d6836f469629b.json": "e9f6c49814538a88b78bb2839b07dea47083bb27f7879a156a4003bc43a48060",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_stable-zsre-1-103-54a08436fa4e1e169531/attempt-0000/result.json": "6c4a677c6481712dfbb709a3945fff161f65a60b3b56e55578aee58cc78ae21a",
@@ -14900,6 +15327,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-1-101-0021b4c3ec1497675b5a/attempt-0000/checkpoint-1000.receipt.json": "4d0c0d38c0ff47fb168b29058adecae477b6bc4fc9c84622fff4d54e07766363",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-1-101-0021b4c3ec1497675b5a/attempt-0000/checkpoint-1000.json": "33371ddcdb148739f1a715d3d64f7ab1a2aa0fe02710c5cddff2f4b0a24c1be1",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-1-101-0021b4c3ec1497675b5a/attempt-0000/full-validation-1000.npz": "8c677ba6a85fd52ec4a5b48ed50f3d84831807e7910b28cdfbc4751e8823b309",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/151bacf1f85b74f88864784e-8737af6fa78744b0bfc8cdcb3065c4ee/finish.json": "80b6b72fef08c617953ecb80d3301486a4bc7740e8af9d36806e419bc69d8b98",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/151bacf1f85b74f88864784e.json": "b9ae35332863f00b987c2eca526d7cdaaee1d2442fac0d287a70869985284572",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-103-2705bac2822c05e55d67/attempt-0000/result.json": "e94f84e3b0f9e8388b9e1ca147d8febbe24e36861277704b82d0b9cebd672548",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-103-2705bac2822c05e55d67/attempt-0000/checkpoint-1000.receipt.json": "876d31d99f06eafe6877212aeda5a8770b5f141e453f57380fa8d07e85dcb0ef",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-103-2705bac2822c05e55d67/attempt-0000/checkpoint-1000.json": "57451880bfdc46ae1a916f0b09621e658c0bd6fc628cdb423ffdf73b49af7f99",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-103-2705bac2822c05e55d67/attempt-0000/full-validation-1000.npz": "625f54dd87b117e3cfd49eb7c68989bab98636a9ea898541c41eba2fcebe6623",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/16037ce355e4a2e9a43a2008-61afbeece4104d87b505a6a060d3cdc6/finish.json": "78c11931637061769641885afb37e76dd09473ce2345911ced8fbdba266b6c9d",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/16037ce355e4a2e9a43a2008.json": "201ddde853117ec2c685b7555139cb6ae9867b4a38e59079a321ffdb147c19a1",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/matched_update-zsre-2-103-cb0e356b434b7ca62caa/attempt-0000/result.json": "1f1d4d47448e101c0fa5bccce81929d6ff89f32b15584c55b441e949f762e1ca",
@@ -15068,6 +15501,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C1-counterfact-0-102-ff42c7bcd67acce1824c/attempt-0000/checkpoint-1000.receipt.json": "68e1d611223e55cfc870cd159818579a439781dbf3aca24a2a96ba35f5839849",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C1-counterfact-0-102-ff42c7bcd67acce1824c/attempt-0000/checkpoint-1000.json": "39c6c5b65bb83f4166b0d4cb02631dbc67e32542c9148b465570d8e1a9bc160f",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C1-counterfact-0-102-ff42c7bcd67acce1824c/attempt-0000/full-validation-1000.npz": "930bec5e74802bb89fdc624f3aa07920852952c409063639ef36b8918d386b53",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/330479ee3f94e169b8496e0b-391244c8a973494db7ed32d13aadc99e/finish.json": "e9780f4d5ff79e7ae084faaad81a7e7fc418ac8afc4a288ab45ab708cd88e21f",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/330479ee3f94e169b8496e0b.json": "1d4223fd79e83d7fd57f9c1928812ec9195ac56bbd6bb36c612f5a50b3ecc92c",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-104-8683c5477fd92172d367/attempt-0000/result.json": "5cded1e543f2af4c4b2834240c4678ef5ed09dcb0d6c097f638b52c3dbe9fd11",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-104-8683c5477fd92172d367/attempt-0000/checkpoint-1000.receipt.json": "813208e9eb02cd6ddf0b50ba56edda7138284deedd222ffff0727a57d4cf0e08",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-104-8683c5477fd92172d367/attempt-0000/checkpoint-1000.json": "13735f102aaed0f7f97c9a560efdfcd08ec71b19bbc9a12a858ca46ef2e7dd9a",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-1-104-8683c5477fd92172d367/attempt-0000/full-validation-1000.npz": "3c839f311e8dcddf624125d3317ef3176e4dc7cec21f8b2d2295b3330d8ce782",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/3435ab1a884c517b32867161-10ccc8eaf6454e3197a47e8ceadcaa60/finish.json": "179c42e7736a7bc2c4fe802268a273571db0cc0fa04b9ec2189a1e358345f61d",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/3435ab1a884c517b32867161.json": "e79369f7902858c68f7a71a814f68b9ea21499f75fa29f1b82dd08974cfe3a6c",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-zsre-2-102-8744a1610a1b555e8693/attempt-0000/result.json": "44b2b62e95918a5978e9922700298dc4f25392176bc56bc618a5166f8bc62c7a",
@@ -15362,6 +15801,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-1-103-6d34f8f99141cde7cd37/attempt-0000/checkpoint-1000.receipt.json": "69776340d8d8196a1b6d9fe541f64e09eec1e1498e91a24f6d75a3aadeaf8c26",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-1-103-6d34f8f99141cde7cd37/attempt-0000/checkpoint-1000.json": "3b1d73254900a251164bcab7fdd70cc80a9a6242515a9a30b7cd1e52e444b5c4",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-1-103-6d34f8f99141cde7cd37/attempt-0000/full-validation-1000.npz": "8c677ba6a85fd52ec4a5b48ed50f3d84831807e7910b28cdfbc4751e8823b309",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/6885c03ed3db8fb41a5e20dd-dd413353fe8d488491a8f36451acfcc6/finish.json": "cd0c8bca732a4d2a3a69df8e6ce5315225c4960446b3db6af5f693351de7f717",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/6885c03ed3db8fb41a5e20dd.json": "ed62fbc7f74444b8e731266b36ff61725505ca9bf7c3243d71aa25ac155f78c6",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-104-38b34a8267b08a6124a8/attempt-0000/result.json": "52da32e4e0a36140112fdce139b6dd6b589002b0c72e1f3eb7fecbd64063f39a",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-104-38b34a8267b08a6124a8/attempt-0000/checkpoint-1000.receipt.json": "ada587c27f4f6e1249fa4222bd1ac2e21201f211bb8221037cff041a40c03636",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-104-38b34a8267b08a6124a8/attempt-0000/checkpoint-1000.json": "aa05808f53064cb45104da953f1749255c12e5379dabde4d80c5be6887494934",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-104-38b34a8267b08a6124a8/attempt-0000/full-validation-1000.npz": "1b6bde1a0f09241bf76079ea6a58757c1954d98d31e3d124c4882686d730ce4f",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/68da09e4a00f4fe8d8b054fd-336a335bcfbf48a490fdfb8c21b6acce/finish.json": "1f1800dd0d66b0151c48a4432f61689c90b4f3bddff551530823c48e878b5c7f",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/68da09e4a00f4fe8d8b054fd.json": "cf212d40dbca6edf5c9e8224f4e2578e4d8081a126621542fc77ec4667932f49",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-zsre-0-101-2c4c14cac59480d48828/attempt-0000/result.json": "9fda2bdaf3f8f9df5b54e03c2c53adb855dd8854544eb99a99a1c532e1d031c1",
@@ -15428,6 +15873,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-counterfact-2-103-bfd71b8c992dae659417/attempt-0000/checkpoint-1000.receipt.json": "df1431082ed56849d3b7ba7179a7b0470832b6e39e418bc5dcc33bb9d4e39081",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-counterfact-2-103-bfd71b8c992dae659417/attempt-0000/checkpoint-1000.json": "56318688f2c631fe5110db6c4b29775a0b89cb91a6b5500d8c8b29aafac30ba5",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C2-counterfact-2-103-bfd71b8c992dae659417/attempt-0000/full-validation-1000.npz": "930bec5e74802bb89fdc624f3aa07920852952c409063639ef36b8918d386b53",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/70aacd394ef41b887377260a-0bb616f5caa647d083d0c5d3c23a1f8d/finish.json": "04eeffcc59cb3649b7facf71f7146181cb23489b9673a08aaa70c6f81c138644",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/70aacd394ef41b887377260a.json": "702885b3cc318579ef1e91d0f4ddb619467f69541c4c0bb813948c39695860f8",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-102-03b4ef294573bdebdcb7/attempt-0000/result.json": "5349bd83f03069d6825c3438ab3be44f54d615259619e95a3e76356e52529585",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-102-03b4ef294573bdebdcb7/attempt-0000/checkpoint-1000.receipt.json": "12c26a164b271165c8553840a0b569392db271a7cfb0b8712ce821c4fdb5c3aa",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-102-03b4ef294573bdebdcb7/attempt-0000/checkpoint-1000.json": "30f20b2698378c58249b146cca4674274172141662663fb2ebb8a07a3705f91f",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-102-03b4ef294573bdebdcb7/attempt-0000/full-validation-1000.npz": "4b7dee1fa6b77e7d176f80e0bd84dc3e336b7a1f3bd12f7ca68f6dd30ba3a801",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/7197775fb7f97a465fd3310e-cd18119ceef447eeb8f14eb2bca0bb44/finish.json": "7a9d2839351a44fed30eeb78f196b4bcd35e1ac7cdde3073108dd4a1ef004979",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/7197775fb7f97a465fd3310e.json": "f1316f3e4af8fbc8cc7aaefef42ac8f4559b0a1d8216a6f13e8534ca24f878d1",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-counterfact-2-103-abb64ccc62faa709a52f/attempt-0000/result.json": "3fc0c59f216de8b14de87ae521ea5a2c60c474c01621d0f75f012c8231598317",
@@ -15866,6 +16317,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-mquake-0-104-449a8e369e1f96147c33/attempt-0000/checkpoint-300.receipt.json": "e42bd69171fc4cbfe652b02c4fee00e2cc2565706a4efdf4ac5d9bc78fb0f5ef",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-mquake-0-104-449a8e369e1f96147c33/attempt-0000/checkpoint-300.json": "d02bae7089045faa574c3c3535038dd81c02b26bf5df8a9c974213029a224a64",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_learned_ff-mquake-0-104-449a8e369e1f96147c33/attempt-0000/full-validation-300.npz": "22a53958f88dbc770f590c23ef786eaf4b835f30e3280af20bb53006bf672797",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/b3f4ad21a596171a9a43e0aa-0cdf8f88fe674a1ab26ed8bc629adbd5/finish.json": "3fae42025899b5e2b46800702823f4132b4574081ceb8a70c9e71bd622299786",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/b3f4ad21a596171a9a43e0aa.json": "8667cdfbc87ecbae6d5e6297b6eebacc907c230c027836c14ba7988113ee0d86",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-103-d0a4bd493724a6925299/attempt-0000/result.json": "2901bb499e1434b9fdc00fc782a8186ac9b6af0ded1ef82b7399b43b32e54849",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-103-d0a4bd493724a6925299/attempt-0000/checkpoint-1000.receipt.json": "3dcb1c0cdf4d3d66281b4bf74a9137f48b4e1a51d3920215674e098e1e7256a8",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-103-d0a4bd493724a6925299/attempt-0000/checkpoint-1000.json": "500f38268ce450b46d61a283883aa1e1f390e0249e31cb868105c244279b3219",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-103-d0a4bd493724a6925299/attempt-0000/full-validation-1000.npz": "56b83faa9a04aa5177268eead99ab906a868b3f2a34f20fff0c4df5905c193ee",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/b42dfb1e539cb4645127e844-10474aca1f804c85b23b6cd8e48fa1bd/finish.json": "d1cd8b6d13d34880af58cae07339d30db036011ee46d47ed482585f74901a600",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/b42dfb1e539cb4645127e844.json": "5f57ecfc99a5e3cf04f09ca1fc15af060c106cbc2c8a9b33ffe0b7da12d3341f",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_live_C1-zsre-2-102-71e4786d707216fd3316/attempt-0000/result.json": "c7f8f0f402bbc7471937c7d834012ecb6d54aa3ef7c07b46ab74e0ec21a79dba",
@@ -15962,6 +16419,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_LM-counterfact-2-102-08ac4c587f525a0ce401/attempt-0000/checkpoint-1000.receipt.json": "fcb967d0b5c7e272f78b9b35d983006fe3a712beeb8f6358176449a1b6b5f8a9",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_LM-counterfact-2-102-08ac4c587f525a0ce401/attempt-0000/checkpoint-1000.json": "2725d5cd9304bc5d777f0a46859fa7b15034bc01621e1c9f4027086d1fdbc917",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_LM-counterfact-2-102-08ac4c587f525a0ce401/attempt-0000/full-validation-1000.npz": "a38484bc90bb2148feea6ee114fbfbe368351d7a64260af8722066b1a22b098d",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/bf89e6ad180b60ad56c35a7e-b66f1a3074504d77b7b14daa5b1a0e9b/finish.json": "fbf04bd7347ce28853911fa45a434789ef39814826c47e450f3186639f8fd56c",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/bf89e6ad180b60ad56c35a7e.json": "0738d48576376364301bf7ba6ec8c7b366625d758c9b02b3f1153d1c55b02bf8",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-101-47735134735b81ee33e0/attempt-0000/result.json": "c5e0e3e49fc5334391c41f90363a271d8ecb5cef3e0adc38a0993d05b86eb88a",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-101-47735134735b81ee33e0/attempt-0000/checkpoint-1000.receipt.json": "10993bcc26b8d6bb0b2e841b30625ef526f64783890c65b64d6df38747307e0c",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-101-47735134735b81ee33e0/attempt-0000/checkpoint-1000.json": "9af54781f4646b60e90a1511fa7f192bbd3312e610e1186c3f8c83dc8735fad0",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-101-47735134735b81ee33e0/attempt-0000/full-validation-1000.npz": "3eda3575cbdf01131119bab4b42e3fb02e400ebd6b02e68a4cc25efc29db9bb3",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/c0a54c5fbf1ce7776efc983e-c2a3e7308f5c4bddaf5fd411404bcad9/finish.json": "0268892bfd7419058d0dfbf979f22ef40dd99925bd3a193263788482ce279891",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/c0a54c5fbf1ce7776efc983e.json": "9ddda4941e279cf685739dc368aab9cc5b10793f6ab9e0e3bb0787789c66154c",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/R1_nonlearned-mquake-0-103-f8533f2c29240890fc89/attempt-0000/result.json": "24470330d04a31db46953c39e1c1f380fce72f7144b681e818ea32391b4af762",
@@ -16196,6 +16659,12 @@
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_stable-mquake-1-101-30f9af1194ffbd6a9ed9/attempt-0000/checkpoint-300.receipt.json": "108106325f12b64b3caec032e3e3787467e9780064b6b65777db21c7b26a3741",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_stable-mquake-1-101-30f9af1194ffbd6a9ed9/attempt-0000/checkpoint-300.json": "83054faa80c6290dcd57143c0a42fd3dd35b2a10163cbb8f0d336a66dd26d78d",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_stable-mquake-1-101-30f9af1194ffbd6a9ed9/attempt-0000/full-validation-300.npz": "930bec5e74802bb89fdc624f3aa07920852952c409063639ef36b8918d386b53",
+    "/home/derp/cap/pc_cap/logs/R1/final_queue/e4019672011694d495923c6f-cb543ab40e584fcbb7bab1cbcf7dc1c4/finish.json": "762bbad9da8930b5c4c2305c5a033a5d9c0b5e08ecc0319e84f4bbbcb947a437",
+    "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/e4019672011694d495923c6f.json": "44332e245c697980e369fb4f72c80521ed9723f699be13f5a994e067541ed77e",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-100-ca467c252738fb71461a/attempt-0000/result.json": "798fedf5df07dc3251c5d4fbd0b37986c80b1d8e5c10a4b763a1b9b29b93f31b",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-100-ca467c252738fb71461a/attempt-0000/checkpoint-1000.receipt.json": "e1ebfd5d496c3eac0edb732c870f4ac389d3f5667c15907b005212ada15a1942",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-100-ca467c252738fb71461a/attempt-0000/checkpoint-1000.json": "b1e8ec7ea097767c3274d69e5ef0092aa6bfb260f8a0018555c9251327165d93",
+    "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/S1_literal-zsre-2-100-ca467c252738fb71461a/attempt-0000/full-validation-1000.npz": "b6746dfb5cea52b049b9594a92fe4c6fe1e3643446260e2d763ff15380920f0f",
     "/home/derp/cap/pc_cap/logs/R1/final_queue/e42cd6f9b5b86feb491512f6-cc8c727777ca447bb5a5550418d93b19/finish.json": "0af643d5c9dcafc753906b7caa8f0f4f0e82a52a264b1112be680b5cf6cd03ba",
     "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/e42cd6f9b5b86feb491512f6.json": "3edff928c99e483dddeb9a28c6f0b827ea0dbb7ec97d3e594bd5d54fb8ae74ee",
     "/home/derp/cap/pc_cap/results/R1/stage4_sealed_cells/v0_stable-counterfact-1-102-dbd68108593a7cb60fab/attempt-0000/result.json": "b5e197f709d74e087ec6c45ae656afbeb38d547d87652d2ceb9ef3392597c027",
@@ -16360,5 +16829,5 @@
     }
   },
   "excluded": [],
-  "finish_receipts_seen": 262
+  "finish_receipts_seen": 270
 }

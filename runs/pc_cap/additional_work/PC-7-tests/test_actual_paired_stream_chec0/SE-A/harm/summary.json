@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "capoff": {
+      "loss": {
+        "positions": 2,
+        "mean_signed": 0.006587326885869271,
+        "mean_positive": 0.02941858992135371,
+        "es99_positive": 0.05883717984270742,
+        "maximum_signed": 0.05883717984270742,
+        "maximum_positive": 0.05883717984270742,
+        "maximum_location": "w0:p2",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 1,
+        "half_mass_fraction": 0.5,
+        "positive_mass": 0.05883717984270742,
+        "exceedance": {
+          "0.01": {
+            "count": 1,
+            "fraction": 0.5
+          },
+          "0.1": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      },
+      "kl": {
+        "positions": 2,
+        "mean_signed": 0.00040742708350486614,
+        "mean_positive": 0.00040742708350486614,
+        "es99_positive": 0.00041032369365110935,
+        "maximum_signed": 0.0004103236936511094,
+        "maximum_positive": 0.0004103236936511094,
+        "maximum_location": "w0:p1",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 1,
+        "half_mass_fraction": 0.5,
+        "positive_mass": 0.0008148541670097323,
+        "exceedance": {
+          "0.01": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "0.1": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      }
+    },
+    "original": {
+      "loss": {
+        "positions": 2,
+        "mean_signed": 0.006587326885869271,
+        "mean_positive": 0.02941858992135371,
+        "es99_positive": 0.05883717984270742,
+        "maximum_signed": 0.05883717984270742,
+        "maximum_positive": 0.05883717984270742,
+        "maximum_location": "w0:p2",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 1,
+        "half_mass_fraction": 0.5,
+        "positive_mass": 0.05883717984270742,
+        "exceedance": {
+          "0.01": {
+            "count": 1,
+            "fraction": 0.5
+          },
+          "0.1": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      },
+      "kl": {
+        "positions": 2,
+        "mean_signed": 0.00040742708350486614,
+        "mean_positive": 0.00040742708350486614,
+        "es99_positive": 0.00041032369365110935,
+        "maximum_signed": 0.0004103236936511094,
+        "maximum_positive": 0.0004103236936511094,
+        "maximum_location": "w0:p1",
+        "maximum_ties": 1,
+        "tie_policy": "first in window/target order",
+        "half_mass_positions": 1,
+        "half_mass_fraction": 0.5,
+        "positive_mass": 0.0008148541670097323,
+        "exceedance": {
+          "0.01": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "0.1": {
+            "count": 0,
+            "fraction": 0.0
+          },
+          "1.0": {
+            "count": 0,
+            "fraction": 0.0
+          }
+        }
+      }
+    }
+  },
+  "selection": {
+    "positions": 2,
+    "windows_sha256": "abaaf24ddffbd9294d727a06a4b940d4270bbd2890eaa66e6ba2702bf334b77e"
+  },
+  "fields": [
+    "loss_cap",
+    "loss_capoff",
+    "loss_original",
+    "kl_capoff_to_cap",
+    "kl_original_to_cap"
+  ],
+  "vectors": {
+    "path": "/home/derp/cap/assets/runs/pc_cap/additional_work/PC-7-tests/test_actual_paired_stream_chec0/SE-A/harm/vectors.npz",
+    "sha256": "3a7d6d475b8aef573bb2e0428a98a72d266e0119b15f803efdb5613a560fdc5b"
+  },
+  "state_sha256": "e51aeba338b9874f3b0aca8c2183b5c16c2290ef83941ab529cd0da06e3054ea",
+  "base_sha256": "e08435c622b74af1047891f1f1bb21a260e28278430aa847e22c4dae43158032"
+}
