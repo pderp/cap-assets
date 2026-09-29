@@ -41,3 +41,4 @@ runs/pc_cap/R1/r1_63o/v15/d9/seal/analysis-population.json
 *.snapshot
 .pytest_cache/
 runs/additional_work/**/*.ckpt
+presentation-materials/.matplotlib/
