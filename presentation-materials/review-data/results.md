@@ -1,31 +1,12 @@
-# Corrected predictive-coding results — PENDING scaffold
+# Corrected predictive-coding results — completed default treatment
 
-Prepared 2026-09-27 by Capex for charlie and Capstan; **no PC outcomes are populated**.
-These are planned tables, not preliminary results. Capstan can fill them after the
-complete paired experiments and readouts are verified. Paths below are configured
-**future output locations**, not statements that files currently exist. If an
-operator chooses another location, update the source register and this page together.
+2026-09-28, Capex. All 64 cells passed the final integrity audit. All harm vectors and paired statistics were independently reconstructed on CPU. Eight error iterations, learning rate 0.1. These results do not include the later DEC-075 controls.
 
-All relative paths below are from `/home/derp/cap/pc_cap/`. Each PENDING entry
-contains a source alias and selector; the alias expands to the full path here.
-Bracketed dataset, realization and arm values are row filters, not array indices
-except `realizations[r]`. No incomplete cell is silently dropped or scored zero.
-Use UNAVAILABLE with a reason for a completed but unscorable assay.
+Sources in pc_cap: `logs/additional_work/PC-v0/report-60-20260927/report.json` and `logs/additional_work/PC-v1/report-4-20260927/report.json`. Canonical reports: `docs/additional_work/PC-v0_report.md` and `PC-v1_report.md`.
 
-## Source register
+H0: `results/additional_work/PC-v0/harm/pc-v0-60-20260927/report.json`. H1: `results/additional_work/PC-v1/harm/pc-v1-4-20260927/report.json`. H1's original cost receipt records a final-table failure; four complete arm receipts, both paired arrays and every statistic pass numerical reconstruction. The wrong original caption is superseded here: H1 has 245,237 positions per cell.
 
-| Alias | Configured future path |
-| --- | --- |
-| V0 | `logs/additional_work/PC-v0/report-60-20260927/report.json` |
-| H0 | `results/additional_work/PC-v0/harm/replication-60-20260927/report.json` |
-| V1 | `results/additional_work/PC-v1/replication-4-20260927` |
-| H1 | `results/additional_work/PC-v1/harm/replication-4-20260927/report.json` |
-
-V1 cell directories are `<dataset>-r0-o100-<arm>` beneath V1.
-`cost.json` next to H0/H1 charges the readout once; nested per-arm costs are
-breakdowns of that charge, not additional spend. V0 finish time includes startup,
-whereas V1 `finish.json` is stream-engine time and `process.json` includes startup
-and lease wait: those two V1 durations must never be added together.
+V0 finish time is whole-process time. V1 finish time is stream-engine time; process.json includes it, so never add the two. Harm time is separate. Averages of maxima are labelled as such; tokens and orders do not become independent realizations.
 
 ## PC-v0 — primary paired behavior by realization
 
@@ -37,12 +18,12 @@ the five orders; the native `pairs` table retains every order.
 
 | Dataset | Realization | ES | RET-ES | RET-GS | LS |
 | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | PENDING · V0:ES[zsre,0] | PENDING · V0:RET-ES[zsre,0] | PENDING · V0:RET-GS[zsre,0] | PENDING · V0:LS[zsre,0] |
-| zsre | 1 | PENDING · V0:ES[zsre,1] | PENDING · V0:RET-ES[zsre,1] | PENDING · V0:RET-GS[zsre,1] | PENDING · V0:LS[zsre,1] |
-| zsre | 2 | PENDING · V0:ES[zsre,2] | PENDING · V0:RET-ES[zsre,2] | PENDING · V0:RET-GS[zsre,2] | PENDING · V0:LS[zsre,2] |
-| counterfact | 0 | PENDING · V0:ES[counterfact,0] | PENDING · V0:RET-ES[counterfact,0] | PENDING · V0:RET-GS[counterfact,0] | PENDING · V0:LS[counterfact,0] |
-| counterfact | 1 | PENDING · V0:ES[counterfact,1] | PENDING · V0:RET-ES[counterfact,1] | PENDING · V0:RET-GS[counterfact,1] | PENDING · V0:LS[counterfact,1] |
-| counterfact | 2 | PENDING · V0:ES[counterfact,2] | PENDING · V0:RET-ES[counterfact,2] | PENDING · V0:RET-GS[counterfact,2] | PENDING · V0:LS[counterfact,2] |
+| zsre | 0 | 0.001| 0.022| -0.0054| 0.038|
+| zsre | 1 | 0.0006| 0.0198| 0.0022| -0.006|
+| zsre | 2 | 0.0002| 0.0192| -0.0052| 0.028|
+| counterfact | 0 | 0| 0| 0| 0|
+| counterfact | 1 | 0| 0| 0| 0|
+| counterfact | 2 | 0| 0| 0| 0|
 
 ### Bounded-text secondary behavior, kept separate
 
@@ -51,12 +32,12 @@ do not replace the legacy primary S5 scoring convention.
 
 | Dataset | Realization | bounded_es_immediate | bounded_ret_es_end | bounded_ret_gs_end | bounded_ls_end |
 | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | PENDING · V0:bounded_es_immediate[zsre,0] | PENDING · V0:bounded_ret_es_end[zsre,0] | PENDING · V0:bounded_ret_gs_end[zsre,0] | PENDING · V0:bounded_ls_end[zsre,0] |
-| zsre | 1 | PENDING · V0:bounded_es_immediate[zsre,1] | PENDING · V0:bounded_ret_es_end[zsre,1] | PENDING · V0:bounded_ret_gs_end[zsre,1] | PENDING · V0:bounded_ls_end[zsre,1] |
-| zsre | 2 | PENDING · V0:bounded_es_immediate[zsre,2] | PENDING · V0:bounded_ret_es_end[zsre,2] | PENDING · V0:bounded_ret_gs_end[zsre,2] | PENDING · V0:bounded_ls_end[zsre,2] |
-| counterfact | 0 | PENDING · V0:bounded_es_immediate[counterfact,0] | PENDING · V0:bounded_ret_es_end[counterfact,0] | PENDING · V0:bounded_ret_gs_end[counterfact,0] | PENDING · V0:bounded_ls_end[counterfact,0] |
-| counterfact | 1 | PENDING · V0:bounded_es_immediate[counterfact,1] | PENDING · V0:bounded_ret_es_end[counterfact,1] | PENDING · V0:bounded_ret_gs_end[counterfact,1] | PENDING · V0:bounded_ls_end[counterfact,1] |
-| counterfact | 2 | PENDING · V0:bounded_es_immediate[counterfact,2] | PENDING · V0:bounded_ret_es_end[counterfact,2] | PENDING · V0:bounded_ret_gs_end[counterfact,2] | PENDING · V0:bounded_ls_end[counterfact,2] |
+| zsre | 0 | 0.001| 0.022| -0.0054| 0.038|
+| zsre | 1 | 0.0006| 0.0198| 0.0022| -0.006|
+| zsre | 2 | 0.0002| 0.0192| -0.0052| 0.028|
+| counterfact | 0 | 0| 0| 0| 0|
+| counterfact | 1 | 0| 0| 0| 0|
+| counterfact | 2 | 0| 0| 0| 0|
 
 ### Between-realization summary
 
@@ -65,14 +46,14 @@ of the three realization means, not a confidence interval.
 
 | Dataset | Metric | Mean | Minimum | Maximum |
 | --- | --- | --- | --- | --- |
-| zsre | ES | PENDING · V0:aggregates[zsre,ES].mean | PENDING · V0:aggregates[zsre,ES].minimum | PENDING · V0:aggregates[zsre,ES].maximum |
-| zsre | RET-ES | PENDING · V0:aggregates[zsre,RET-ES].mean | PENDING · V0:aggregates[zsre,RET-ES].minimum | PENDING · V0:aggregates[zsre,RET-ES].maximum |
-| zsre | RET-GS | PENDING · V0:aggregates[zsre,RET-GS].mean | PENDING · V0:aggregates[zsre,RET-GS].minimum | PENDING · V0:aggregates[zsre,RET-GS].maximum |
-| zsre | LS | PENDING · V0:aggregates[zsre,LS].mean | PENDING · V0:aggregates[zsre,LS].minimum | PENDING · V0:aggregates[zsre,LS].maximum |
-| counterfact | ES | PENDING · V0:aggregates[counterfact,ES].mean | PENDING · V0:aggregates[counterfact,ES].minimum | PENDING · V0:aggregates[counterfact,ES].maximum |
-| counterfact | RET-ES | PENDING · V0:aggregates[counterfact,RET-ES].mean | PENDING · V0:aggregates[counterfact,RET-ES].minimum | PENDING · V0:aggregates[counterfact,RET-ES].maximum |
-| counterfact | RET-GS | PENDING · V0:aggregates[counterfact,RET-GS].mean | PENDING · V0:aggregates[counterfact,RET-GS].minimum | PENDING · V0:aggregates[counterfact,RET-GS].maximum |
-| counterfact | LS | PENDING · V0:aggregates[counterfact,LS].mean | PENDING · V0:aggregates[counterfact,LS].minimum | PENDING · V0:aggregates[counterfact,LS].maximum |
+| zsre | ES | 0.0006| 0.0002| 0.001|
+| zsre | RET-ES | 0.020333333| 0.0192| 0.022|
+| zsre | RET-GS | -0.0028| -0.0054| 0.0022|
+| zsre | LS | 0.02| -0.006| 0.038|
+| counterfact | ES | 0| 0| 0|
+| counterfact | RET-ES | 0| 0| 0|
+| counterfact | RET-GS | 0| 0| 0|
+| counterfact | LS | 0| 0| 0|
 
 ### Replication cost by realization
 
@@ -81,12 +62,12 @@ over the five planned orders, retaining the ledger in the native report.
 
 | Dataset | Realization | SE-A process seconds | SE-E process seconds |
 | --- | --- | --- | --- |
-| zsre | 0 | PENDING · V0:cells[zsre,0,SE-A].finish.elapsed_process_seconds (sum) | PENDING · V0:cells[zsre,0,SE-E].finish.elapsed_process_seconds (sum) |
-| zsre | 1 | PENDING · V0:cells[zsre,1,SE-A].finish.elapsed_process_seconds (sum) | PENDING · V0:cells[zsre,1,SE-E].finish.elapsed_process_seconds (sum) |
-| zsre | 2 | PENDING · V0:cells[zsre,2,SE-A].finish.elapsed_process_seconds (sum) | PENDING · V0:cells[zsre,2,SE-E].finish.elapsed_process_seconds (sum) |
-| counterfact | 0 | PENDING · V0:cells[counterfact,0,SE-A].finish.elapsed_process_seconds (sum) | PENDING · V0:cells[counterfact,0,SE-E].finish.elapsed_process_seconds (sum) |
-| counterfact | 1 | PENDING · V0:cells[counterfact,1,SE-A].finish.elapsed_process_seconds (sum) | PENDING · V0:cells[counterfact,1,SE-E].finish.elapsed_process_seconds (sum) |
-| counterfact | 2 | PENDING · V0:cells[counterfact,2,SE-A].finish.elapsed_process_seconds (sum) | PENDING · V0:cells[counterfact,2,SE-E].finish.elapsed_process_seconds (sum) |
+| zsre | 0 | 4989.6644| 6772.5644|
+| zsre | 1 | 4862.9879| 6597.3938|
+| zsre | 2 | 5106.5113| 6911.6982|
+| counterfact | 0 | 2217.0558| 2550.3809|
+| counterfact | 1 | 2166.1344| 2507.0648|
+| counterfact | 2 | 2188.3137| 2522.5358|
 
 ## Fixed-v5 — the four planned cells
 
@@ -99,28 +80,28 @@ training. Use R1's installed endpoint semantics, including semantic revision.
 
 | Dataset | Arm | ES | RET-ES | RET-GS | LS | near_miss | revision |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| zsre | SE-A | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-100.json:metrics.ES.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-100.json:metrics.RET-ES.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-100.json:metrics.RET-GS.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-100.json:metrics.LS.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-100.json:metrics.near_miss.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-100.json:metrics.revision.value |
-| zsre | SE-E | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-100.json:metrics.ES.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-100.json:metrics.RET-ES.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-100.json:metrics.RET-GS.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-100.json:metrics.LS.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-100.json:metrics.near_miss.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-100.json:metrics.revision.value |
-| counterfact | SE-A | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-100.json:metrics.ES.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-100.json:metrics.RET-ES.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-100.json:metrics.RET-GS.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-100.json:metrics.LS.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-100.json:metrics.near_miss.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-100.json:metrics.revision.value |
-| counterfact | SE-E | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-100.json:metrics.ES.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-100.json:metrics.RET-ES.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-100.json:metrics.RET-GS.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-100.json:metrics.LS.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-100.json:metrics.near_miss.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-100.json:metrics.revision.value |
+| zsre | SE-A | 1| 1| 0.97| 1| 0.72| 1|
+| zsre | SE-E | 1| 1| 0.97| 1| 0.72| 1|
+| counterfact | SE-A | 1| 1| 0.825| 1| 1| 1|
+| counterfact | SE-E | 1| 1| 0.82| 1| 1| 1|
 
 ### Checkpoint 300
 
 | Dataset | Arm | ES | RET-ES | RET-GS | LS | near_miss | revision |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| zsre | SE-A | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-300.json:metrics.ES.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-300.json:metrics.RET-ES.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-300.json:metrics.RET-GS.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-300.json:metrics.LS.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-300.json:metrics.near_miss.value | PENDING · V1/zsre-r0-o100-SE-A/checkpoint-300.json:metrics.revision.value |
-| zsre | SE-E | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-300.json:metrics.ES.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-300.json:metrics.RET-ES.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-300.json:metrics.RET-GS.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-300.json:metrics.LS.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-300.json:metrics.near_miss.value | PENDING · V1/zsre-r0-o100-SE-E/checkpoint-300.json:metrics.revision.value |
-| counterfact | SE-A | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-300.json:metrics.ES.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-300.json:metrics.RET-ES.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-300.json:metrics.RET-GS.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-300.json:metrics.LS.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-300.json:metrics.near_miss.value | PENDING · V1/counterfact-r0-o100-SE-A/checkpoint-300.json:metrics.revision.value |
-| counterfact | SE-E | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-300.json:metrics.ES.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-300.json:metrics.RET-ES.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-300.json:metrics.RET-GS.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-300.json:metrics.LS.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-300.json:metrics.near_miss.value | PENDING · V1/counterfact-r0-o100-SE-E/checkpoint-300.json:metrics.revision.value |
+| zsre | SE-A | 1| 1| 0.98333333| 1| 0.76| 1|
+| zsre | SE-E | 1| 1| 0.98333333| 1| 0.76| 1|
+| counterfact | SE-A | 1| 1| 0.80666667| 1| 1| 1|
+| counterfact | SE-E | 1| 1| 0.80333333| 1| 1| 1|
 
 ### Fixed-v5 cost
 
 | Dataset | Arm | Stream-engine seconds | Whole-process seconds |
 | --- | --- | --- | --- |
-| zsre | SE-A | PENDING · V1/zsre-r0-o100-SE-A/finish.json:elapsed_process_seconds | PENDING · V1/zsre-r0-o100-SE-A/process.json:elapsed_process_seconds |
-| zsre | SE-E | PENDING · V1/zsre-r0-o100-SE-E/finish.json:elapsed_process_seconds | PENDING · V1/zsre-r0-o100-SE-E/process.json:elapsed_process_seconds |
-| counterfact | SE-A | PENDING · V1/counterfact-r0-o100-SE-A/finish.json:elapsed_process_seconds | PENDING · V1/counterfact-r0-o100-SE-A/process.json:elapsed_process_seconds |
-| counterfact | SE-E | PENDING · V1/counterfact-r0-o100-SE-E/finish.json:elapsed_process_seconds | PENDING · V1/counterfact-r0-o100-SE-E/process.json:elapsed_process_seconds |
+| zsre | SE-A | 311.69835| 316.11111|
+| zsre | SE-E | 421.65218| 426.03555|
+| counterfact | SE-A | 292.92199| 297.33025|
+| counterfact | SE-E | 355.03361| 359.42356|
 
 ## Ordinary-text harm — per-arm and paired summaries
 
@@ -141,67 +122,67 @@ maximum; the native report retains the actual maxima and position locations.
 
 | Dataset | Realization | Arm | kl.mean_signed | loss.mean_signed | loss.es99_positive | loss.maximum_signed |
 | --- | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | SE-A | PENDING · H0:S[zsre,0,SE-A].kl.mean_signed | PENDING · H0:S[zsre,0,SE-A].loss.mean_signed | PENDING · H0:S[zsre,0,SE-A].loss.es99_positive | PENDING · H0:S[zsre,0,SE-A].loss.maximum_signed |
-| zsre | 0 | SE-E | PENDING · H0:S[zsre,0,SE-E].kl.mean_signed | PENDING · H0:S[zsre,0,SE-E].loss.mean_signed | PENDING · H0:S[zsre,0,SE-E].loss.es99_positive | PENDING · H0:S[zsre,0,SE-E].loss.maximum_signed |
-| zsre | 1 | SE-A | PENDING · H0:S[zsre,1,SE-A].kl.mean_signed | PENDING · H0:S[zsre,1,SE-A].loss.mean_signed | PENDING · H0:S[zsre,1,SE-A].loss.es99_positive | PENDING · H0:S[zsre,1,SE-A].loss.maximum_signed |
-| zsre | 1 | SE-E | PENDING · H0:S[zsre,1,SE-E].kl.mean_signed | PENDING · H0:S[zsre,1,SE-E].loss.mean_signed | PENDING · H0:S[zsre,1,SE-E].loss.es99_positive | PENDING · H0:S[zsre,1,SE-E].loss.maximum_signed |
-| zsre | 2 | SE-A | PENDING · H0:S[zsre,2,SE-A].kl.mean_signed | PENDING · H0:S[zsre,2,SE-A].loss.mean_signed | PENDING · H0:S[zsre,2,SE-A].loss.es99_positive | PENDING · H0:S[zsre,2,SE-A].loss.maximum_signed |
-| zsre | 2 | SE-E | PENDING · H0:S[zsre,2,SE-E].kl.mean_signed | PENDING · H0:S[zsre,2,SE-E].loss.mean_signed | PENDING · H0:S[zsre,2,SE-E].loss.es99_positive | PENDING · H0:S[zsre,2,SE-E].loss.maximum_signed |
-| counterfact | 0 | SE-A | PENDING · H0:S[counterfact,0,SE-A].kl.mean_signed | PENDING · H0:S[counterfact,0,SE-A].loss.mean_signed | PENDING · H0:S[counterfact,0,SE-A].loss.es99_positive | PENDING · H0:S[counterfact,0,SE-A].loss.maximum_signed |
-| counterfact | 0 | SE-E | PENDING · H0:S[counterfact,0,SE-E].kl.mean_signed | PENDING · H0:S[counterfact,0,SE-E].loss.mean_signed | PENDING · H0:S[counterfact,0,SE-E].loss.es99_positive | PENDING · H0:S[counterfact,0,SE-E].loss.maximum_signed |
-| counterfact | 1 | SE-A | PENDING · H0:S[counterfact,1,SE-A].kl.mean_signed | PENDING · H0:S[counterfact,1,SE-A].loss.mean_signed | PENDING · H0:S[counterfact,1,SE-A].loss.es99_positive | PENDING · H0:S[counterfact,1,SE-A].loss.maximum_signed |
-| counterfact | 1 | SE-E | PENDING · H0:S[counterfact,1,SE-E].kl.mean_signed | PENDING · H0:S[counterfact,1,SE-E].loss.mean_signed | PENDING · H0:S[counterfact,1,SE-E].loss.es99_positive | PENDING · H0:S[counterfact,1,SE-E].loss.maximum_signed |
-| counterfact | 2 | SE-A | PENDING · H0:S[counterfact,2,SE-A].kl.mean_signed | PENDING · H0:S[counterfact,2,SE-A].loss.mean_signed | PENDING · H0:S[counterfact,2,SE-A].loss.es99_positive | PENDING · H0:S[counterfact,2,SE-A].loss.maximum_signed |
-| counterfact | 2 | SE-E | PENDING · H0:S[counterfact,2,SE-E].kl.mean_signed | PENDING · H0:S[counterfact,2,SE-E].loss.mean_signed | PENDING · H0:S[counterfact,2,SE-E].loss.es99_positive | PENDING · H0:S[counterfact,2,SE-E].loss.maximum_signed |
+| zsre | 0 | SE-A | 0.0024122833| 0.0022632824| 0.23878431| 5.719436|
+| zsre | 0 | SE-E | 0.0026181925| 0.0024543653| 0.25934381| 5.00932|
+| zsre | 1 | SE-A | 0.001882752| 0.0024676266| 0.24906898| 4.2801564|
+| zsre | 1 | SE-E | 0.0015983728| 0.0020355027| 0.20645324| 2.9473382|
+| zsre | 2 | SE-A | 0.00064100799| 5.4335316e-05| 0.029747527| 1.0092573|
+| zsre | 2 | SE-E | 0.0015775265| 0.00077880659| 0.10140988| 2.5005276|
+| counterfact | 0 | SE-A | 0| 0| 0| 0|
+| counterfact | 0 | SE-E | 0| 0| 0| 0|
+| counterfact | 1 | SE-A | 0| 0| 0| 0|
+| counterfact | 1 | SE-E | 0| 0| 0| 0|
+| counterfact | 2 | SE-A | 0| 0| 0| 0|
+| counterfact | 2 | SE-E | 0| 0| 0| 0|
 
 | Dataset | Realization | Arm | loss.exceedance['0.01'].fraction | loss.exceedance['0.1'].fraction | loss.exceedance['1.0'].fraction | loss.half_mass_positions |
 | --- | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | SE-A | PENDING · H0:S[zsre,0,SE-A].loss.exceedance['0.01'].fraction | PENDING · H0:S[zsre,0,SE-A].loss.exceedance['0.1'].fraction | PENDING · H0:S[zsre,0,SE-A].loss.exceedance['1.0'].fraction | PENDING · H0:S[zsre,0,SE-A].loss.half_mass_positions |
-| zsre | 0 | SE-E | PENDING · H0:S[zsre,0,SE-E].loss.exceedance['0.01'].fraction | PENDING · H0:S[zsre,0,SE-E].loss.exceedance['0.1'].fraction | PENDING · H0:S[zsre,0,SE-E].loss.exceedance['1.0'].fraction | PENDING · H0:S[zsre,0,SE-E].loss.half_mass_positions |
-| zsre | 1 | SE-A | PENDING · H0:S[zsre,1,SE-A].loss.exceedance['0.01'].fraction | PENDING · H0:S[zsre,1,SE-A].loss.exceedance['0.1'].fraction | PENDING · H0:S[zsre,1,SE-A].loss.exceedance['1.0'].fraction | PENDING · H0:S[zsre,1,SE-A].loss.half_mass_positions |
-| zsre | 1 | SE-E | PENDING · H0:S[zsre,1,SE-E].loss.exceedance['0.01'].fraction | PENDING · H0:S[zsre,1,SE-E].loss.exceedance['0.1'].fraction | PENDING · H0:S[zsre,1,SE-E].loss.exceedance['1.0'].fraction | PENDING · H0:S[zsre,1,SE-E].loss.half_mass_positions |
-| zsre | 2 | SE-A | PENDING · H0:S[zsre,2,SE-A].loss.exceedance['0.01'].fraction | PENDING · H0:S[zsre,2,SE-A].loss.exceedance['0.1'].fraction | PENDING · H0:S[zsre,2,SE-A].loss.exceedance['1.0'].fraction | PENDING · H0:S[zsre,2,SE-A].loss.half_mass_positions |
-| zsre | 2 | SE-E | PENDING · H0:S[zsre,2,SE-E].loss.exceedance['0.01'].fraction | PENDING · H0:S[zsre,2,SE-E].loss.exceedance['0.1'].fraction | PENDING · H0:S[zsre,2,SE-E].loss.exceedance['1.0'].fraction | PENDING · H0:S[zsre,2,SE-E].loss.half_mass_positions |
-| counterfact | 0 | SE-A | PENDING · H0:S[counterfact,0,SE-A].loss.exceedance['0.01'].fraction | PENDING · H0:S[counterfact,0,SE-A].loss.exceedance['0.1'].fraction | PENDING · H0:S[counterfact,0,SE-A].loss.exceedance['1.0'].fraction | PENDING · H0:S[counterfact,0,SE-A].loss.half_mass_positions |
-| counterfact | 0 | SE-E | PENDING · H0:S[counterfact,0,SE-E].loss.exceedance['0.01'].fraction | PENDING · H0:S[counterfact,0,SE-E].loss.exceedance['0.1'].fraction | PENDING · H0:S[counterfact,0,SE-E].loss.exceedance['1.0'].fraction | PENDING · H0:S[counterfact,0,SE-E].loss.half_mass_positions |
-| counterfact | 1 | SE-A | PENDING · H0:S[counterfact,1,SE-A].loss.exceedance['0.01'].fraction | PENDING · H0:S[counterfact,1,SE-A].loss.exceedance['0.1'].fraction | PENDING · H0:S[counterfact,1,SE-A].loss.exceedance['1.0'].fraction | PENDING · H0:S[counterfact,1,SE-A].loss.half_mass_positions |
-| counterfact | 1 | SE-E | PENDING · H0:S[counterfact,1,SE-E].loss.exceedance['0.01'].fraction | PENDING · H0:S[counterfact,1,SE-E].loss.exceedance['0.1'].fraction | PENDING · H0:S[counterfact,1,SE-E].loss.exceedance['1.0'].fraction | PENDING · H0:S[counterfact,1,SE-E].loss.half_mass_positions |
-| counterfact | 2 | SE-A | PENDING · H0:S[counterfact,2,SE-A].loss.exceedance['0.01'].fraction | PENDING · H0:S[counterfact,2,SE-A].loss.exceedance['0.1'].fraction | PENDING · H0:S[counterfact,2,SE-A].loss.exceedance['1.0'].fraction | PENDING · H0:S[counterfact,2,SE-A].loss.half_mass_positions |
-| counterfact | 2 | SE-E | PENDING · H0:S[counterfact,2,SE-E].loss.exceedance['0.01'].fraction | PENDING · H0:S[counterfact,2,SE-E].loss.exceedance['0.1'].fraction | PENDING · H0:S[counterfact,2,SE-E].loss.exceedance['1.0'].fraction | PENDING · H0:S[counterfact,2,SE-E].loss.half_mass_positions |
+| zsre | 0 | SE-A | 0.0011318898| 0.0010826772| 0.00068897638| 1.2|
+| zsre | 0 | SE-E | 0.0010826772| 0.0010826772| 0.00073818898| 1.6|
+| zsre | 1 | SE-A | 0.0011811024| 0.0010826772| 0.00078740157| 1.8|
+| zsre | 1 | SE-E | 0.001230315| 0.0011318898| 0.00088582677| 2|
+| zsre | 2 | SE-A | 0.00034448819| 0.00034448819| 9.8425197e-05| 1|
+| zsre | 2 | SE-E | 0.00068897638| 0.00063976378| 0.00039370079| 1.4|
+| counterfact | 0 | SE-A | 0| 0| 0| UNDEFINED (one or more zero-harm cells)|
+| counterfact | 0 | SE-E | 0| 0| 0| UNDEFINED (one or more zero-harm cells)|
+| counterfact | 1 | SE-A | 0| 0| 0| UNDEFINED (one or more zero-harm cells)|
+| counterfact | 1 | SE-E | 0| 0| 0| UNDEFINED (one or more zero-harm cells)|
+| counterfact | 2 | SE-A | 0| 0| 0| UNDEFINED (one or more zero-harm cells)|
+| counterfact | 2 | SE-E | 0| 0| 0| UNDEFINED (one or more zero-harm cells)|
 
 ### H0 matched differences — SE-E minus SE-A
 
 | Dataset | Realization | positionwise.original.kl.mean_signed | positionwise.original.loss.mean_signed | positionwise.original.loss.es99_positive | difference_of_arm_es99.original |
 | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | PENDING · H0:P[zsre,0].positionwise.original.kl.mean_signed | PENDING · H0:P[zsre,0].positionwise.original.loss.mean_signed | PENDING · H0:P[zsre,0].positionwise.original.loss.es99_positive | PENDING · H0:P[zsre,0].difference_of_arm_es99.original |
-| zsre | 1 | PENDING · H0:P[zsre,1].positionwise.original.kl.mean_signed | PENDING · H0:P[zsre,1].positionwise.original.loss.mean_signed | PENDING · H0:P[zsre,1].positionwise.original.loss.es99_positive | PENDING · H0:P[zsre,1].difference_of_arm_es99.original |
-| zsre | 2 | PENDING · H0:P[zsre,2].positionwise.original.kl.mean_signed | PENDING · H0:P[zsre,2].positionwise.original.loss.mean_signed | PENDING · H0:P[zsre,2].positionwise.original.loss.es99_positive | PENDING · H0:P[zsre,2].difference_of_arm_es99.original |
-| counterfact | 0 | PENDING · H0:P[counterfact,0].positionwise.original.kl.mean_signed | PENDING · H0:P[counterfact,0].positionwise.original.loss.mean_signed | PENDING · H0:P[counterfact,0].positionwise.original.loss.es99_positive | PENDING · H0:P[counterfact,0].difference_of_arm_es99.original |
-| counterfact | 1 | PENDING · H0:P[counterfact,1].positionwise.original.kl.mean_signed | PENDING · H0:P[counterfact,1].positionwise.original.loss.mean_signed | PENDING · H0:P[counterfact,1].positionwise.original.loss.es99_positive | PENDING · H0:P[counterfact,1].difference_of_arm_es99.original |
-| counterfact | 2 | PENDING · H0:P[counterfact,2].positionwise.original.kl.mean_signed | PENDING · H0:P[counterfact,2].positionwise.original.loss.mean_signed | PENDING · H0:P[counterfact,2].positionwise.original.loss.es99_positive | PENDING · H0:P[counterfact,2].difference_of_arm_es99.original |
+| zsre | 0 | 0.00020590924| 0.00019108294| 0.12735481| 0.020559502|
+| zsre | 1 | -0.0002843792| -0.00043212389| 0.046983073| -0.042615745|
+| zsre | 2 | 0.00093651852| 0.00072447127| 0.084224628| 0.071662348|
+| counterfact | 0 | 0| 0| 0| 0|
+| counterfact | 1 | 0| 0| 0| 0|
+| counterfact | 2 | 0| 0| 0| 0|
 
 ### H1 arm summaries
 
 | Dataset | Realization | Arm | kl.mean_signed | loss.mean_signed | loss.es99_positive | loss.maximum_signed |
 | --- | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | SE-A | PENDING · H1:S[zsre,0,SE-A].kl.mean_signed | PENDING · H1:S[zsre,0,SE-A].loss.mean_signed | PENDING · H1:S[zsre,0,SE-A].loss.es99_positive | PENDING · H1:S[zsre,0,SE-A].loss.maximum_signed |
-| zsre | 0 | SE-E | PENDING · H1:S[zsre,0,SE-E].kl.mean_signed | PENDING · H1:S[zsre,0,SE-E].loss.mean_signed | PENDING · H1:S[zsre,0,SE-E].loss.es99_positive | PENDING · H1:S[zsre,0,SE-E].loss.maximum_signed |
-| counterfact | 0 | SE-A | PENDING · H1:S[counterfact,0,SE-A].kl.mean_signed | PENDING · H1:S[counterfact,0,SE-A].loss.mean_signed | PENDING · H1:S[counterfact,0,SE-A].loss.es99_positive | PENDING · H1:S[counterfact,0,SE-A].loss.maximum_signed |
-| counterfact | 0 | SE-E | PENDING · H1:S[counterfact,0,SE-E].kl.mean_signed | PENDING · H1:S[counterfact,0,SE-E].loss.mean_signed | PENDING · H1:S[counterfact,0,SE-E].loss.es99_positive | PENDING · H1:S[counterfact,0,SE-E].loss.maximum_signed |
+| zsre | 0 | SE-A | 0.0018606214| 0.0018129309| 0.19558495| 9.2622675|
+| zsre | 0 | SE-E | 0.001703612| 0.0016728278| 0.18161435| 12.270044|
+| counterfact | 0 | SE-A | 0.0041756565| 0.0043814001| 0.45868647| 11.744238|
+| counterfact | 0 | SE-E | 0.0043083345| 0.0045037415| 0.46991561| 12.225436|
 
 | Dataset | Realization | Arm | loss.exceedance['0.01'].fraction | loss.exceedance['0.1'].fraction | loss.exceedance['1.0'].fraction | loss.half_mass_positions |
 | --- | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | SE-A | PENDING · H1:S[zsre,0,SE-A].loss.exceedance['0.01'].fraction | PENDING · H1:S[zsre,0,SE-A].loss.exceedance['0.1'].fraction | PENDING · H1:S[zsre,0,SE-A].loss.exceedance['1.0'].fraction | PENDING · H1:S[zsre,0,SE-A].loss.half_mass_positions |
-| zsre | 0 | SE-E | PENDING · H1:S[zsre,0,SE-E].loss.exceedance['0.01'].fraction | PENDING · H1:S[zsre,0,SE-E].loss.exceedance['0.1'].fraction | PENDING · H1:S[zsre,0,SE-E].loss.exceedance['1.0'].fraction | PENDING · H1:S[zsre,0,SE-E].loss.half_mass_positions |
-| counterfact | 0 | SE-A | PENDING · H1:S[counterfact,0,SE-A].loss.exceedance['0.01'].fraction | PENDING · H1:S[counterfact,0,SE-A].loss.exceedance['0.1'].fraction | PENDING · H1:S[counterfact,0,SE-A].loss.exceedance['1.0'].fraction | PENDING · H1:S[counterfact,0,SE-A].loss.half_mass_positions |
-| counterfact | 0 | SE-E | PENDING · H1:S[counterfact,0,SE-E].loss.exceedance['0.01'].fraction | PENDING · H1:S[counterfact,0,SE-E].loss.exceedance['0.1'].fraction | PENDING · H1:S[counterfact,0,SE-E].loss.exceedance['1.0'].fraction | PENDING · H1:S[counterfact,0,SE-E].loss.half_mass_positions |
+| zsre | 0 | SE-A | 0.0011784519| 0.0011295196| 0.00061980859| 53|
+| zsre | 0 | SE-E | 0.0011825296| 0.0011213642| 0.00059126478| 49|
+| counterfact | 0 | SE-A | 0.0028176825| 0.0026790411| 0.0014027247| 110|
+| counterfact | 0 | SE-E | 0.0028462263| 0.0026871965| 0.0014598123| 110|
 
 ### H1 matched differences — SE-E minus SE-A
 
 | Dataset | Realization | positionwise.original.kl.mean_signed | positionwise.original.loss.mean_signed | positionwise.original.loss.es99_positive | difference_of_arm_es99.original |
 | --- | --- | --- | --- | --- | --- |
-| zsre | 0 | PENDING · H1:P[zsre,0].positionwise.original.kl.mean_signed | PENDING · H1:P[zsre,0].positionwise.original.loss.mean_signed | PENDING · H1:P[zsre,0].positionwise.original.loss.es99_positive | PENDING · H1:P[zsre,0].difference_of_arm_es99.original |
-| counterfact | 0 | PENDING · H1:P[counterfact,0].positionwise.original.kl.mean_signed | PENDING · H1:P[counterfact,0].positionwise.original.loss.mean_signed | PENDING · H1:P[counterfact,0].positionwise.original.loss.es99_positive | PENDING · H1:P[counterfact,0].difference_of_arm_es99.original |
+| zsre | 0 | -0.00015700938| -0.00014010307| 0.016070419| -0.013970602|
+| counterfact | 0 | 0.00013267798| 0.00012234139| 0.038216428| 0.011229134|
 
 **Keep the last two paired columns distinct:** the ES99 of positive
 positionwise loss differences is not the difference of arm ES99 values. The
@@ -210,20 +191,6 @@ Retain zero positions and the fractional expected-shortfall boundary.
 
 | Readout | Charged readout process seconds |
 | --- | --- |
-| H0 | PENDING · H0:../cost.json:elapsed_process_seconds |
-| H1 | PENDING · H1:../cost.json:elapsed_process_seconds |
+| H0 | 1364.0314|
+| H1 | 5004.1996|
 
-## Completion notes for Capstan
-
-Require all 60 v0 and all four fixed-v5 cells, both final readouts, matching
-source/model/data/position identities and complete cost receipts before filling
-their respective result tables. Record the actual source file hashes and report
-locations; no CPU-smoke outputs or partial-run effects belong here. Preserve
-every unfavorable, null and unavailable result. Present effect sizes and the
-three v0 realization values before choosing the spoken interpretation.
-
-The claim ledger and timed talk scripts remain pending at their PC slots until
-these complete reports exist. The supplied streams are exposed; token positions
-and five orders are not independent experimental replicates. Empirical severe
-loss and concentration do not establish a power law, a heavy-tail family,
-autonomous active inference, or robustness to unseen extremes.
