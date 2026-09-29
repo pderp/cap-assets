@@ -1,0 +1,27 @@
+{
+  "inputs": {
+    "/home/derp/cap/pc_cap/logs/additional_work/AW-B/report-20260929/calibration-review.json": "cc7fc5a80af365a0f33005ec12deb09085458fa3f859ff094024783af0f3c7e4",
+    "/home/derp/cap/pc_cap/aw/aw_b_tail_figure.py": "6886e1b5df31d0747d0850259a6ace899914231ee36a6e1eded95287a74829ea",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/calibration-20260929/zsre/v5.npz": "eb38b7f5ba31075e74e95752e4ebc8c679e617e9b4ad1154e9a2d2f7394040fb",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/calibration-20260929/zsre/mixture-0.367879.npz": "8f01fa03f4ced5b85273661d0111747f0755ec921de8ed76c303acde74f662b6",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/calibration-20260929/counterfact/v5.npz": "b76c272235891a5227aeb85ea2bc905933f91f403aef1cb8a2815feeddac954b",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/calibration-20260929/counterfact/mixture-0.367879.npz": "9ec729e0c3d9c6866ddfc48846073213aa33da38699bf72847df9e56ccb61662"
+  },
+  "generator": {
+    "/home/derp/cap/pc_cap/aw/pc_result_figures.py": "1c738c83af2673c8434e7babd18ba6cdf8757c374c112bc54b507e1388a754b4"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/aw_b/calibration-survival.png",
+      "sha256": "ce90854d880a3354df6d00bdfcd8be2b1e1d4c6107ad0983d5d559d2855c8255"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/aw_b/calibration-survival.pdf",
+      "sha256": "74aab5445a1427faedc289f00a9062bba562bca59cbdea10400535a48ae01427"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/figures/aw_b/calibration-survival.svg",
+      "sha256": "eb69d6cfd2f86727dbee3d4ad95bf381b6442aab2e3225810147e45d730236bc"
+    }
+  ]
+}
