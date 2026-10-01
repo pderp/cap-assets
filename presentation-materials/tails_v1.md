@@ -96,3 +96,31 @@ Under the heavy-tailed-distributions theme: the survival figure as the "why the 
 6), the rarity-versus-severity figure as the comparator slide (slide 7), with the sentence that the registered
 comparators have small mean changes but different frequency, severity and concentration. The current table and
 HT-15b spread use the reconciled 270-cell state.
+
+## Complexity class of the harm (prototype, 2026-10-01; pending lane HT-17)
+
+Added by Capstan after the reviewer's note and K. P. Nelson, *The unique, universal entropy for complex systems*
+(manuscript 27 Sep 2026). In that framework a one-sided shape–scale distribution is described by a long-range coupling
+κ (κ = 0 exponential, κ > 0 power law with exponent −(1+1/κ), κ < 0 compact support) and the informational scale σ
+(where the surprisal's slope is 1/σ); for α = 1 the coupled exponential is exactly the generalized Pareto distribution
+with shape κ and scale σ. Method: per cell, the positive loss changes above 0.01 nats (location 0), maximum-likelihood
+generalized-Pareto fit; the untouched mass (99.7–99.98 % of positions) is reported separately as the firing rate.
+Pooled intervals resample windows (200 draws; copies of a window across cells resampled independently, so slightly
+optimistic). Full details and the per-condition table: `pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md` §3.
+
+| condition | dataset | κ̂ pooled (95 %) | per-cell κ̂ range (15 cells) | σ̂ nats | class within the fitted family |
+|---|---|---|---|---:|---|
+| learned reader v5 | zsRE | 0.052 (0.024–0.079) | 0.043–0.059 | 1.54 | exponential |
+| learned reader v5 | CounterFact | 0.058 (0.036–0.077) | 0.029–0.098 | 1.79 | exponential |
+| stable v0 cap (also matched update, S1_LM, S1_literal) | zsRE | 0.81 (0.78–0.86) | 0.43–1.03 | 0.55–0.65 | power law, infinite fitted variance |
+| random reader | CounterFact | −0.200 (−0.202 … −0.198) | −0.26 … −0.18 | 4.1 | compact support |
+| AW-B 1-nat mixture (order 100) | both | ≈ −1.4 | — | 1.3–1.4 | compact support, N_max = 1 nat by construction |
+
+Threshold sensitivity: learned reader κ̂ 0.04–0.07 for thresholds 0.01–0.5 nats, −0.06 to −0.14 above 1–2 nats; stable
+v0 κ̂ 0.81–0.88 for 0.01–0.1, 0.59 at 1 nat, 0.16 at 2 nats. The far tail lightens because a token's loss is bounded in
+practice by the logit range, so the statement is a class within the fitted family, not an asymptotic law. A stretched
+fit (α free) prefers α ≈ 0.85–0.9 with κ ≈ 0 for the learned reader and is not better than α = 1 by more than one nat
+of log-likelihood. Reading: the three cap families sit in three classes; the learned reader converts the v0 cap's
+power-law harm into exponential harm at a higher scale while firing on more positions; the bound converts exponential
+into compact support. These prototype values are to be replaced by HT-17's report (joint window-identity bootstrap,
+per-realization fits, calibrated entropy column, class-map figure).
