@@ -1,6 +1,6 @@
 {
   "inputs": {
-    "/home/derp/cap/pc_cap/logs/additional_work/PC-v0/controls-report-20260929/report.json": "263575ff37e2c742c7df561de6c406f5a17fd8c1d0ac73c71c643e8336a5c66e",
+    "/home/derp/cap/pc_cap/logs/additional_work/PC-v0/controls-report-20260929/report.json": "835238139e8446c01551cb87d80367d800aa5eb73e5764b2c69a5bf70aa8885c",
     "/home/derp/cap/pc_cap/aw/pc_depth_figure.py": "0a845d5500b702b5768e9ae6a72345fbf25bef5161b2da84952ff57396be04e0"
   },
   "generator": {
@@ -13,11 +13,11 @@
     },
     {
       "path": "/home/derp/cap/assets/presentation-materials/figures/pc_v0/controls/depth-retention-harm-cost.pdf",
-      "sha256": "3a3138908346d1c9156586d523d781a8d95d201b898f4488f6abd8ed5311bfff"
+      "sha256": "204692f3ae71f58eb3b36cfbba390a9b2fb0afef27745134f62eaa5bfe46f19a"
     },
     {
       "path": "/home/derp/cap/assets/presentation-materials/figures/pc_v0/controls/depth-retention-harm-cost.svg",
-      "sha256": "ecb145650a88fd4ee1759075cfa99d2a283d47d2e48e9853f6e8e8b1a8e2cc04"
+      "sha256": "17931ce170fcd5dad83212ac4e1985e8285910d082c5d07f0c992f8af5969872"
     }
   ]
 }
