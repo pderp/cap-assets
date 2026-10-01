@@ -97,30 +97,33 @@ Under the heavy-tailed-distributions theme: the survival figure as the "why the 
 comparators have small mean changes but different frequency, severity and concentration. The current table and
 HT-15b spread use the reconciled 270-cell state.
 
-## Complexity class of the harm (prototype, 2026-10-01; pending lane HT-17)
+## Frequency and conditional severity of the harm: exploratory excess fits (2026-10-01; analysis HT-17 in progress)
 
 Added by Capstan after the reviewer's note and K. P. Nelson, *The unique, universal entropy for complex systems*
-(manuscript 27 Sep 2026). In that framework a one-sided shape–scale distribution is described by a long-range coupling
-κ (κ = 0 exponential, κ > 0 power law with exponent −(1+1/κ), κ < 0 compact support) and the informational scale σ
-(where the surprisal's slope is 1/σ); for α = 1 the coupled exponential is exactly the generalized Pareto distribution
-with shape κ and scale σ. Method: per cell, the positive loss changes above 0.01 nats (location 0), maximum-likelihood
-generalized-Pareto fit; the untouched mass (99.7–99.98 % of positions) is reported separately as the firing rate.
-Pooled intervals resample windows (200 draws; copies of a window across cells resampled independently, so slightly
-optimistic). Full details and the per-condition table: `pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md` §3.
+(manuscript 27 Sep 2026); revised the same day after Capex's review (`pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy-capex.md`).
+For a one-sided variable Nelson's coupled exponential (α = 1) is the generalized Pareto distribution with shape κ and
+scale σ, so excess fits of the saved loss changes connect to his framework without new machinery. What they are **not**:
+a complexity class in the paper's sense (that concerns the growth of accessible states W(N), which this experiment does
+not define), an asymptotic law, or a measured variance.
 
-| condition | dataset | κ̂ pooled (95 %) | per-cell κ̂ range (15 cells) | σ̂ nats | class within the fitted family |
-|---|---|---|---|---:|---|
-| learned reader v5 | zsRE | 0.052 (0.024–0.079) | 0.043–0.059 | 1.54 | exponential |
-| learned reader v5 | CounterFact | 0.058 (0.036–0.077) | 0.029–0.098 | 1.79 | exponential |
-| stable v0 cap (also matched update, S1_LM, S1_literal) | zsRE | 0.81 (0.78–0.86) | 0.43–1.03 | 0.55–0.65 | power law, infinite fitted variance |
-| random reader | CounterFact | −0.200 (−0.202 … −0.198) | −0.26 … −0.18 | 4.1 | compact support |
-| AW-B 1-nat mixture (order 100) | both | ≈ −1.4 | — | 1.3–1.4 | compact support, N_max = 1 nat by construction |
+Prototype method: per cell, excesses Y = Δ − u over u = 0.01 nats, maximum-likelihood generalized-Pareto fit (location 0);
+the fraction with Δ ≤ 0.01 (99.7–99.98 % of positions) is reported separately as the complement of a harmful-change
+indicator, which is **not** the gate's firing rate (saved separately). The prototype's window resampling resampled copies
+of the same window across cells independently and understates uncertainty by an unknown amount. Details:
+`pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md` §3 (revised).
 
-Threshold sensitivity: learned reader κ̂ 0.04–0.07 for thresholds 0.01–0.5 nats, −0.06 to −0.14 above 1–2 nats; stable
-v0 κ̂ 0.81–0.88 for 0.01–0.1, 0.59 at 1 nat, 0.16 at 2 nats. The far tail lightens because a token's loss is bounded in
-practice by the logit range, so the statement is a class within the fitted family, not an asymptotic law. A stretched
-fit (α free) prefers α ≈ 0.85–0.9 with κ ≈ 0 for the learned reader and is not better than α = 1 by more than one nat
-of log-likelihood. Reading: the three cap families sit in three classes; the learned reader converts the v0 cap's
-power-law harm into exponential harm at a higher scale while firing on more positions; the bound converts exponential
-into compact support. These prototype values are to be replaced by HT-17's report (joint window-identity bootstrap,
-per-realization fits, calibrated entropy column, class-map figure).
+| condition | dataset | fitted shape κ̂ (pooled; per-cell range, 15 cells) | excess scale σ̂_u nats (u = 0.01) | status |
+|---|---|---|---:|---|
+| learned reader v5 | zsRE | 0.052 (0.043–0.059) | 1.54 | small positive shape, near the exponential restriction |
+| learned reader v5 | CounterFact | 0.058 (0.029–0.098) | 1.79 | same |
+| stable v0 cap (also matched update, S1_LM, S1_literal) | zsRE | 0.81 at u = 0.01 (0.43–1.03); 0.59 at 1 nat; 0.16 at 2 nats | 0.55–0.65 | large positive shape on the observed range, strongly threshold-dependent (curvature, mixture, sampling or a ceiling: undecided) |
+| random reader | CounterFact | −0.200 (−0.26 … −0.18) | 4.1 | negative shape, finite fitted endpoint; many excesses |
+| AW-B 1-nat mixture | both | optimizer output < −1 | — | invalid as an estimate (likelihood endpoint; outside the entropy domain κ > −1/2); the one-nat ceiling is proven by construction, not fitted |
+
+The learned reader's shape is 0.04–0.07 for thresholds 0.01–0.5 nats and −0.06 to −0.14 above 1–2 nats (a token's loss is
+bounded in practice by the logit range). A stretched fit (α free) prefers α ≈ 0.85–0.9 with κ ≈ 0 and is not better than
+α = 1 by more than one nat of log-likelihood. Reading: on the observed range the cap families differ in both how often a
+harmful change occurs and how severe it is when it does, and their excess distributions have different fitted shapes;
+whether these differences survive threshold and population checks, or the family is not identifiable, is what HT-17
+reports (joint window-identity resampling; GPD vs exponential by held-out-window likelihood; a "not identified" screen;
+frequency-versus-severity figure). These prototype values do not enter a slide before that report.
