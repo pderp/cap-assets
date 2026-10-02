@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "/home/derp/cap/pc_cap/logs/additional_work/reproductions/round60-check1/pc-default/v1/report.json": "e782a20e930d9f5e125f97a19b25f325ca2a4d07c38601380422a4c5ee5d5971",
+    "/home/derp/cap/pc_cap/logs/additional_work/reproductions/round60-check1/pc-default/v1/harm/report.json": "4fba23a7221e4f42bd074f8c620828d14739f9becfc9dbbbb5cee8bbc67a0fc3"
+  },
+  "generator": {
+    "/home/derp/cap/pc_cap/aw/pc_result_figures.py": "1c738c83af2673c8434e7babd18ba6cdf8757c374c112bc54b507e1388a754b4"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-check1/pc/pc_v1/completed-20260928/efficacy-harm-cost.png",
+      "sha256": "54f95d829cecd0ae7abb127d84ad069411bc0db39aab96a19072e75818fa570a"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-check1/pc/pc_v1/completed-20260928/efficacy-harm-cost.pdf",
+      "sha256": "42bc8301270e29acfa2bbc6152e876955684131c7a35bc1f41eeee4c605ad0c8"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-check1/pc/pc_v1/completed-20260928/efficacy-harm-cost.svg",
+      "sha256": "670b88a4386fedcb89e4bfcebe81664bfdb640ee3898732b1cdb8302907823a8"
+    }
+  ]
+}

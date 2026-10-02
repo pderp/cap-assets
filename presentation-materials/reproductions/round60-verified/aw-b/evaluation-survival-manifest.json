@@ -1,0 +1,43 @@
+{
+  "inputs": {
+    "/home/derp/cap/pc_cap/logs/additional_work/reproductions/round60-verified/aw-b/report.json": "a3a0af52dce66865d794aaaad24b6f02f8f56a1bbdd7c8438351603999d23b88",
+    "/home/derp/cap/pc_cap/aw/aw_b_tail_figure.py": "6886e1b5df31d0747d0850259a6ace899914231ee36a6e1eded95287a74829ea",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o103/v5.npz": "b4d9bd4f0f7daa99d969f1e6c0093d703d6b6c8787a88c8f9b9452f94ad9e475",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o100/v5.npz": "f7c9c57fc67925f7d33e6b84bf76cc132324ce9c97038acdea10e139d0f10901",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o101/v5.npz": "c12af4b008c224b5c5e78d75bd91e9a1c0db09051ddf623dafa7a80f2e47730d",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o102/v5.npz": "eb423ddf4bfff4417e01978de87ac6f1e3a767c2b217736e52d0b89e701064d1",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o104/v5.npz": "bbd9174b68ef287fae6d8c3f4ab4d24b0b8e54a6c076619e108e15b6339bc1cc",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o103/mixture-0.367879.npz": "a1adb97e52bbff2a01517a916491bbb77ea7e1d56e9722610d5580060e0f5c2e",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o100/mixture-0.367879.npz": "b25571f5102448414bd2defd70f35f08a63081b8ef6a82232965d356258da7c8",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o101/mixture-0.367879.npz": "b6c44576511d486767269e475cf4bbc4adcd00e5b16a2b500053105f199917fb",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o102/mixture-0.367879.npz": "e0142238570a444db36cd1b12ca1f803a5f634768ae3067a22a97f42ddc14d37",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/zsre-o104/mixture-0.367879.npz": "2aa97985427efe918ead14d7349864811c2dc86abbd5c2fc4befe00db714a89b",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o102/v5.npz": "cf6a89db36e0eb2d973f2af4645649bcc4400768d9dee65143908b820c9ab109",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o103/v5.npz": "e7f4530864cc47e1a8024398d2a7025a1721144c926ec5dfd10169dfcb7a4c51",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o104/v5.npz": "6ecbe638cb3a945784891209e92137d6f979203bd85780ed0e4e02172745300e",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o101/v5.npz": "dcbe0c508a5853c94a777a5df6696f5924c05d69d14eca1057f2bbdf5b57c2b0",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o100/v5.npz": "e0e65cd60c805912b03842c8e2a01a5a62e72c335102061c8024a9fb8a649847",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o102/mixture-0.367879.npz": "973a8aa25f1c3d0d6baa6751b4881526cd48af17a798630d11f12f18c0faab63",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o103/mixture-0.367879.npz": "ce7cbf345908bec1cb9d7089366e7a294df963899881b339534da6196b8339bc",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o104/mixture-0.367879.npz": "983af486c59641a3f7051ca22dc805e4aea910ab8df47f053185f3c953911809",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o101/mixture-0.367879.npz": "dbda82a60e8826ecc4e21cfc33339efa19c29bf805327c3452bf810770c21d98",
+    "/home/derp/cap/assets/runs/additional_work/AW-B/evaluation-20260929/counterfact-o100/mixture-0.367879.npz": "62036b243f6eb2d4e715ce70e247446469a009b9f4367c92e871f8a00362fa96"
+  },
+  "generator": {
+    "/home/derp/cap/pc_cap/aw/pc_result_figures.py": "1c738c83af2673c8434e7babd18ba6cdf8757c374c112bc54b507e1388a754b4"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-verified/aw-b/evaluation-survival.png",
+      "sha256": "db24e95646def8795c90fa86e821dd051f2c26ccdfc4996310efd0253ca5680b"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-verified/aw-b/evaluation-survival.pdf",
+      "sha256": "a820dc5123002a84f410120aeaf9f714917391b586216ad140b402ab516ee132"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-verified/aw-b/evaluation-survival.svg",
+      "sha256": "668b8f4b0ff78fed656cf9abda6abb0da8a6902b3f2b1218ed5f7735466fc689"
+    }
+  ]
+}

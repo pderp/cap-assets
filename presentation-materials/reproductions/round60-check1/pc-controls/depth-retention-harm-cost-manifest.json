@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "/home/derp/cap/pc_cap/logs/additional_work/reproductions/round60-check1/pc-controls/report.json": "d43e5c73c55ca9cbfb13164a8693d9f7c0b54fa20095714468f42f935fe5246a",
+    "/home/derp/cap/pc_cap/aw/pc_depth_figure.py": "0a845d5500b702b5768e9ae6a72345fbf25bef5161b2da84952ff57396be04e0"
+  },
+  "generator": {
+    "/home/derp/cap/pc_cap/aw/pc_result_figures.py": "1c738c83af2673c8434e7babd18ba6cdf8757c374c112bc54b507e1388a754b4"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-check1/pc-controls/depth-retention-harm-cost.png",
+      "sha256": "ab633d14275f9fbb5e3c5f33f313ef202cea41a24767cf74ca74af9980d19e66"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-check1/pc-controls/depth-retention-harm-cost.pdf",
+      "sha256": "439519ebd0a5f93611e9c1498d5e94a5abefd59df824248d7a1bfb4298f39792"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/round60-check1/pc-controls/depth-retention-harm-cost.svg",
+      "sha256": "58e0cbe3cf0132e9f648b78b18497058cf2a504298dcfd4d92fa43e1b90bb8e0"
+    }
+  ]
+}
