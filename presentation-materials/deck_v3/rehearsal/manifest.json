@@ -1884,7 +1884,26 @@
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s0-counterfact/harm/summary.json": "a2a5cde44973c5bf50fc1b832bcacc935e4d70893cfd9b8416dc125713290940",
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s0-counterfact/harm/cost.json": "ac4c5d3f9bfd03ecd8680c39308ab08b6e2c089db49109aab04a201d9ea3f5fb",
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s0-counterfact/harm/vectors.npz": "e8958e02bad1d5c847159987166241dd3a5460f751f24161aabeba22203cd9e4",
-      "/home/derp/cap/pc_cap/logs/additional_work/HT-17/snapshot-20261001-v2/report.json": "3b436ae0c61fe3f7031e4c15919deab418c9097f1b53d28894feebc0fdef4e72",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-epc-s1/cost.json": "d9785d14822b348153436f324de7a00f066f7fc46f9c52a948cb81c72d9bc88d",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-epc-s1/report.json": "2259a7b56dd94ca21f976b119ace388a1d6ff914a562e2ab7eca0b00346dbf90",
+      "/home/derp/cap/assets/runs/additional_work/PC-reader/train-epc-s1/theta_avg150-300.npz": "0d3e5de66d583e02923695010a5888fa0884f9bce3eb89b477da740a5cc07431",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/cost.json": "882cd082d75a43ae2cb2140ac167a9da48bbdc4286eaf87a1286e3d24327c566",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/report.json": "d96ed08825eec135aba0bf3f20abb4697a3caefc3383ca815bdc79a7a39a65cb",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/stream/checkpoint-300.json": "3893d4ebe132eded9563f7930a8e7200a465c74ff7af0c744bf87db223abd476",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/stream/finish.json": "91e1dcdd25a38642e0fc26ed2a933f006cbe8da02e936ffd8a824de8553ddd26",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/stream/config.json": "19cea0225c3cb68967bab7f53c73afc4c3b82b76635788e28aa719cfa47dd664",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/harm/summary.json": "7f8f4f81e08ccbf760d4c48aa2ac321b42c0c149a8816f19160ced8834c21cf9",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/harm/cost.json": "cf2189dcdcc7cb1a36fef47c93da973a289b33ceb99f336f67b71240a816de79",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/harm/vectors.npz": "f05aaa544fed2f36b9c91c81dece87697ef625db3813c35bd0f3fb20fb6e4ac9",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/cost.json": "956106d5e8f03f143522bb6dced785e83fc9cb567f60a9f51fb9abf74c0166d8",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/report.json": "0dd59d16328bf2feab0d8502726b73aea931221e256e10b81763cf34941c9944",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/stream/checkpoint-300.json": "2dd3ab25c1daef1895be8ae32fe986fc4785435499e8fbfdc2e84607dc081063",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/stream/finish.json": "a523cf2e8e6d66789c00762ff170f6b89fe7c1fcfeae45c1ddff8e5f21c813f4",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/stream/config.json": "9d3e0cc5569acb071eaedd555aae488f78d26805fa21ae71ed73dc3ce5be57fe",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/harm/summary.json": "63ab2b168876abe60b2769d8a511d4c53942c8bc4ecd10dbbeea42e7f7ca83b7",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/harm/cost.json": "2746e495e0c9460ae97c835616295c114daf2067bd66f68d4790781fa0dbd760",
+      "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/harm/vectors.npz": "5a055b005f51278f5ec87572734ea88bdbb2f8d46d16eaff888ecad226a254c1",
+      "/home/derp/cap/pc_cap/logs/additional_work/HT-17/snapshot-20261002-seed1/report.json": "d4a40e2b66a21fc154543439fe8d4d007e7a62308407f89e5a63f8dbf92cfeee",
       "/home/derp/cap/pc_cap/logs/additional_work/PC-v1/report-4-20260927/report.json": "3795ba46fe2619f719c6991d4b32df2b987ee8929bde1d3ecaa3c4bf707da084",
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-profile-bp-counterfact/cost.json": "d876828c6e0dcd7d239cfb2db18f35d7959bac04b2df05acfa5fa62ba6c7d5cc",
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-profile-bp-zsre/cost.json": "69c3bb778c0dab2245a45535995e47dfd676e0497ae25634270d0fdb5295c70f",
@@ -1892,7 +1911,8 @@
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-profile-epc-zsre/cost.json": "f757c1d8543b2f5fc37c53e2f41e72edaa822c926b73ac3d8da6cf6748ee07ab",
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/profile-bp-s0/cost.json": "7c37e838faef9eed7b4799d5fb97e06819d8ba170153353f77c24729584bb5c0",
       "/home/derp/cap/pc_cap/results/additional_work/PC-reader/profile-epc-s0/cost.json": "d1cdf6d3fdd25a077786a808339bcefffd19bdce8953c6afb244a8c0001cefcf",
-      "/home/derp/cap/pc_cap/aw/pc_reader_report.py": "2928b9c1cdff9d27166a7ff11bee91f6a14226edc6699fe27677057940bc6259",
+      "/home/derp/cap/pc_cap/aw/reader_interpretation.py": "bb19686028c0398706a12494631156e2c7acd380b11b075159719fd0ffbb4097",
+      "/home/derp/cap/pc_cap/aw/pc_reader_report.py": "8cab1c0966557fae07f4027eabd69f827e381524b7397431caa2d4d34c9d8cf0",
       "/home/derp/cap/pc_cap/aw/reader_results.py": "cf97542fa1ceddbc443d079c9565757898e980490faa84ec0bb8f8b4cc6d170a",
       "/home/derp/cap/pc_cap/manifests/additional_work/run_matrix_R_v1.json": "4bcb0fab8beadd2f7cb2dead1b81b97d008ce3c0f5151dc7eb77f533fa1b2767",
       "/home/derp/cap/pc_cap/logs/additional_work/R/queue/20260929T174143/session-start.json": "caafd5f453bbeb9391d62ae9737152af738ffe4bb41f07f26d7d4f5837fea707",
@@ -1987,49 +2007,49 @@
   "ht13_image_included": true,
   "ht14": "available; author review still needed",
   "sources_sha256": {
-    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/snapshot-20261001-v2/survival_thresholds.pdf": "b2c0101bde4fbe791023ba2123e1d401a46e67f1f5f720005a10721835fb5f96",
-    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/snapshot-20261001-v2/survival_thresholds.png": "a9bf523be08a86a0ede585e59bfb5c302062dbf403e0be3a38b70b5668898218",
+    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/snapshot-20261002-seed1/survival_thresholds.pdf": "6d9fc8c851a17c4d70205017a47b64d91d29490159e6092731c4fc964c339c23",
+    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/snapshot-20261002-seed1/survival_thresholds.png": "2043b761bb38e3ab7cc774c287c83d44256620eeafcfbcd221867cb39858b039",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/claim-additions.json": "93139d7dac03b424b4a8dfadeea1c6ef86d315cbbd2b0d0ce95535d5801dee02",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/diagram-specs.json": "0d6aaa0ab78f895c5b877232fe8cd531e0c40433831e29882d7538028aa63626",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/diagram-specs.json": "90041fbc8ae56dccb3644af69d4845fda855c8031d8cc6a98ab7bd1e645f3973",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/claim-additions-round47.json": "470b2f7a8858fc3fc77afb72598aa9c7e7b0bdb8974ae5a340b6d63b0183644c",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/pc-result-sources.json": "65a38e50280e22c46bb7e4f048b01f27fa4092d450b009e3973fb237cd10f64b",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide02-active-inference-testbed.md": "0adb68a91657e7cd453e2c45dcac61bd269734b9e5cd9f6e6f1ae340c164431b",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide03-predictive-coding-credit.md": "f1637f502a965bf7e1d9d08294f3e9acbe7030e386a389f8339468af8005af49",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide06-beyond-the-mean.md": "e423d3294245bdc576bc9562e51842a5c5131bdd1b1e0b58b4d0c62d8a3ea974",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide06-beyond-the-mean.md": "be8bfbcf005862b652a4b450ac79a0c54dcf49a3316e6fdc20b3052888e74da1",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide11-return-to-active-inference.md": "f90217ba7aab7205d212c8c8e05f8ef6b8b33cae0fcf12bc4e39f5f3ae1e8c94",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide01-three-questions.md": "9f0bdeef4b22092c2d5aeab76b5cc568091cde9939f916b25dad114c82ee4a48",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide04-testbed-controls.md": "e0cfb294655ae4c43f2bffb78f706c5fa4985136c118481c5bc36874877e26ca",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide05-retention-and-controls.md": "244b3773e36dbf48dce3a5f01e9d48ebe8d9c36a0751ee07c60c0938d4ef399c",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide07-local-consequences.md": "d493c189465ce783e84a13816760028c6503deef231bc04c119150500b617edf",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide08-kappa-tradeoff.md": "ff00eb50d5767eb910e21e01c46ce0dee1299dc703b86bb95ffff92a90d40f1a",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide12-takeaways-and-scope.md": "bcd38ead671d49ce37221d77c8cff215859f7e71f792a8a94b85e65e0d812588",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide12-takeaways-and-scope.md": "851abe16bc3df7a65b43d543c1d34b667648d1bc131742399d9706f11d586902",
     "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide09-pc-v0-results.md": "c5a5406917ce2623fe1380a375cdd20839d9859ad681f69da2b5b0b0c1f9f7a9",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide10-fixed-v5-credit.md": "2a7f04858cf7bcc187c96fb046ff846506d17ed7e9164a8e72d6a16f4f97bde1",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/speaking-script-15min.md": "5bc687d16955efb74684152cd27f6619ca8a577396ae354210a164ddb124e5fd",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/speaking-script-25min.md": "d543a543860ae7545ff0b680df1c3b1e57284186686b5659816c11adee8dc68c",
-    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/backup-ht17.md": "d8e4b9a6c50340df234847adf21753f9369213621cbd9a7b23fde9ec53cf3e3a",
-    "/home/derp/cap/pc_cap/logs/additional_work/HT-17/snapshot-20261001-v2/report.json": "3b436ae0c61fe3f7031e4c15919deab418c9097f1b53d28894feebc0fdef4e72",
-    "/home/derp/cap/pc_cap/docs/additional_work/HT-17_report.md": "2c820d283cf1ce7690439a01146b7c9135cc142f4f364558a1fe5ece01a50734",
-    "/home/derp/cap/pc_cap/aw/presentation_slides.py": "7f3712893f038436eb103865cb3a5636d1dafe0ebed6a5ca28abc8b3b9d28345",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/slide10-fixed-v5-credit.md": "b097829eca389c5f22dc411f2d260a9a34c7436da2638885146c88a4a56ec5fc",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/speaking-script-15min.md": "37377dfa222373ad825e1547a9380aa6802e9f0e9895dc4350db910a031255ed",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/speaking-script-25min.md": "9bdf686aeb95b144d11f32362bd1c6347959220821c29f0336375a038aa93f87",
+    "/home/derp/cap/pc_cap/docs/presentation/deck_v3/backup-ht17.md": "2cf72b8a130b86e1cbb591839e16a4e6e496340afba5999e60b13809f4de4806",
+    "/home/derp/cap/pc_cap/logs/additional_work/HT-17/snapshot-20261002-seed1/report.json": "d4a40e2b66a21fc154543439fe8d4d007e7a62308407f89e5a63f8dbf92cfeee",
+    "/home/derp/cap/pc_cap/docs/additional_work/HT-17_report.md": "9d5f58ef6363677017a427915216fff5363ce4bca92e3137c7764c2e59b68edd",
+    "/home/derp/cap/pc_cap/aw/presentation_slides.py": "373b9252137d67c2d616591ee59983b0a52526c885b0e920e6514c1a8bec077f",
     "/home/derp/cap/pc_cap/aw/presentation_prepare.py": "efcc59f3cd6311c63626343cae8b23f9f6546517ad8bf340cde3bcc4aca16c5b",
     "/home/derp/cap/pc_cap/aw/presentation_pc.py": "32822aaf7859af3380fddabac8fe9a30e6d2db5497368622c30fea45b703ae1e",
-    "/home/derp/cap/pc_cap/docs/talk_claim_ledger_v7.md": "832d1532b8491b640388a57acff57eabb3d339f23872ee51432456bcd49734ce",
+    "/home/derp/cap/pc_cap/docs/talk_claim_ledger_v7.md": "a53a12d1fc70cedbe0720f57213de0f13e13eff00823672aaa90b262d09f0afd",
     "/home/derp/cap/assets/presentation-materials/figures/retention-round47/paraphrase-retention.png": "a02b777834629c031d390aa2db7d3c228a6be5ebc82fc4b513adb4aadc8b239f",
-    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/round57-final-v2/frequency-severity-stage4.png": "3332e56f81b5023f7e54eb5a02bbe63e4c23299cd02eb18af087e46980cf16b1",
+    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/round61-seed1/frequency-severity-stage4.png": "efa5a539ea339a19c4699614cb1d979136ac69816d079d5e23263a20148864cd",
     "/home/derp/cap/assets/presentation-materials/figures/aw_b/evaluation-survival.png": "90fcad0a740fef922d763883748b1f5a387c2c9d7f1b5e378321aabc5cb32316",
     "/home/derp/cap/assets/presentation-materials/figures/pc_v0/controls/depth-retention-harm-cost.png": "900b92b8e9f6a8fbadce946bde224a9eed8d080b60e0d0f6493bf6e8937bcf79",
     "/home/derp/cap/assets/presentation-materials/figures/retention-round47/manifest.json": "032f478c077f7107fc67a86d84ccec19a6a9ac8dd49ba9673be97bf5c7c6d3ee",
-    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/round57-final-v2/manifest.json": "ee1a94ed39a2af725439de0934fdccf3e51ee1cbd4688d0c2e27d808af93af30",
+    "/home/derp/cap/assets/presentation-materials/figures/tails_ht17/round61-seed1/manifest.json": "3c88a4c787be35f6654fc3f8d2346d37f6a71a17dc3168577369b7c4044e989e",
     "/home/derp/cap/assets/presentation-materials/figures/aw_b/evaluation-survival-manifest.json": "22313de840ab8140933dec63c3fb463fc547bb749fddbec3260a988d618cab3c",
     "/home/derp/cap/assets/presentation-materials/figures/pc_v0/controls/depth-retention-harm-cost-manifest.json": "113b199cb3c0c36308e19b1780d7091ff3662abeddb839ac9ee665afcc01c254",
-    "/home/derp/cap/pc_cap/docs/additional_work/PC-reader_report.md": "536f9e4da7c565b5b4a78b57b1481a8a9977270765f26c5fd4e4f01c265705e2",
-    "/home/derp/cap/pc_cap/logs/additional_work/PC-reader/report-round57-final/report.json": "e9c79486defdb09321e2952b19c1b151c7f2b6e97af19784b54d9eb4b0870961",
+    "/home/derp/cap/pc_cap/docs/additional_work/PC-reader_report.md": "32000f07017b32e1f972be6af641f508b548818c339bb5eb7a3cb304db35ba43",
+    "/home/derp/cap/pc_cap/logs/additional_work/PC-reader/report-round61-final/report.json": "e70eea17244f69a3c202002b33eba0de677fc823d7c6a6bdf67861da384f7642",
     "/home/derp/cap/pc_cap/docs/additional_work/R_report.md": "8a9276fcf246c597477ba15d4ff262190cd0f94b327caae0b8c511d66386611b",
     "/home/derp/cap/pc_cap/logs/additional_work/R/report-round57-final/report.json": "2afb498f68e0ba22d8222415c5dafe66d2441bf7a5ba6cd67d802ba295c9c3ab",
     "/home/derp/cap/pc_cap/docs/additional_work/AW-L_report.md": "816f77e53123d7303aab2c939fbaf7773df7983a3876288de8da68cca4eb5a88",
     "/home/derp/cap/pc_cap/logs/additional_work/AW-L/report-round57-final/report.json": "5e3008848db5c2b7211d82d08e4821b8ad8420cf914e131aaa54abf2167ff1d7",
     "/home/derp/cap/pc_cap/docs/R1_stage4_report.md": "bb1fb0ad58c67570376192b6244e497a1636576f2547b75edff5fb0de9c7350a",
-    "/home/derp/cap/pc_cap/docs/presentation/qa.md": "32156bd12ff3a0196f0fba80701c2756b8d35707ca4c2bda2d513f2a727da7ed",
+    "/home/derp/cap/pc_cap/docs/presentation/qa.md": "342bdc2fe68d0d4894903ae01217b4edd9ad557a3ff113f17d10c79fc0f32e07",
     "/home/derp/cap/pc_cap/docs/presentation/abstract_to_testbed.md": "2528f0e783f63985dec00c55c90c2b067e82cfc6197de9c52ea9511a210949fe",
     "/home/derp/cap/pc_cap/logs/additional_work/PC-v0/report-60-20260927/report.json": "f2ef9c93cdb35742eea18294d05a39ee2e5de273164221c4653a445b9d2ba8bf",
     "/home/derp/cap/pc_cap/results/additional_work/PC-v0/replication-60-20260927/plan.json": "13b2308c3de5cb331defa607f7d800475c373fbfef3fdec8de3bb81aa9697c74",
@@ -3781,6 +3801,25 @@
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s0-counterfact/harm/summary.json": "a2a5cde44973c5bf50fc1b832bcacc935e4d70893cfd9b8416dc125713290940",
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s0-counterfact/harm/cost.json": "ac4c5d3f9bfd03ecd8680c39308ab08b6e2c089db49109aab04a201d9ea3f5fb",
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s0-counterfact/harm/vectors.npz": "e8958e02bad1d5c847159987166241dd3a5460f751f24161aabeba22203cd9e4",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-epc-s1/cost.json": "d9785d14822b348153436f324de7a00f066f7fc46f9c52a948cb81c72d9bc88d",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-epc-s1/report.json": "2259a7b56dd94ca21f976b119ace388a1d6ff914a562e2ab7eca0b00346dbf90",
+    "/home/derp/cap/assets/runs/additional_work/PC-reader/train-epc-s1/theta_avg150-300.npz": "0d3e5de66d583e02923695010a5888fa0884f9bce3eb89b477da740a5cc07431",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/cost.json": "882cd082d75a43ae2cb2140ac167a9da48bbdc4286eaf87a1286e3d24327c566",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/report.json": "d96ed08825eec135aba0bf3f20abb4697a3caefc3383ca815bdc79a7a39a65cb",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/stream/checkpoint-300.json": "3893d4ebe132eded9563f7930a8e7200a465c74ff7af0c744bf87db223abd476",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/stream/finish.json": "91e1dcdd25a38642e0fc26ed2a933f006cbe8da02e936ffd8a824de8553ddd26",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/stream/config.json": "19cea0225c3cb68967bab7f53c73afc4c3b82b76635788e28aa719cfa47dd664",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/harm/summary.json": "7f8f4f81e08ccbf760d4c48aa2ac321b42c0c149a8816f19160ced8834c21cf9",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/harm/cost.json": "cf2189dcdcc7cb1a36fef47c93da973a289b33ceb99f336f67b71240a816de79",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-zsre/harm/vectors.npz": "f05aaa544fed2f36b9c91c81dece87697ef625db3813c35bd0f3fb20fb6e4ac9",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/cost.json": "956106d5e8f03f143522bb6dced785e83fc9cb567f60a9f51fb9abf74c0166d8",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/report.json": "0dd59d16328bf2feab0d8502726b73aea931221e256e10b81763cf34941c9944",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/stream/checkpoint-300.json": "2dd3ab25c1daef1895be8ae32fe986fc4785435499e8fbfdc2e84607dc081063",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/stream/finish.json": "a523cf2e8e6d66789c00762ff170f6b89fe7c1fcfeae45c1ddff8e5f21c813f4",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/stream/config.json": "9d3e0cc5569acb071eaedd555aae488f78d26805fa21ae71ed73dc3ce5be57fe",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/harm/summary.json": "63ab2b168876abe60b2769d8a511d4c53942c8bc4ecd10dbbeea42e7f7ca83b7",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/harm/cost.json": "2746e495e0c9460ae97c835616295c114daf2067bd66f68d4790781fa0dbd760",
+    "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-epc-s1-counterfact/harm/vectors.npz": "5a055b005f51278f5ec87572734ea88bdbb2f8d46d16eaff888ecad226a254c1",
     "/home/derp/cap/pc_cap/logs/additional_work/PC-v1/report-4-20260927/report.json": "3795ba46fe2619f719c6991d4b32df2b987ee8929bde1d3ecaa3c4bf707da084",
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-profile-bp-counterfact/cost.json": "d876828c6e0dcd7d239cfb2db18f35d7959bac04b2df05acfa5fa62ba6c7d5cc",
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-profile-bp-zsre/cost.json": "69c3bb778c0dab2245a45535995e47dfd676e0497ae25634270d0fdb5295c70f",
@@ -3788,7 +3827,8 @@
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/eval-profile-epc-zsre/cost.json": "f757c1d8543b2f5fc37c53e2f41e72edaa822c926b73ac3d8da6cf6748ee07ab",
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/profile-bp-s0/cost.json": "7c37e838faef9eed7b4799d5fb97e06819d8ba170153353f77c24729584bb5c0",
     "/home/derp/cap/pc_cap/results/additional_work/PC-reader/profile-epc-s0/cost.json": "d1cdf6d3fdd25a077786a808339bcefffd19bdce8953c6afb244a8c0001cefcf",
-    "/home/derp/cap/pc_cap/aw/pc_reader_report.py": "2928b9c1cdff9d27166a7ff11bee91f6a14226edc6699fe27677057940bc6259",
+    "/home/derp/cap/pc_cap/aw/reader_interpretation.py": "bb19686028c0398706a12494631156e2c7acd380b11b075159719fd0ffbb4097",
+    "/home/derp/cap/pc_cap/aw/pc_reader_report.py": "8cab1c0966557fae07f4027eabd69f827e381524b7397431caa2d4d34c9d8cf0",
     "/home/derp/cap/pc_cap/aw/reader_results.py": "cf97542fa1ceddbc443d079c9565757898e980490faa84ec0bb8f8b4cc6d170a",
     "/home/derp/cap/pc_cap/manifests/additional_work/run_matrix_R_v1.json": "4bcb0fab8beadd2f7cb2dead1b81b97d008ce3c0f5151dc7eb77f533fa1b2767",
     "/home/derp/cap/pc_cap/logs/additional_work/R/queue/20260929T174143/session-start.json": "caafd5f453bbeb9391d62ae9737152af738ffe4bb41f07f26d7d4f5837fea707",
@@ -3879,124 +3919,124 @@
   },
   "exports": [
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide01.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01.svg",
       "sha256": "684346b99ed1599031c048192d55e75f9be9bb9d8f72b032da6818b9f0702234"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide02.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide02.svg",
       "sha256": "97a2b66a52ce5e0330cb8ad407661a602f7563f98de7e54b989e12998404866e"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide03.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide03.svg",
       "sha256": "b875ea20223d5b24703aa71d660a6bfe1372d5ec194dece899ea3e283f0a9d9c"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide04.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide04.svg",
       "sha256": "8265b971c7b1ba5a21c1b237d5969d7ebb1b980252d6ad4099fa3939c664dd9d"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide05.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide05.svg",
       "sha256": "0e093810e96c10f80c8ff66cce1c46af00c934160d79f3bf72725e6a0ec036f8"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide06.svg",
-      "sha256": "95c1962920cb6fa19307fdacb9ef297f1d1ac589f0dd3e468147249df02ee787"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide06.svg",
+      "sha256": "9879c689955ee5665b9d40a0586c8a317a4b93437c8b6bd92169c89ea61bb18a"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide07.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide07.svg",
       "sha256": "d23d19060d22d238e7c3518cd89d1fca1430944d870cdc7dc7dc8757fe0287b3"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide08.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide08.svg",
       "sha256": "8b183c764645505b59738f32316d4ffd846147863f2d7014bf0404eeac52712f"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide09.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide09.svg",
       "sha256": "ae634c59fdaf535ebbbb46059b2c2eefbd7bc26b11e9a160f8426f7a81f308cd"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide10.svg",
-      "sha256": "819e92cc5f86e241652ea5b122af7162260e15db720ddbff48580d98b5fef0a5"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide10.svg",
+      "sha256": "fd8cba8e467c68a2a9b23c34cfc608c1d6dc65e9c67715bbf4733f019d82f7de"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide11.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide11.svg",
       "sha256": "98bcc511d93e8559026ac4f9fddd967cbf4da945887c148e4317e6811ec4fecf"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide12.svg",
-      "sha256": "bb63e3a4b956725e83395579549ab4003570b53ab916068c1bf957c5d776ae07"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide12.svg",
+      "sha256": "579f61f5080fd1b0a468bb895475ea2448cd0962034df9cbc8e4452fe577171f"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/backup-ht17.md",
-      "sha256": "d8e4b9a6c50340df234847adf21753f9369213621cbd9a7b23fde9ec53cf3e3a"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/backup-ht17.md",
+      "sha256": "2cf72b8a130b86e1cbb591839e16a4e6e496340afba5999e60b13809f4de4806"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide01-three-questions.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01-three-questions.md",
       "sha256": "9f0bdeef4b22092c2d5aeab76b5cc568091cde9939f916b25dad114c82ee4a48"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide02-active-inference-testbed.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide02-active-inference-testbed.md",
       "sha256": "0adb68a91657e7cd453e2c45dcac61bd269734b9e5cd9f6e6f1ae340c164431b"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide03-predictive-coding-credit.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide03-predictive-coding-credit.md",
       "sha256": "f1637f502a965bf7e1d9d08294f3e9acbe7030e386a389f8339468af8005af49"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide04-testbed-controls.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide04-testbed-controls.md",
       "sha256": "e0cfb294655ae4c43f2bffb78f706c5fa4985136c118481c5bc36874877e26ca"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide05-retention-and-controls.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide05-retention-and-controls.md",
       "sha256": "244b3773e36dbf48dce3a5f01e9d48ebe8d9c36a0751ee07c60c0938d4ef399c"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide06-beyond-the-mean.md",
-      "sha256": "e423d3294245bdc576bc9562e51842a5c5131bdd1b1e0b58b4d0c62d8a3ea974"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide06-beyond-the-mean.md",
+      "sha256": "be8bfbcf005862b652a4b450ac79a0c54dcf49a3316e6fdc20b3052888e74da1"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide07-local-consequences.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide07-local-consequences.md",
       "sha256": "d493c189465ce783e84a13816760028c6503deef231bc04c119150500b617edf"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide08-kappa-tradeoff.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide08-kappa-tradeoff.md",
       "sha256": "5acc6e5525a3c38823c4a22ff1dc000d5e7b7c5f4396dd507dd433f1a31b7a4b"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide09-pc-v0-results.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide09-pc-v0-results.md",
       "sha256": "91147ba05fe54117b671ff5bc28ae638ac29cac3ea6b8a45f07c3a4ddac08272"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide10-fixed-v5-credit.md",
-      "sha256": "d15b529bd7bb00bd865c00254c5889c82471367f80d238b6168f6f55a0e66ab4"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide10-fixed-v5-credit.md",
+      "sha256": "8ba72eeeca42bb7db1cc16b04625fe0e5b423dd58c9bfe87a4e1d8e67c35444c"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide11-return-to-active-inference.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide11-return-to-active-inference.md",
       "sha256": "f90217ba7aab7205d212c8c8e05f8ef6b8b33cae0fcf12bc4e39f5f3ae1e8c94"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/slide12-takeaways-and-scope.md",
-      "sha256": "a22b18660e43cedcd4def3761217351e8fc358510596521661661cf10c8092b9"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide12-takeaways-and-scope.md",
+      "sha256": "a948aa204729dfdafe93ea67aca83a04fa8d23a6c5f75bd675cac5722283b6c7"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/speaking-script-15min.md",
-      "sha256": "c1a8dcb58c95722ff652a94da31efe441fe08af844bab733b718164e63032947"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/speaking-script-15min.md",
+      "sha256": "6f4c86ac22973e5eb99ab7a77f89993e4255fc5379228aee5da0ec6cc7d117fd"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/speaking-script-25min.md",
-      "sha256": "d745a5ccb5ff711b1a50cb17ad9b195ccfaa198be3111080dc7cf1cd66d2805e"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/speaking-script-25min.md",
+      "sha256": "7a9c7102a8b68935bb1f27fc8e8c6441ccbecfb2888e760aae15126a1454fc2b"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/ht17-survival-backup.pdf",
-      "sha256": "b2c0101bde4fbe791023ba2123e1d401a46e67f1f5f720005a10721835fb5f96"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.pdf",
+      "sha256": "6d9fc8c851a17c4d70205017a47b64d91d29490159e6092731c4fc964c339c23"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/ht17-survival-backup.png",
-      "sha256": "a9bf523be08a86a0ede585e59bfb5c302062dbf403e0be3a38b70b5668898218"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.png",
+      "sha256": "2043b761bb38e3ab7cc774c287c83d44256620eeafcfbcd221867cb39858b039"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round59/resolved-diagram-specs.json",
-      "sha256": "ed8d8b734fcfa47fea49bf5863b6c77abe6c4ad070b357c2e0d89d5a4a159785"
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/resolved-diagram-specs.json",
+      "sha256": "39ec96401350e7b805947b7627c958617cdb6958d80972e48045e1ee2563aceb"
     }
   ]
 }
