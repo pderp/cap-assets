@@ -11,9 +11,9 @@
     "/home/derp/cap/pc_cap/docs/additional_work/AW-B_report.md": "0a636148f6933a89552e57e9db368300ffd9a1874fdb6d67b577eb6899c8c150",
     "/home/derp/cap/pc_cap/docs/R1_stage4_report.md": "bb1fb0ad58c67570376192b6244e497a1636576f2547b75edff5fb0de9c7350a",
     "/home/derp/cap/pc_cap/docs/presentation/qa.md": "32156bd12ff3a0196f0fba80701c2756b8d35707ca4c2bda2d513f2a727da7ed",
-    "/home/derp/cap/pc_cap/aw/rehearsal_pack.py": "7eac990f9ad3c854627c905359f7e8b4769c15236caac4048aa8063cb5c90017"
+    "/home/derp/cap/pc_cap/aw/rehearsal_pack.py": "84c2603c70e51d01929ff23c18f94d42b53dd05ae795fdf3cbef33f92866992d"
   },
-  "deck_manifest_sha256": "76dbbc1c70df31fd2d858c5b74dc9215816eb6d8708a3d265f4ee79a1b1eb86a",
+  "deck_manifest_sha256": "e382de83a25aae25f32bce113f1c11f7696ce95b478d3c40a128c1fb1a5af61f",
   "exports": {
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/README.md": "9e3fbeea094f52a88f86723f1867234526dc668751a30bf0354db12955154291",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/backup-ht17.md": "d8e4b9a6c50340df234847adf21753f9369213621cbd9a7b23fde9ec53cf3e3a",
@@ -22,8 +22,8 @@
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.pdf": "b2c0101bde4fbe791023ba2123e1d401a46e67f1f5f720005a10721835fb5f96",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.png": "a9bf523be08a86a0ede585e59bfb5c302062dbf403e0be3a38b70b5668898218",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/kappa-tradeoff.png": "19e44bcc193190743df0bd901bea20319313db8d195d5dc9dbcd026261594d66",
-    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/manifest.json": "76dbbc1c70df31fd2d858c5b74dc9215816eb6d8708a3d265f4ee79a1b1eb86a",
-    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/numbers-to-say.md": "55839e287b72771e9ceafd1500e0ba0fd19b8e925453e348c376a64f47892d94",
+    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/manifest.json": "e382de83a25aae25f32bce113f1c11f7696ce95b478d3c40a128c1fb1a5af61f",
+    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/numbers-to-say.md": "602753484ff1801e318b7d679beb58de77e3bc6fc22f3b94a9921455d8e79e92",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/qa.md": "32156bd12ff3a0196f0fba80701c2756b8d35707ca4c2bda2d513f2a727da7ed",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/resolved-diagram-specs.json": "ed8d8b734fcfa47fea49bf5863b6c77abe6c4ad070b357c2e0d89d5a4a159785",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01-three-questions.md": "9f0bdeef4b22092c2d5aeab76b5cc568091cde9939f916b25dad114c82ee4a48",
