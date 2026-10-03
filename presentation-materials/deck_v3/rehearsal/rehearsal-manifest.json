@@ -10,22 +10,23 @@
     "/home/derp/cap/pc_cap/logs/R1/reports/triplet/summary.json": "6ba5292171cb261c6b5e47f82f21e0bb93fda0f75b625913e876eec36cda6c13",
     "/home/derp/cap/pc_cap/docs/additional_work/AW-B_report.md": "0a636148f6933a89552e57e9db368300ffd9a1874fdb6d67b577eb6899c8c150",
     "/home/derp/cap/pc_cap/docs/R1_stage4_report.md": "bb1fb0ad58c67570376192b6244e497a1636576f2547b75edff5fb0de9c7350a",
-    "/home/derp/cap/pc_cap/docs/presentation/qa.md": "342bdc2fe68d0d4894903ae01217b4edd9ad557a3ff113f17d10c79fc0f32e07",
+    "/home/derp/cap/pc_cap/docs/presentation/qa.md": "f028468344ddb91995219a6d7907fce59b79f8e8acc20ad31d038a3ad2cb4e91",
+    "/home/derp/cap/pc_cap/docs/friday-10.02-review/OUTCOME-2026-10-02.md": "f428af23be2f4ae94707d8a863e5562403540a6893b63176f0f9de9ae756a59f",
     "/home/derp/cap/pc_cap/aw/refresh_report_steps.py": "7e986d36ed3e59453a6534da94068270c50f21d885480e769bbbb5a5fedfb6e1",
-    "/home/derp/cap/pc_cap/aw/rehearsal_pack.py": "3e4ed5353a4e99dbfc2429b8eb773af1c8ab18b5a18d04fad4a60ea9b1f5e761"
+    "/home/derp/cap/pc_cap/aw/rehearsal_pack.py": "1d99108d3ce265a47c0b375da9a0143d28daf8d8301d285fa60e9ba8e2b5753c"
   },
-  "deck_manifest_sha256": "a6e274d3bfae94500e0d02f697c13a33c176c9cffbf3faf4b59d1620b7cc5d2e",
+  "deck_manifest_sha256": "ff8858e2b01fdacb3700a400d465ced55bb23f0cbddbcb7cdebc19acfc05f150",
   "exports": {
-    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/README.md": "44e5537ef793e5c2faa449afe1b99f6a0b964274866d7ce17bb33c70de04d703",
+    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/README.md": "9dcb25e287a659484017f9cb5caa3a7d06afcf8d550cd6efbda623b2536908cf",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/backup-ht17.md": "2cf72b8a130b86e1cbb591839e16a4e6e496340afba5999e60b13809f4de4806",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/backup-index.md": "82a58edb232e2e0893fe0aef9c9860aecf0601c003dd47b1e114efc69a35e8b1",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/depth-retention-harm-cost.png": "900b92b8e9f6a8fbadce946bde224a9eed8d080b60e0d0f6493bf6e8937bcf79",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.pdf": "6d9fc8c851a17c4d70205017a47b64d91d29490159e6092731c4fc964c339c23",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.png": "2043b761bb38e3ab7cc774c287c83d44256620eeafcfbcd221867cb39858b039",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/kappa-tradeoff.png": "19e44bcc193190743df0bd901bea20319313db8d195d5dc9dbcd026261594d66",
-    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/manifest.json": "a6e274d3bfae94500e0d02f697c13a33c176c9cffbf3faf4b59d1620b7cc5d2e",
-    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/numbers-to-say.md": "77723e1960302ff72ede7ec5a0e6f610d25b7a27e5fc2eff361cb26a7f0f4ae5",
-    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/qa.md": "342bdc2fe68d0d4894903ae01217b4edd9ad557a3ff113f17d10c79fc0f32e07",
+    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/manifest.json": "ff8858e2b01fdacb3700a400d465ced55bb23f0cbddbcb7cdebc19acfc05f150",
+    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/numbers-to-say.md": "6c32f6ef3b513e2935de079eeb2c9a3f3f9cd8d995d18c8650c64ff4a0ff13be",
+    "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/qa.md": "f028468344ddb91995219a6d7907fce59b79f8e8acc20ad31d038a3ad2cb4e91",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/resolved-diagram-specs.json": "39ec96401350e7b805947b7627c958617cdb6958d80972e48045e1ee2563aceb",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01-three-questions.md": "9f0bdeef4b22092c2d5aeab76b5cc568091cde9939f916b25dad114c82ee4a48",
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01.svg": "684346b99ed1599031c048192d55e75f9be9bb9d8f72b032da6818b9f0702234",
@@ -57,6 +58,7 @@
     "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/timings.json": "03a5007b8dc3909fd6f53fb4c3f32a721b4db792a2f3551d8d1ea4818b4d5d7d"
   },
   "draft": true,
-  "review_notes_pending": true,
+  "review_notes_pending": false,
+  "review_outcome": "DEC-082: no changes requested",
   "script_slots_unresolved": 0
 }

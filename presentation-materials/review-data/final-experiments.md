@@ -1,6 +1,6 @@
 # Final experiments — October 2 review and historical decision forms
 
-Prepared September 27; updated October 2 by Capex. **DEC-077/078/080/081/081a decisions now
+Prepared September 27; updated October 2 by Capex. **DEC-077/078/080/081/081a/082 decisions now
 supersede the blank decision fields in the historical candidate descriptions.**
 This update records existing decisions and results; it authorizes no extra run.
 Canonical repository copy: `pc_cap/docs/presentation/final-experiments.md`;
@@ -45,13 +45,13 @@ The remaining GPU portfolio is unchanged; no coupled-objective model fit or free
 
 ## October 2 reviewer entry points and current constraints
 
-Read [2 October update: read first](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/UPDATE-2026-10-02.md)
+Read [2 October update: read first](../../../pc_cap/docs/friday-10.02-review/UPDATE-2026-10-02.md)
 for the latest two-seed reader result, HT-17 interpretation and Option R queue.
 PC-16a has refreshed both canonical reports for seeds0–1.
-Then read [Capstan's October 1 primer](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/README.md), the
-[feedback response](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md) and
-[Capex's feedback review](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/feedback-MMK-nelson-entropy-capex.md)
-alongside the [current results guide](https://github.com/pderp/pc_cap/blob/master/docs/presentation/review-results.md). This update reflects
+Then read [Capstan's October 1 primer](../../../pc_cap/docs/friday-10.02-review/README.md), the
+[feedback response](../../../pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md) and
+[Capex's feedback review](../../../pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy-capex.md)
+alongside the [current results guide](../../../pc_cap/docs/presentation/review-results.md). This update reflects
 October 2 evidence; the blank forms below are historical, not new approval requests.
 
 The PC-reader comparison currently has three BP seeds and ePC seeds 0–1
@@ -68,14 +68,17 @@ HT-17's 301-cell analysis reports finite-range shapes, frequency and conditional
 severity, not asymptotic classes. AW-B takes severity above .01 nat to about
 **one-third** (zsRE 1.619→.542; CounterFact 1.925→.581), with little change in
 frequency. DEC-081/081a do not authorize a coupled-objective training experiment.
-The optional κ readout remains default no; exact pilot restoration failed KP-1.
+The optional κ readout is closed without execution under DEC-082; exact pilot restoration failed KP-1.
+The [October 2 review outcome](../../../pc_cap/docs/friday-10.02-review/OUTCOME-2026-10-02.md) requests
+no changes to the remaining experiments or talk framing and opens a post-conference
+collaboration foundation. The authors' technical questions remain open.
 
 The main Stage-4 base is GPT-2 small (124M); transfer to production scale is
 unestablished. DEC-074b left S1_literal CounterFact and the registered extension
 unavailable. DEC-080 separately defers nine remaining Option R v0 cells, with
 one v0 ceiling stop incomplete; learned/random resume without raised ceilings.
 Report these omissions, exposed supplemental populations and dependent orders
-beside any result. The [freeze checklist](https://github.com/pderp/pc_cap/blob/master/docs/freeze_checklist_20261009.md) identifies
+beside any result. The [freeze checklist](../../../pc_cap/docs/freeze_checklist_20261009.md) identifies
 the final evidence and outstanding refreshes. No new fits start on or after
 October 6; experimental completion is October 9, 17:00 EDT, ahead of October 15.
 

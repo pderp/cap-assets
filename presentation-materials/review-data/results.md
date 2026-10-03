@@ -1,30 +1,33 @@
 # Research results for the October 2 review
 
-**Current reading guide: October 2, Round 61.** Start with
-[2 October update: read first](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/UPDATE-2026-10-02.md), which
+**Current reading guide: October 2, Round 62.** Start with
+[2 October update: read first](../../../pc_cap/docs/friday-10.02-review/UPDATE-2026-10-02.md), which
 summarizes HT-17, the two completed ePC seeds and the unchanged Option R queue.
+Then read the [review outcome](../../../pc_cap/docs/friday-10.02-review/OUTCOME-2026-10-02.md):
+no changes requested to the remaining experiments or framing; the optional κ
+readout is closed, and the coupled-objective proposal is post-conference.
 The canonical reader/tail reports below now include both completed ePC seeds.
 Numerical qualifications to the update: own-prompt retention is nearly equal,
 not identical (CounterFact seed 1: ePC 1.00, BP .99), and the seed-0 CounterFact
 paraphrase deficit is substantial, at 24.17 percentage points.
-Then read [Capstan's October 1 primer](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/README.md), the
-[reviewer feedback and response](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md)
-and [Capex's scientific review](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/feedback-MMK-nelson-entropy-capex.md).
+Then read [Capstan's October 1 primer](../../../pc_cap/docs/friday-10.02-review/README.md), the
+[reviewer feedback and response](../../../pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy.md)
+and [Capex's scientific review](../../../pc_cap/docs/friday-10.02-review/feedback-MMK-nelson-entropy-capex.md).
 The dated reports below govern quantitative claims; older planning estimates and
 the prototype tail-class appendix are superseded by these measured results.
 
-- **Heavy tails:** [HT-17](https://github.com/pderp/pc_cap/blob/master/docs/additional_work/HT-17_report.md) describes finite-range
+- **Heavy tails:** [HT-17](../../../pc_cap/docs/additional_work/HT-17_report.md) describes finite-range
   differences across 301 available cells; ten reader evaluations are included. Learned-reader generalized-Pareto fits
   add little held-out predictive value over an exponential; stable-v0 zsRE differs.
   Neither result identifies an asymptotic class, infinite variance or entropy
   growth. Frequency, conditional severity and fit failures must travel together.
-- **Bounded correction:** [AW-B](https://github.com/pderp/pc_cap/blob/master/docs/additional_work/AW-B_report.md) reduces conditional
+- **Bounded correction:** [AW-B](../../../pc_cap/docs/additional_work/AW-B_report.md) reduces conditional
   severity above .01 nat from 1.619 to .542 nats on zsRE and 1.925 to .581 on
   CounterFact: about **one-third of the original severity**, with nearly unchanged
   harmful-change frequency. The one-nat ceiling is an analytic per-token guarantee
   at a shared prefix; it is not a whole-answer or KL guarantee. CounterFact KL
   remains above .001 and paraphrase retention has a small cost.
-- **Training the reader with PC:** [the partial reader report](https://github.com/pderp/pc_cap/blob/master/docs/additional_work/PC-reader_report.md)
+- **Training the reader with PC:** [the partial reader report](../../../pc_cap/docs/additional_work/PC-reader_report.md)
   contains three BP seeds and ePC seeds 0–1: **10 of 12 evaluations, two paired seeds**.
   ePC paraphrase retention is lower in each completed pair; differences vary
   markedly by seed. CounterFact firing reverses from ePC/BP 185/256 positions
@@ -32,21 +35,21 @@ the prototype tail-class appendix are superseded by these measured results.
   Neither uniform quietness nor a systematic training-rule effect is established.
   Seed 2 remains pending.
 - **Remaining GPU work:** ePC seed 2 precedes the DEC-080 Option R resume
-  (learned/random only), then the upper-layer factorial. [Option R](https://github.com/pderp/pc_cap/blob/master/docs/additional_work/R_report.md)
+  (learned/random only), then the upper-layer factorial. [Option R](../../../pc_cap/docs/additional_work/R_report.md)
   has four complete cells, one incomplete ceiling stop, nine v0 cells deferred
   and sixteen pending. No full extension or upper-layer result is available.
 - **Interpretation:** DEC-081/081a retain the active-inference programme, corrected
   predictive-coding tests and empirical extremes as the three themes. The κ pilot
   is a bounded deformation of surprisal; a calibrated coupled-free-energy agent
-  remains proposed. [Approved talk wording](https://github.com/pderp/pc_cap/blob/master/docs/friday-10.02-review/talk-text-B-C-D.md)
-  and the [coupled-objective note](https://github.com/pderp/pc_cap/blob/master/docs/additional_work/coupled_objective_note.md)
+  remains proposed. [Approved talk wording](../../../pc_cap/docs/friday-10.02-review/talk-text-B-C-D.md)
+  and the [coupled-objective note](../../../pc_cap/docs/additional_work/coupled_objective_note.md)
   distinguish those claims.
 - **Scope and cutoff:** the main Stage-4 base is GPT-2 small (124M parameters);
   transfer to production-scale models is unestablished. The DEC-074b halt leaves
   S1_literal CounterFact and the registered extension unavailable; the separate
   Option R study also lacks its deferred v0 class. Supplemental streams are exposed,
   orders are dependent, and training seeds are not subject realizations. See the
-  [Stage-4 limitations](https://github.com/pderp/pc_cap/blob/master/docs/R1_stage4_report.md) and [October 9 freeze checklist](https://github.com/pderp/pc_cap/blob/master/docs/freeze_checklist_20261009.md).
+  [Stage-4 limitations](../../../pc_cap/docs/R1_stage4_report.md) and [October 9 freeze checklist](../../../pc_cap/docs/freeze_checklist_20261009.md).
   No new fits start on or after October 6. Experiments end October 9 at 17:00 EDT;
   the presentation is October 15.
 
@@ -576,7 +579,7 @@ Survival figure: `assets/presentation-materials/figures/aw_b/evaluation-survival
 
 ## HT-17 — frequency, severity and finite-range shape (October 2)
 
-The [HT-17 report](https://github.com/pderp/pc_cap/blob/master/docs/additional_work/HT-17_report.md) supersedes the prototype tail appendix. Across 301 cells it separates frequency above .01 nat from mean severity conditional on exceeding it. Primary learned-v5 frequencies/severities are .1594%/1.630 nats on zsRE and .2984%/1.913 nats on CounterFact. Stable v0 has a more pronounced fitted zsRE tail, yet its maximum and ES99 order differently against v5; zero CF harm accompanies zero paraphrase retention.
+The [HT-17 report](../../../pc_cap/docs/additional_work/HT-17_report.md) supersedes the prototype tail appendix. Across 301 cells it separates frequency above .01 nat from mean severity conditional on exceeding it. Primary learned-v5 frequencies/severities are .1594%/1.630 nats on zsRE and .2984%/1.913 nats on CounterFact. Stable v0 has a more pronounced fitted zsRE tail, yet its maximum and ES99 order differently against v5; zero CF harm accompanies zero paraphrase retention.
 
 Learned-v5 illustrative shape intervals include zero, with little held-out predictive gain over exponential. Stable-zsRE GPD gains .149–.594 nats per excess, with illustrative shape interval [.390,.779]. Random CF has 10/15 held-out support failures; all mixture fits are invalid. These are finite-range observations, not complexity classes or infinite-variance measurements. Conditional window intervals omit realization/seed uncertainty, and window independence remains unverified.
 

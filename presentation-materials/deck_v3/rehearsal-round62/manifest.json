@@ -3919,123 +3919,123 @@
   },
   "exports": [
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide01.svg",
       "sha256": "684346b99ed1599031c048192d55e75f9be9bb9d8f72b032da6818b9f0702234"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide02.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide02.svg",
       "sha256": "97a2b66a52ce5e0330cb8ad407661a602f7563f98de7e54b989e12998404866e"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide03.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide03.svg",
       "sha256": "b875ea20223d5b24703aa71d660a6bfe1372d5ec194dece899ea3e283f0a9d9c"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide04.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide04.svg",
       "sha256": "8265b971c7b1ba5a21c1b237d5969d7ebb1b980252d6ad4099fa3939c664dd9d"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide05.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide05.svg",
       "sha256": "0e093810e96c10f80c8ff66cce1c46af00c934160d79f3bf72725e6a0ec036f8"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide06.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide06.svg",
       "sha256": "9879c689955ee5665b9d40a0586c8a317a4b93437c8b6bd92169c89ea61bb18a"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide07.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide07.svg",
       "sha256": "d23d19060d22d238e7c3518cd89d1fca1430944d870cdc7dc7dc8757fe0287b3"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide08.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide08.svg",
       "sha256": "8b183c764645505b59738f32316d4ffd846147863f2d7014bf0404eeac52712f"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide09.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide09.svg",
       "sha256": "ae634c59fdaf535ebbbb46059b2c2eefbd7bc26b11e9a160f8426f7a81f308cd"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide10.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide10.svg",
       "sha256": "fd8cba8e467c68a2a9b23c34cfc608c1d6dc65e9c67715bbf4733f019d82f7de"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide11.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide11.svg",
       "sha256": "98bcc511d93e8559026ac4f9fddd967cbf4da945887c148e4317e6811ec4fecf"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide12.svg",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide12.svg",
       "sha256": "579f61f5080fd1b0a468bb895475ea2448cd0962034df9cbc8e4452fe577171f"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/backup-ht17.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/backup-ht17.md",
       "sha256": "2cf72b8a130b86e1cbb591839e16a4e6e496340afba5999e60b13809f4de4806"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide01-three-questions.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide01-three-questions.md",
       "sha256": "9f0bdeef4b22092c2d5aeab76b5cc568091cde9939f916b25dad114c82ee4a48"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide02-active-inference-testbed.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide02-active-inference-testbed.md",
       "sha256": "0adb68a91657e7cd453e2c45dcac61bd269734b9e5cd9f6e6f1ae340c164431b"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide03-predictive-coding-credit.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide03-predictive-coding-credit.md",
       "sha256": "f1637f502a965bf7e1d9d08294f3e9acbe7030e386a389f8339468af8005af49"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide04-testbed-controls.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide04-testbed-controls.md",
       "sha256": "e0cfb294655ae4c43f2bffb78f706c5fa4985136c118481c5bc36874877e26ca"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide05-retention-and-controls.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide05-retention-and-controls.md",
       "sha256": "244b3773e36dbf48dce3a5f01e9d48ebe8d9c36a0751ee07c60c0938d4ef399c"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide06-beyond-the-mean.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide06-beyond-the-mean.md",
       "sha256": "be8bfbcf005862b652a4b450ac79a0c54dcf49a3316e6fdc20b3052888e74da1"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide07-local-consequences.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide07-local-consequences.md",
       "sha256": "d493c189465ce783e84a13816760028c6503deef231bc04c119150500b617edf"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide08-kappa-tradeoff.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide08-kappa-tradeoff.md",
       "sha256": "5acc6e5525a3c38823c4a22ff1dc000d5e7b7c5f4396dd507dd433f1a31b7a4b"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide09-pc-v0-results.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide09-pc-v0-results.md",
       "sha256": "91147ba05fe54117b671ff5bc28ae638ac29cac3ea6b8a45f07c3a4ddac08272"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide10-fixed-v5-credit.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide10-fixed-v5-credit.md",
       "sha256": "8ba72eeeca42bb7db1cc16b04625fe0e5b423dd58c9bfe87a4e1d8e67c35444c"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide11-return-to-active-inference.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide11-return-to-active-inference.md",
       "sha256": "f90217ba7aab7205d212c8c8e05f8ef6b8b33cae0fcf12bc4e39f5f3ae1e8c94"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/slide12-takeaways-and-scope.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/slide12-takeaways-and-scope.md",
       "sha256": "a948aa204729dfdafe93ea67aca83a04fa8d23a6c5f75bd675cac5722283b6c7"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/speaking-script-15min.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/speaking-script-15min.md",
       "sha256": "6f4c86ac22973e5eb99ab7a77f89993e4255fc5379228aee5da0ec6cc7d117fd"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/speaking-script-25min.md",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/speaking-script-25min.md",
       "sha256": "7a9c7102a8b68935bb1f27fc8e8c6441ccbecfb2888e760aae15126a1454fc2b"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.pdf",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/ht17-survival-backup.pdf",
       "sha256": "6d9fc8c851a17c4d70205017a47b64d91d29490159e6092731c4fc964c339c23"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/ht17-survival-backup.png",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/ht17-survival-backup.png",
       "sha256": "2043b761bb38e3ab7cc774c287c83d44256620eeafcfbcd221867cb39858b039"
     },
     {
-      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal/resolved-diagram-specs.json",
+      "path": "/home/derp/cap/assets/presentation-materials/deck_v3/rehearsal-round62/resolved-diagram-specs.json",
       "sha256": "39ec96401350e7b805947b7627c958617cdb6958d80972e48045e1ee2563aceb"
     }
   ]
