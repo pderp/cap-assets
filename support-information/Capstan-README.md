@@ -12,7 +12,9 @@ The one thing computed for this document is the frozen base's own answer to each
   stream order), then five locality prompts, five near-miss cases, three unseen prompts and the revision cases, each with
   every condition that ran at that coordinate.
 - `examples.json`: the same content, machine-readable, with source hashes.
-- Generator: `pc_cap/aw/support_examples.py`.
+- **Second set, without the oldest-memories bias:** `README-random-sample.md` and `examples-<dataset>-random.md`, 30
+  edits per dataset drawn at random (fixed seed) from the rest of the stream, with each item's stream position shown.
+- Generator: `pc_cap/aw/support_examples.py` (`--mode first` and `--mode random`).
 
 ## How to read an item
 
