@@ -1,0 +1,13 @@
+{
+  "source": {
+    "path": "/home/derp/cap/pc_cap/logs/additional_work/reproductions/round63-verified/ht17/report.json",
+    "sha256": "029f8e4db8a6b308be5fd856e0fc0e3aab3820fdba56599ad51e00544ca7d55e"
+  },
+  "generator_sha256": "222387ae5d96578274d5dd505ce2f5b04be0cfdff3869f45222b432d159487ed",
+  "exports": {
+    "/home/derp/cap/assets/presentation-materials/reproductions/round63-verified/ht17-slide/frequency-severity-stage4.png": "eaa34df7e05fe2eb30c781f0d624dc8b4f9c75aaf7d3324a24162a1652dc72d3",
+    "/home/derp/cap/assets/presentation-materials/reproductions/round63-verified/ht17-slide/frequency-severity-stage4.svg": "21a4c4bc038c7719472af13da54b8a5dd06234a04e21030e0531a71202df7e21",
+    "/home/derp/cap/assets/presentation-materials/reproductions/round63-verified/ht17-slide/frequency-severity-stage4.pdf": "99fb851319eaaaa8e8ccf985487bdeea8e7c5ec1d6dca9070b93c108d924afc5"
+  },
+  "selection": "All primary Stage-4 cells on both datasets, not outcome-selected"
+}

@@ -1,0 +1,17 @@
+{
+  "source": {
+    "path": "/home/derp/cap/pc_cap/logs/additional_work/reproductions/round63-verified/aw-l/report.json",
+    "sha256": "6b598ac22709944667d0ae7816d2ead34cba22a56dda788a4d55e6dd1a7561ca"
+  },
+  "generator": {
+    "path": "/home/derp/cap/pc_cap/aw/upper_layer_figure.py",
+    "sha256": "2496f13d716a4ad843d2b79a49ead4982111ba8f5cc5d6671db9eab606a7e73d"
+  },
+  "exports": {
+    "/home/derp/cap/assets/presentation-materials/reproductions/round63-verified/upper-layer/upper-layer-tradeoffs.png": "8e24f3940ea1cd837f52020fc9527c3beeb6d29360c9617443b5a4a2ac2e9c7c",
+    "/home/derp/cap/assets/presentation-materials/reproductions/round63-verified/upper-layer/upper-layer-tradeoffs.svg": "52b9b938a6bccbaffffa1a78ba5b81f4b4949867c08a6a6d811e25da4ae3c9dc",
+    "/home/derp/cap/assets/presentation-materials/reproductions/round63-verified/upper-layer/upper-layer-tradeoffs.pdf": "311bb71921ceb5e43738b71b695d4fcd59e2e09f84dfeccaacce1bdebd182660"
+  },
+  "selection": "all 24 cells; each seed shown",
+  "gpu_seconds": 0
+}
