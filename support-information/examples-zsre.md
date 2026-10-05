@@ -1,6 +1,8 @@
-# zsre: 30 edits from realization 0, order 100 (checkpoint 1000)
+# zsre: the first 30 edits of realization 0, order 100 (checkpoint 1000)
 
 Read `Capstan-README.md` first for what each column means. Answers are the exact greedy generations saved in the cell checkpoints (≤ 32 tokens, stopped at newline/EOS); `⏎` marks a newline, `…` a cut for display. ✓ = scored a success by the registered alias match (ES / RET-ES / RET-GS), ✗ = not. The **base** rows are the frozen GPT-2's own answers with no cap (computed on CPU for this document from the sealed Stage-4 base).
+
+**About the labels:** here, **new target** is the dataset's reference answer, which we ask the cap to learn; it is not a made-up replacement fact. These examples do not supply a separate **previously true answer**. The **paraphrase** is the dataset's alternative wording of the question, with the same expected answer. Both texts and the answer were supplied before the experiment. [Where these fields come from](Capstan-README.md#where-the-three-labels-come-from).
 
 ## Counts over these items
 

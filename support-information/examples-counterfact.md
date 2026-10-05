@@ -1,6 +1,8 @@
-# counterfact: 30 edits from realization 0, order 100 (checkpoint 1000)
+# counterfact: the first 30 edits of realization 0, order 100 (checkpoint 1000)
 
 Read `Capstan-README.md` first for what each column means. Answers are the exact greedy generations saved in the cell checkpoints (≤ 32 tokens, stopped at newline/EOS); `⏎` marks a newline, `…` a cut for display. ✓ = scored a success by the registered alias match (ES / RET-ES / RET-GS), ✗ = not. The **base** rows are the frozen GPT-2's own answers with no cap (computed on CPU for this document from the sealed Stage-4 base).
+
+**About the labels:** **previously true answer** is the benchmark's original answer; **new target** is its deliberately different answer for this editing test. The **paraphrase** is another benchmark prompt about the same fact, often with an unrelated sentence in front; it should receive the new target after editing. These are supplied test inputs, not answers or rewordings invented by our model. The original answer need not equal what GPT-2 actually says in the **base** row. [Where these fields come from](Capstan-README.md#where-the-three-labels-come-from).
 
 ## Counts over these items
 

@@ -1,6 +1,8 @@
-# mquake: 30 edits from realization 0, order 100 (checkpoint 300)
+# mquake: the first 30 edits of realization 0, order 100 (checkpoint 300)
 
 Read `Capstan-README.md` first for what each column means. Answers are the exact greedy generations saved in the cell checkpoints (≤ 32 tokens, stopped at newline/EOS); `⏎` marks a newline, `…` a cut for display. ✓ = scored a success by the registered alias match (ES / RET-ES / RET-GS), ✗ = not. The **base** rows are the frozen GPT-2's own answers with no cap (computed on CPU for this document from the sealed Stage-4 base).
+
+**About the labels:** **previously true answer** and **new target** are the original and replacement answers supplied by MQuAKE-CF for a single fact. The **paraphrase** shown here is the corresponding source question, asking for that same fact in different words; after editing, its expected answer is the new target. These examples test one fact at a time, not MQuAKE's multi-step questions. The original answer is a dataset label, not a measurement of what GPT-2 knew. [Where these fields come from](Capstan-README.md#where-the-three-labels-come-from).
 
 ## Counts over these items
 

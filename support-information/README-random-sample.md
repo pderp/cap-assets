@@ -10,6 +10,12 @@ decode. Files: `examples-zsre-random.md`, `examples-counterfact-random.md`, `exa
 `examples-random.json`. Each item's heading gives its stream position, so you can see how many later edits each memory
 had to survive.
 
+For **previously true answer**, **new target** and **paraphrase**, see the
+[plain-language field guide](Capstan-README.md#where-the-three-labels-come-from).
+Their meanings and dataset sources are the same in both example sets; only the
+selected stream positions differ. In particular, “previously true” is a supplied
+dataset label, while the **base** and condition-table answers are model outputs.
+
 What the position mix changes (compare each file's counts table with the first-30 file): on zsRE the v0-family caps'
 end-of-stream own-prompt retention rises from about 1/30 to 9–13/30 (study-wide mean 0.66 over all 1,000 edits; later
 positions have had fewer edits stored on top of them), and their paraphrase retention from 1/30 to 2–4/30; the random
