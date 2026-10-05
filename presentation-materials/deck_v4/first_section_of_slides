@@ -1,0 +1,19 @@
+         This document plans one month of work on continual-learning “caps”: small learning systems
+     attached to a frozen GPT-2-scale transformer that read its internal states and write corrections
+     back into it. The primary question is whether routing a learning signal to the place where a small
+     intervention measurably improves the current prediction reduces damage to unrelated knowledge,
+     while still allowing useful transfer through shared mechanisms, at comparable acquisition, memory,
+     and compute. The cap is built first on the ordinary backpropagation-trained (BP) model. A
+     separate controlled comparison then isolates three things that are easy to confuse: the effect of
+     an error-based predictive-coding (ePC) representation of the base, the effect of “settled” error
+     credit as opposed to gradient credit, and the effect of retrieval features derived from errors. The
+     cap of this month (“v0”) is a PC-motivated gated activation memory; it does not yet contain
+     its own predictive-coding inference process, and the document is careful not to claim otherwise.
+     Three test beds are used: a constructed modular fixture in which the right routing is known by
+     construction, a learned synthetic grammar with shared and private latent causes, and lifelong
+     editing of complete answers on zsRE and CounterFact. A bounded development phase precedes a
+     frozen confirmatory protocol. Directly measured update-order effects are the main interference
+     diagnostic; Hessian commutators are an optional, explicitly local diagnostic. Re-distillation of the
+     ePC base is conditional on finding a specific deficit, and never forces unrelated domains to be
+     orthogonal. The appendices specify execution, metrics, memory updates, resource accounting, and
+     reporting, including how to finish an experiment whose answer is negative.
