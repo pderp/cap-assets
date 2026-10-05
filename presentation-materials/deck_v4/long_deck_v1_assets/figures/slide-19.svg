@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1280pt" height="720pt" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-05T17:36:36.054343</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 720 
+L 1280 720 
+L 1280 0 
+L 0 0 
+z
+" style="fill: #f7f7f2"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 0 7 
+L 1280 7 
+L 1280 0 
+L 0 0 
+z
+" style="fill: #007f7d"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 66 677 
+L 1214 677 
+Q 1224 677 1224 671.375 
+L 1224 615.625 
+Q 1224 610 1214 610 
+L 66 610 
+Q 56 610 56 615.625 
+L 56 671.375 
+Q 56 677 66 677 
+z
+" style="fill: #007f7d"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 61 372.66 
+L 1219 372.66 
+Q 1222 372.66 1222 370.9725 
+L 1222 299.0075 
+Q 1222 297.32 1219 297.32 
+L 61 297.32 
+Q 58 297.32 58 299.0075 
+L 58 370.9725 
+Q 58 372.66 61 372.66 
+z
+" style="fill: #ebefea"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 352 368.66 
+L 610.666667 368.66 
+Q 612.666667 368.66 612.666667 367.535 
+L 612.666667 364.785 
+Q 612.666667 363.66 610.666667 363.66 
+L 352 363.66 
+Q 350 363.66 350 364.785 
+L 350 367.535 
+Q 350 368.66 352 368.66 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 352 368.66 
+L 483.273333 368.66 
+Q 485.273333 368.66 485.273333 367.535 
+L 485.273333 364.785 
+Q 485.273333 363.66 483.273333 363.66 
+L 352 363.66 
+Q 350 363.66 350 364.785 
+L 350 367.535 
+Q 350 368.66 352 368.66 
+z
+" style="fill: #007f7d"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 646.666667 368.66 
+L 905.333333 368.66 
+Q 907.333333 368.66 907.333333 367.535 
+L 907.333333 364.785 
+Q 907.333333 363.66 905.333333 363.66 
+L 646.666667 363.66 
+Q 644.666667 363.66 644.666667 364.785 
+L 644.666667 367.535 
+Q 644.666667 368.66 646.666667 368.66 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 646.666667 368.66 
+L 677.076 368.66 
+Q 679.076 368.66 679.076 367.535 
+L 679.076 364.785 
+Q 679.076 363.66 677.076 363.66 
+L 646.666667 363.66 
+Q 644.666667 363.66 644.666667 364.785 
+L 644.666667 367.535 
+Q 644.666667 368.66 646.666667 368.66 
+z
+" style="fill: #6852a2"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 941.333333 368.66 
+L 1200 368.66 
+Q 1202 368.66 1202 367.535 
+L 1202 364.785 
+Q 1202 363.66 1200 363.66 
+L 941.333333 363.66 
+Q 939.333333 363.66 939.333333 364.785 
+L 939.333333 367.535 
+Q 939.333333 368.66 941.333333 368.66 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_10">
+   <path d="M 941.333333 368.66 
+L 987.24 368.66 
+Q 989.24 368.66 989.24 367.535 
+L 989.24 364.785 
+Q 989.24 363.66 987.24 363.66 
+L 941.333333 363.66 
+Q 939.333333 363.66 939.333333 364.785 
+L 939.333333 367.535 
+Q 939.333333 368.66 941.333333 368.66 
+z
+" style="fill: #78888d"/>
+  </g>
+  <g id="patch_11">
+   <path d="M 352 447 
+L 610.666667 447 
+Q 612.666667 447 612.666667 445.875 
+L 612.666667 443.125 
+Q 612.666667 442 610.666667 442 
+L 352 442 
+Q 350 442 350 443.125 
+L 350 445.875 
+Q 350 447 352 447 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_12">
+   <path d="M 352 447 
+L 488.264 447 
+Q 490.264 447 490.264 445.875 
+L 490.264 443.125 
+Q 490.264 442 488.264 442 
+L 352 442 
+Q 350 442 350 443.125 
+L 350 445.875 
+Q 350 447 352 447 
+z
+" style="fill: #007f7d"/>
+  </g>
+  <g id="patch_13">
+   <path d="M 646.666667 447 
+L 905.333333 447 
+Q 907.333333 447 907.333333 445.875 
+L 907.333333 443.125 
+Q 907.333333 442 905.333333 442 
+L 646.666667 442 
+Q 644.666667 442 644.666667 443.125 
+L 644.666667 445.875 
+Q 644.666667 447 646.666667 447 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_14">
+   <path d="M 646.666667 447 
+L 677.076 447 
+Q 679.076 447 679.076 445.875 
+L 679.076 443.125 
+Q 679.076 442 677.076 442 
+L 646.666667 442 
+Q 644.666667 442 644.666667 443.125 
+L 644.666667 445.875 
+Q 644.666667 447 646.666667 447 
+z
+" style="fill: #6852a2"/>
+  </g>
+  <g id="patch_15">
+   <path d="M 941.333333 447 
+L 1200 447 
+Q 1202 447 1202 445.875 
+L 1202 443.125 
+Q 1202 442 1200 442 
+L 941.333333 442 
+Q 939.333333 442 939.333333 443.125 
+L 939.333333 445.875 
+Q 939.333333 447 941.333333 447 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_16">
+   <path d="M 941.333333 447 
+L 1026.64 447 
+Q 1028.64 447 1028.64 445.875 
+L 1028.64 443.125 
+Q 1028.64 442 1026.64 442 
+L 941.333333 442 
+Q 939.333333 442 939.333333 443.125 
+L 939.333333 445.875 
+Q 939.333333 447 941.333333 447 
+z
+" style="fill: #78888d"/>
+  </g>
+  <g id="patch_17">
+   <path d="M 61 529.34 
+L 1219 529.34 
+Q 1222 529.34 1222 527.6525 
+L 1222 455.6875 
+Q 1222 454 1219 454 
+L 61 454 
+Q 58 454 58 455.6875 
+L 58 527.6525 
+Q 58 529.34 61 529.34 
+z
+" style="fill: #ebefea"/>
+  </g>
+  <g id="patch_18">
+   <path d="M 352 525.34 
+L 610.666667 525.34 
+Q 612.666667 525.34 612.666667 524.215 
+L 612.666667 521.465 
+Q 612.666667 520.34 610.666667 520.34 
+L 352 520.34 
+Q 350 520.34 350 521.465 
+L 350 524.215 
+Q 350 525.34 352 525.34 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_19">
+   <path d="M 352 525.34 
+L 496.406667 525.34 
+Q 498.406667 525.34 498.406667 524.215 
+L 498.406667 521.465 
+Q 498.406667 520.34 496.406667 520.34 
+L 352 520.34 
+Q 350 520.34 350 521.465 
+L 350 524.215 
+Q 350 525.34 352 525.34 
+z
+" style="fill: #007f7d"/>
+  </g>
+  <g id="patch_20">
+   <path d="M 646.666667 525.34 
+L 905.333333 525.34 
+Q 907.333333 525.34 907.333333 524.215 
+L 907.333333 521.465 
+Q 907.333333 520.34 905.333333 520.34 
+L 646.666667 520.34 
+Q 644.666667 520.34 644.666667 521.465 
+L 644.666667 524.215 
+Q 644.666667 525.34 646.666667 525.34 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_21">
+   <path d="M 646.666667 525.34 
+L 674.712 525.34 
+Q 676.712 525.34 676.712 524.215 
+L 676.712 521.465 
+Q 676.712 520.34 674.712 520.34 
+L 646.666667 520.34 
+Q 644.666667 520.34 644.666667 521.465 
+L 644.666667 524.215 
+Q 644.666667 525.34 646.666667 525.34 
+z
+" style="fill: #6852a2"/>
+  </g>
+  <g id="patch_22">
+   <path d="M 941.333333 525.34 
+L 1200 525.34 
+Q 1202 525.34 1202 524.215 
+L 1202 521.465 
+Q 1202 520.34 1200 520.34 
+L 941.333333 520.34 
+Q 939.333333 520.34 939.333333 521.465 
+L 939.333333 524.215 
+Q 939.333333 525.34 941.333333 525.34 
+z
+" style="fill: #d8dfd9"/>
+  </g>
+  <g id="patch_23">
+   <path d="M 941.333333 525.34 
+L 1159.724444 525.34 
+Q 1161.724444 525.34 1161.724444 524.215 
+L 1161.724444 521.465 
+Q 1161.724444 520.34 1159.724444 520.34 
+L 941.333333 520.34 
+Q 939.333333 520.34 939.333333 521.465 
+L 939.333333 524.215 
+Q 939.333333 525.34 941.333333 525.34 
+z
+" style="fill: #78888d"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007f7d" x="56" y="42.279219" transform="rotate(-0 56 42.279219)">4 / What we learned</text>
+  </g>
+  <g id="text_2">
+   <text style="font-weight: 700; font-size: 36px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142d3b" x="56" y="95.933125" transform="rotate(-0 56 95.933125)">19 · More settling bought retention at a cost</text>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; fill: #ffffff" transform="translate(74 640.627656)">More inference preserved more teaching prompts, but did not establish better transfer or</text>
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; fill: #ffffff" transform="translate(74 668.574063)">lower harm.</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52646b" x="58" y="700.800313" transform="rotate(-0 58 700.800313)">Source: PC-controls report. Means over three realizations; timing is learning only, not whole-process time.</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 23px; font-family: 'DejaVu Sans'; fill: #142d3b" transform="translate(58 179.491562)">Legacy 50M ePC base with the v0 live cap: zsRE, three exposed realizations, order 100, after 1,000</text>
+   <text style="font-size: 23px; font-family: 'DejaVu Sans'; fill: #142d3b" transform="translate(58 210.009687)">edits.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52646b" x="58" y="252.433594" transform="rotate(-0 58 252.433594)">Settling steps</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; fill: #007f7d" transform="translate(350 252.433594)">Original-prompt</text>
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; fill: #007f7d" transform="translate(350 277.718437)">retention</text>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6852a2" x="644.666667" y="252.507812" transform="rotate(-0 644.666667 252.507812)">Paraphrase retention</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #78888d" x="939.333333" y="252.433594" transform="rotate(-0 939.333333 252.433594)">Learning time per cell</text>
+  </g>
+  <g id="text_10">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142d3b" x="66" y="329.890156" transform="rotate(-0 66 329.890156)">1</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007f7d" x="350" y="326.836641" transform="rotate(-0 350 326.836641)">51.5%</text>
+  </g>
+  <g id="text_12">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6852a2" x="644.666667" y="326.836641" transform="rotate(-0 644.666667 326.836641)">13.1%</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #78888d" x="939.333333" y="327.039688" transform="rotate(-0 939.333333 327.039688)">5.7 min</text>
+  </g>
+  <g id="text_14">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142d3b" x="66" y="408.218672" transform="rotate(-0 66 408.218672)">8</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007f7d" x="350" y="405.176641" transform="rotate(-0 350 405.176641)">53.4%</text>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6852a2" x="644.666667" y="405.176641" transform="rotate(-0 644.666667 405.176641)">13.1%</text>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #78888d" x="939.333333" y="405.379688" transform="rotate(-0 939.333333 405.379688)">10.2 min</text>
+  </g>
+  <g id="text_18">
+   <text style="font-weight: 700; font-size: 21px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142d3b" x="66" y="486.558672" transform="rotate(-0 66 486.558672)">32</text>
+  </g>
+  <g id="text_19">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007f7d" x="350" y="483.516641" transform="rotate(-0 350 483.516641)">56.5%</text>
+  </g>
+  <g id="text_20">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #6852a2" x="644.666667" y="483.516641" transform="rotate(-0 644.666667 483.516641)">12.2%</text>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #78888d" x="939.333333" y="483.719687" transform="rotate(-0 939.333333 483.719687)">25.4 min</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 21px; font-family: 'DejaVu Sans'; fill: #142d3b" transform="translate(58 564.049688)">Mean ordinary-text loss increase rose from 0.00145 to 0.00221 nats between one and 32 steps. CounterFact</text>
+   <text style="font-size: 21px; font-family: 'DejaVu Sans'; fill: #142d3b" transform="translate(58 589.879688)">paraphrase retention stayed at zero.</text>
+  </g>
+ </g>
+</svg>
