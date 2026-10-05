@@ -43,3 +43,5 @@ runs/pc_cap/R1/r1_63o/v15/d9/seal/analysis-population.json
 runs/additional_work/**/*.ckpt
 presentation-materials/.matplotlib/
 runs/pc_cap/additional_work/reader-training-cache/
+presentation-materials/.browser-check-colleague/
+presentation-materials/colleague_deck_20261004/browser-profile/
