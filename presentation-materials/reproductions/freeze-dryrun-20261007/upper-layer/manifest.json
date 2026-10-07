@@ -1,0 +1,17 @@
+{
+  "source": {
+    "path": "/home/derp/cap/pc_cap/logs/additional_work/reproductions/freeze-dryrun-20261007/aw-l/report.json",
+    "sha256": "6b598ac22709944667d0ae7816d2ead34cba22a56dda788a4d55e6dd1a7561ca"
+  },
+  "generator": {
+    "path": "/home/derp/cap/pc_cap/aw/upper_layer_figure.py",
+    "sha256": "2496f13d716a4ad843d2b79a49ead4982111ba8f5cc5d6671db9eab606a7e73d"
+  },
+  "exports": {
+    "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/upper-layer/upper-layer-tradeoffs.png": "8e24f3940ea1cd837f52020fc9527c3beeb6d29360c9617443b5a4a2ac2e9c7c",
+    "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/upper-layer/upper-layer-tradeoffs.svg": "5ff0ec423c00a1528c5c7d6029ccedb7a0a3390d8bcd91395ec0825c3b17a53d",
+    "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/upper-layer/upper-layer-tradeoffs.pdf": "665ff1e8e597dc32f3aa89c2a44df7ee219a333219c79e4fab43252ab609395a"
+  },
+  "selection": "all 24 cells; each seed shown",
+  "gpu_seconds": 0
+}

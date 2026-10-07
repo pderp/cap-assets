@@ -1,0 +1,23 @@
+{
+  "inputs": {
+    "/home/derp/cap/pc_cap/logs/additional_work/reproductions/freeze-dryrun-20261007/pc-default/v0/report.json": "923632cfd44e9680507bbdbbbca270d1e4e6ff776717251719ad5f635e6ac22f",
+    "/home/derp/cap/pc_cap/logs/additional_work/reproductions/freeze-dryrun-20261007/pc-default/v0/harm/report.json": "e5789ac61f2324f18720e13d985cf7306278e6a76385670723724ba8405bb1b4"
+  },
+  "generator": {
+    "/home/derp/cap/pc_cap/aw/pc_result_figures.py": "1c738c83af2673c8434e7babd18ba6cdf8757c374c112bc54b507e1388a754b4"
+  },
+  "exports": [
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/pc/pc_v0/completed-20260928/efficacy-harm-cost.png",
+      "sha256": "dd3b81ae340e3e495589c50c18e0422d4faef12b124dff9c643518bbf0f85034"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/pc/pc_v0/completed-20260928/efficacy-harm-cost.pdf",
+      "sha256": "d05adf6452dd1a7a7975149c3f2ca73e8d71c987f926a33ece2235d2796b611d"
+    },
+    {
+      "path": "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/pc/pc_v0/completed-20260928/efficacy-harm-cost.svg",
+      "sha256": "c9e429bc0b2290a8c045a5d89d54634e579d5cd5796773e050056889a51996bb"
+    }
+  ]
+}

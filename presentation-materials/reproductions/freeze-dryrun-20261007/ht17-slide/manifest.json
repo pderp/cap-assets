@@ -1,0 +1,13 @@
+{
+  "source": {
+    "path": "/home/derp/cap/pc_cap/logs/additional_work/reproductions/freeze-dryrun-20261007/ht17/report.json",
+    "sha256": "fe2617ab71b670e0824d92e23dd325d600071ef825a2d35400ecdcb4f16e4ceb"
+  },
+  "generator_sha256": "222387ae5d96578274d5dd505ce2f5b04be0cfdff3869f45222b432d159487ed",
+  "exports": {
+    "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/ht17-slide/frequency-severity-stage4.png": "eaa34df7e05fe2eb30c781f0d624dc8b4f9c75aaf7d3324a24162a1652dc72d3",
+    "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/ht17-slide/frequency-severity-stage4.svg": "127e5e0343f2ba7876f3fb81687e0535a0ae7307c174b659328a5bf1927ff520",
+    "/home/derp/cap/assets/presentation-materials/reproductions/freeze-dryrun-20261007/ht17-slide/frequency-severity-stage4.pdf": "a2838a99356836ad8e54324c0e8c3f911800ab1bfea7adeb2aaf888db3f9ccd6"
+  },
+  "selection": "All primary Stage-4 cells on both datasets, not outcome-selected"
+}
