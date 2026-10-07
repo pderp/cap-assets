@@ -39,7 +39,7 @@ Here is where the slide's evidence fits:
 | A simple bound was useful | Mix capped and uncapped next-token probabilities | Answering with already trained, already populated caps |
 | The wider theory is still open | Change the loss used to train reusable cap components | An earlier training-objective pilot |
 
-These studies used different experimental populations and, in the PC credit comparison, a different base model from the main GPT-2 study. Their numerical scores are not interchangeable measurements of one common treatment.
+These studies used different experimental populations and, in the PC credit comparison, a separately distilled base checkpoint with the same GPT-2 small architecture. Their numerical scores are not interchangeable measurements of one common treatment.
 
 ## 2. “Retrieval is central”
 
@@ -97,7 +97,7 @@ An **adjoint** calculation obtains a gradient using the chain rule through the m
 
 **Predictive coding (PC)** instead uses prediction-error relationships among internal quantities, with iterative settling of temporary states. In the tested error-credit implementation, those settled states provide a correction-learning signal. The default comparison used **eight settling iterations**. Our implementation still uses automatic differentiation internally; “PC” should not be presented as “no derivatives or backpropagation anywhere.”
 
-This supplemental credit experiment used the project's **50M ePC base and v0 live-key cap**, distinct from the main 124M GPT-2 reader comparison. It did not test PC training of the main learned reader. That was a separate supplemental study. [Sources 3–4.]
+This supplemental credit experiment used the project's **distilled ePC base and v0 live-key cap**, distinct from the main GPT-2 reader comparison. Both bases have 12 blocks and approximately 124M parameters. “50m” in the ePC checkpoint's name means its training-token budget, not a smaller model size. It did not test PC training of the main learned reader. That was a separate supplemental study. [Sources 3–4; October 7 size correction verified against the checkpoint in the new [architecture explanation](gpt2-blocks-cap-layers-and-distillation.md).]
 
 ### Why offer the adjoint more computation?
 
