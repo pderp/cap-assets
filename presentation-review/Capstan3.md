@@ -2,7 +2,7 @@
 
 ## 1. Check of the new export
 
-Text diff against the 09:58 export: slide 1 title ("CSS2026 satellite: Thriving in the Extremes"), slide 3 heading ("This presentation was submitted as: ..."), slide 6 full stop, and slide 18 (rewritten as recommended) are the only changes. Links unchanged and all valid. Nothing from `Capstan.md` §1 or §2 remains open except the **slide 15 table**, which is still the four-column version; the replacement is in `Capstan2.md` §2.
+Text diff against the 09:58 export: slide 1 title ("CSS2026 satellite: Thriving in the Extremes"), slide 3 heading ("This presentation was submitted as: ..."), slide 6 full stop, and slide 18 (rewritten as recommended) are the only changes. Links unchanged and all valid. Nothing from `Capstan.md` §1 or §2 remains open. (Correction, 10:25: I first wrote here that the slide 15 table was still the old one. It is not: the export carries the new seven-column table and every cell matches `Capstan2.md` §2. The table is an image in the PDF, so my text diff did not see it.)
 
 Still open from the cosmetic list, your call: the ASCII arrow on slides 1 and 24, and the untitled tables on slides 9 and 11.
 
