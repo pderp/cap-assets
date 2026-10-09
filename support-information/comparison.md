@@ -2,15 +2,15 @@
 
 Capstan · 9 October 2026 · every number below is read from the frozen record in `pc_cap`; sources are listed at the end.
 
-## 1. What "no cap" means and how it was measured
+## 1. What "no cap" means, and which of its numbers were measured
 
 "No cap" is the frozen GPT-2 small (124M parameters) answering on its own. In the code this is the cap-off path: the same forward pass with a zero write at every site, which reproduces the base bit for bit.
 
-Three things follow from that, and the record confirms them where it measured them:
+The no-cap rows in the tables below are **not** the output of a no-cap arm in the confirmatory study. No cell of the three-realization, five-order study was run without a cap, and MQuAKE was never scored cap-off at all. The rows combine three things:
 
-- **Edit metrics are zero.** Every dataset asks the base to produce an answer it does not already give (CounterFact and MQuAKE targets are counterfactual by construction; the zsRE items used here are ones the base misses). The AW-B study scored an explicit cap-off arm on the 300-edit development memories for zsRE and CounterFact: edit success 0, own-prompt retention 0, paraphrase retention 0. MQuAKE has no separately scored cap-off arm; the same zero holds by construction.
-- **Preservation metrics are perfect.** Locality and near-miss ask whether an unrelated prompt still gives the base's answer. With no cap it is the base's answer, so both score 100 %. The cap-off arm measured 1.0 on both.
-- **Harm is zero at every position.** Harm is defined as Δ = loss with cap − loss without cap. With no cap, Δ = 0 for all 245,237 positions, so mean KL, ES99+ and the maximum are all 0. The cap-off arm measured exactly that.
+- **Measured: the dataset screen.** Before editing began, every candidate prompt was greedy-decoded through the base with the cap off, and any item the base already answered correctly was to be removed (`results/DATA/selection_access.log`, task DATA-01). The base got 0 of 10,720 zsRE prompts and 0 of 20,391 CounterFact prompts right under the strict alias match. So the no-cap edit score of zero on those two datasets is an observed result. MQuAKE does not appear in that log; its targets are counterfactual by construction, so zero holds there by construction only.
+- **Measured: the AW-B cap-off arm.** The bounded-correction study ran the full assay with the base in place of the cap, by actual greedy generation, on the ten 300-edit development memories (five orders each on zsRE and CounterFact): edit success 0, own-prompt retention 0, paraphrase retention 0, locality 1.0, near-miss 1.0, harm 0. That is the only place a complete no-cap scoring pass exists.
+- **By definition: preservation and harm.** Locality and near-miss ask whether an unrelated prompt still gives the base's answer; with no cap it cannot change, so 100 % is definitional. Harm is Δ = loss with cap − loss without cap at each of 245,237 positions; for no cap this is the base compared with itself, so mean KL, ES99+ and the maximum are 0 by definition. (The base's own loss at every position was computed in all 270 confirmatory cells, because Δ needs it, but that is the reference term, not a no-cap experiment.)
 
 So the no-cap column is the fixed point every cap is measured against: it edits nothing and damages nothing. The question each cap answers is how much editing it buys for how much damage.
 
