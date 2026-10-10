@@ -1,0 +1,248 @@
+{
+  "run_id": "ext-20261009",
+  "model": "epc_reader_s0",
+  "dataset": "counterfact",
+  "horizon": 100,
+  "chunks": {
+    "chunk-0000": {
+      "sha256": "b4644d52a79804a7543b7b3acc11d1caa119bf28dbe57d8d4ca0dc44cc4a34cc",
+      "n": 100,
+      "first": 0,
+      "seconds": 4.563986504999775,
+      "written": "2026-10-09T22:30:41+00:00"
+    },
+    "chunk-0001": {
+      "sha256": "bf0757a93cc64ffbebdea354b019a010df402d006bc2ba15e21ecbb20a2dfb35",
+      "n": 100,
+      "first": 100,
+      "seconds": 2.420138941000914,
+      "written": "2026-10-09T22:30:44+00:00"
+    },
+    "chunk-0002": {
+      "sha256": "50f995fa89e5c3e605e151df35167621516907768b253e4281bffe525ca5945e",
+      "n": 100,
+      "first": 200,
+      "seconds": 2.168433046001155,
+      "written": "2026-10-09T22:30:46+00:00"
+    },
+    "chunk-0003": {
+      "sha256": "b8370a5ef8b33d8464857e401dc426848fb1b618ecbdcfe0100cdd2c4a7f2d2d",
+      "n": 100,
+      "first": 300,
+      "seconds": 2.1076737900002627,
+      "written": "2026-10-09T22:30:48+00:00"
+    },
+    "chunk-0004": {
+      "sha256": "094e6e6412e5f93e4312b8d8e76a911f36b20168669c52a3d341214e60946a44",
+      "n": 100,
+      "first": 400,
+      "seconds": 1.9821262820005359,
+      "written": "2026-10-09T22:30:50+00:00"
+    },
+    "chunk-0005": {
+      "sha256": "9fc30af5c57c3712fb98bd9736716de9e08fd436cd343c83e909e0c30cf3d36c",
+      "n": 100,
+      "first": 500,
+      "seconds": 2.2464021890009462,
+      "written": "2026-10-09T22:30:52+00:00"
+    },
+    "chunk-0006": {
+      "sha256": "1169244f9b4cdc766441200232eb840665561f046cfeec2e8ba5b2640e8f8681",
+      "n": 100,
+      "first": 600,
+      "seconds": 2.809922942000412,
+      "written": "2026-10-09T22:30:55+00:00"
+    },
+    "chunk-0007": {
+      "sha256": "5c1f7aac7314d8ff5270be5e7211e777d04e0d844113d7fc6a0b92ac07e25f26",
+      "n": 100,
+      "first": 700,
+      "seconds": 3.063818820999586,
+      "written": "2026-10-09T22:30:58+00:00"
+    },
+    "chunk-0008": {
+      "sha256": "bd362d2ae7ffa55fefd1763c6374b860291f4d2747ee8fc378d52a409166ab45",
+      "n": 100,
+      "first": 800,
+      "seconds": 2.713129308001953,
+      "written": "2026-10-09T22:31:01+00:00"
+    },
+    "chunk-0009": {
+      "sha256": "b3aeb411ab89ae900849845805a15c52c087ec1168f8a1c9aa87e4c54b54cc02",
+      "n": 100,
+      "first": 900,
+      "seconds": 3.1967557499992836,
+      "written": "2026-10-09T22:31:04+00:00"
+    },
+    "chunk-0010": {
+      "sha256": "635c3fe985474e943fe2a1c3d793d51c6142ee792a6d2c821d818ab9c7ea486e",
+      "n": 100,
+      "first": 1000,
+      "seconds": 2.8084598290006397,
+      "written": "2026-10-09T22:31:07+00:00"
+    },
+    "chunk-0011": {
+      "sha256": "2bff7574e6253bbecc857927c7a0027bfdef496c3d1f8de5be080579d3120e89",
+      "n": 100,
+      "first": 1100,
+      "seconds": 2.988037527000415,
+      "written": "2026-10-09T22:31:10+00:00"
+    },
+    "chunk-0012": {
+      "sha256": "46e5a096b5711a87466be3bf27fd3b9b993fc312ca334165cb910220c51ae697",
+      "n": 100,
+      "first": 1200,
+      "seconds": 3.1711945889983326,
+      "written": "2026-10-09T22:31:13+00:00"
+    },
+    "chunk-0013": {
+      "sha256": "c7720d8caf8d9dec6cefe8a5ad68780f5302cb84c92f831f0f72f91921437d4d",
+      "n": 100,
+      "first": 1300,
+      "seconds": 2.9827462540015404,
+      "written": "2026-10-09T22:31:16+00:00"
+    },
+    "chunk-0014": {
+      "sha256": "ec1abef0973858c8a2e1977e6f6b290ac95ce35e05d390520c05516b73ee2e1b",
+      "n": 100,
+      "first": 1400,
+      "seconds": 2.761383045002731,
+      "written": "2026-10-09T22:31:19+00:00"
+    },
+    "chunk-0015": {
+      "sha256": "df3202775d17cc1db5980922aa895ca83c9d3ca95626c61719589381338123d8",
+      "n": 100,
+      "first": 1500,
+      "seconds": 3.3573843800004397,
+      "written": "2026-10-09T22:31:22+00:00"
+    },
+    "chunk-0016": {
+      "sha256": "ed585c196e8e6ec32622f6464b968bc83f16e242a921e9bc9085cd6953a386a9",
+      "n": 100,
+      "first": 1600,
+      "seconds": 2.9453883729984227,
+      "written": "2026-10-09T22:31:25+00:00"
+    },
+    "chunk-0017": {
+      "sha256": "4271b9456dd804f0b6b40703151c658201db45f944ea914ecc44c9b12c2d3ee9",
+      "n": 100,
+      "first": 1700,
+      "seconds": 3.0539240119978786,
+      "written": "2026-10-09T22:31:28+00:00"
+    },
+    "chunk-0018": {
+      "sha256": "ca7dc34f1760e97d157b88c823283c2e9dfe43e8b61ff55ecbafe6a229fcb5e6",
+      "n": 100,
+      "first": 1800,
+      "seconds": 4.9358399369994,
+      "written": "2026-10-09T22:31:33+00:00"
+    },
+    "chunk-0019": {
+      "sha256": "df90e17bb1ab4a106bb2d2c29a6b51217b8882630a89684f2d220cb79111049b",
+      "n": 100,
+      "first": 1900,
+      "seconds": 5.029195216000517,
+      "written": "2026-10-09T22:31:38+00:00"
+    },
+    "chunk-0020": {
+      "sha256": "27053055d998ed99fba7c3a93f3053e09fe09f5acb6367036189a65fec52ed7c",
+      "n": 100,
+      "first": 2000,
+      "seconds": 5.091189637998468,
+      "written": "2026-10-09T22:31:43+00:00"
+    },
+    "chunk-0021": {
+      "sha256": "5cc6b5e4de5377cab2c79b79af86486e118b6f8b48892db854e90b5a9efae571",
+      "n": 100,
+      "first": 2100,
+      "seconds": 5.682780794999417,
+      "written": "2026-10-09T22:31:49+00:00"
+    },
+    "chunk-0022": {
+      "sha256": "6b63531cfb2802206b1042ce4334b7ac20c991d58a114fb00d313d658eaaf293",
+      "n": 100,
+      "first": 2200,
+      "seconds": 4.981310345003294,
+      "written": "2026-10-09T22:31:54+00:00"
+    }
+  },
+  "status": "complete",
+  "n_probes": 2300,
+  "probe_ids_sha256": "d3b2e8c1d6caad4d54e0821c1ddb9ac87b63e498420d092bcc12fbf27bfcb002",
+  "probe_summary": {
+    "dataset": "counterfact",
+    "n_items": 300,
+    "n_probes": 4400,
+    "by_family": {
+      "edit": 300,
+      "paraphrase": 600,
+      "locality_item": 3000,
+      "locality": 50,
+      "near_miss_neighbour": 100,
+      "near_miss_edit": 100,
+      "revision": 50,
+      "revision_paraphrase": 100,
+      "unseen": 100
+    }
+  },
+  "payload": {
+    "path": "/home/derp/cap/assets/runs/pc_cap/R1/r1_63o/v15/d9/seal/payload-b0acc16f0f979c8203fdf4a384b2d0a830a7db2537dfabcfdc4cd9f679df1d91.json",
+    "sha256": "8e9c7bca19f622f0a1a88938863cd53e102be633805d951284ac832bce834ac1"
+  },
+  "max_locality_per_item": 3,
+  "code_sha": "27915e25fa8878439c3b4860d9f7fa3ebd1022ab",
+  "started": "2026-10-09T22:30:33+00:00",
+  "identity": {
+    "training": {
+      "path": "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-epc-s0/report.json",
+      "sha256": "dc4ff95c5667819fd13bb2d786243758bd97a8051e9e4b6f96f4180706af5107"
+    },
+    "reader": {
+      "path": "/home/derp/cap/assets/runs/additional_work/PC-reader/train-epc-s0/theta_avg150-300.npz",
+      "sha256": "f816bbbf4fe999f4c8d0437976deb433ac61683fbaf53803c5b9522277f455b0",
+      "params_sha256": "8eced79f3f869f5720bd1f4095f5a08e2e9b545bb10142c572e6b357063c2075"
+    },
+    "recipe": {
+      "path": "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/ce0d0ffc2a58a60e27c460d9.json",
+      "sha256": "e3b541c4e5b2a5087ab6f1c8191d2caab5cadae0955d83b33d47e111cd3cba31"
+    },
+    "snapshot": {
+      "path": "/home/derp/cap/assets/runs/additional_work/PC-reader/eval-epc-s0-counterfact/stream/checkpoint-100.snapshot",
+      "sha256": "a9bbdfb5d39dbda60837ae082c6ecda544c6544f17a190f91ec2f37c037749ce",
+      "state_sha256": "aa176698d0309dc52e0ca72ae737652b0953268f7751a0ad118d224e9d782fef",
+      "reader_sha256": "8eced79f3f869f5720bd1f4095f5a08e2e9b545bb10142c572e6b357063c2075",
+      "base_sha256": "c4ac3fb867dad146dbddfcd4af0b9b110d8de3bce41127bb1fc11b1e533bc082",
+      "interface": {
+        "read_taps": [
+          1,
+          2,
+          3
+        ],
+        "write_sites": [
+          1,
+          2,
+          3
+        ]
+      },
+      "acquisition": "adjoint"
+    },
+    "memory_state_sha256": "aa176698d0309dc52e0ca72ae737652b0953268f7751a0ad118d224e9d782fef",
+    "base_sha256": "c4ac3fb867dad146dbddfcd4af0b9b110d8de3bce41127bb1fc11b1e533bc082"
+  },
+  "finished": "2026-10-09T22:31:54+00:00",
+  "elapsed_process_seconds": 80.79409236299762,
+  "peak_host_rss_bytes": 2246983680,
+  "final_state_sha256": "aa176698d0309dc52e0ca72ae737652b0953268f7751a0ad118d224e9d782fef",
+  "other_cuda_processes": [
+    {
+      "pid": "1409",
+      "name": "swipl",
+      "used_memory": "1536 MiB"
+    },
+    {
+      "pid": "6223",
+      "name": "/usr/bin/kwin_wayland",
+      "used_memory": "18 MiB"
+    }
+  ]
+}

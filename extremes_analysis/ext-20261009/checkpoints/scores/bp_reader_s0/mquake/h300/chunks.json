@@ -1,0 +1,221 @@
+{
+  "run_id": "ext-20261009",
+  "model": "bp_reader_s0",
+  "dataset": "mquake",
+  "horizon": 300,
+  "chunks": {
+    "chunk-0000": {
+      "sha256": "b18bd2c7cb9e5938bea3f81f8a8485a890afa4101b71b23bed8aa4b93a7f4da9",
+      "n": 100,
+      "first": 0,
+      "seconds": 4.136499865002406,
+      "written": "2026-10-10T01:31:13+00:00"
+    },
+    "chunk-0001": {
+      "sha256": "752c5d9029c1b211165ad81fd6a99ef9f43a322ab065c90ddeda8dde6512fb6f",
+      "n": 100,
+      "first": 100,
+      "seconds": 3.3966956889998983,
+      "written": "2026-10-10T01:31:16+00:00"
+    },
+    "chunk-0002": {
+      "sha256": "23fe225abca05b23f934b75d9da10e6cace9a5862bb796b151e61787318b7f03",
+      "n": 100,
+      "first": 200,
+      "seconds": 3.053985187998478,
+      "written": "2026-10-10T01:31:19+00:00"
+    },
+    "chunk-0003": {
+      "sha256": "69b8adfe86fe5e8ba9a1d03c52a4cfc0b6decd0be082fd7ba130e435f22c31c7",
+      "n": 100,
+      "first": 300,
+      "seconds": 3.3418350590000045,
+      "written": "2026-10-10T01:31:23+00:00"
+    },
+    "chunk-0004": {
+      "sha256": "db2352eabbf868062256ae8953600b935ba3a038f7168e1cb3ea5432815e0bdb",
+      "n": 100,
+      "first": 400,
+      "seconds": 2.9118415900011314,
+      "written": "2026-10-10T01:31:26+00:00"
+    },
+    "chunk-0005": {
+      "sha256": "19012e399bfdb70df6a2ee484cbdbf863e359bc106fba3772b482f0ff4ec257f",
+      "n": 100,
+      "first": 500,
+      "seconds": 3.0402243960015767,
+      "written": "2026-10-10T01:31:29+00:00"
+    },
+    "chunk-0006": {
+      "sha256": "f537e7b93cd120ff55ce437171c46068aadfbf3620f907e6bfaf362fd6b43309",
+      "n": 100,
+      "first": 600,
+      "seconds": 2.889733380998223,
+      "written": "2026-10-10T01:31:31+00:00"
+    },
+    "chunk-0007": {
+      "sha256": "9583733f9a12e75329a4fc5177538165330b2a62278b8cb82bf1fbee497101a1",
+      "n": 100,
+      "first": 700,
+      "seconds": 3.0559339829997043,
+      "written": "2026-10-10T01:31:34+00:00"
+    },
+    "chunk-0008": {
+      "sha256": "c3a364c4978ae36a01be82cb104892d35b1455b94efcea8d9f9fbeaff58ddc89",
+      "n": 100,
+      "first": 800,
+      "seconds": 3.1883724899998924,
+      "written": "2026-10-10T01:31:38+00:00"
+    },
+    "chunk-0009": {
+      "sha256": "b3c9377a006538c21d8aec3bd2f62ac7b21157ab772f6dceb1f4d81c50d7b9d7",
+      "n": 100,
+      "first": 900,
+      "seconds": 3.1757496879981773,
+      "written": "2026-10-10T01:31:41+00:00"
+    },
+    "chunk-0010": {
+      "sha256": "6b41c2777f7c2ef867a9669887a8bff907ce7e07dfc06af520d878fb09b6edd7",
+      "n": 100,
+      "first": 1000,
+      "seconds": 3.2690662880013406,
+      "written": "2026-10-10T01:31:44+00:00"
+    },
+    "chunk-0011": {
+      "sha256": "c7cea6e7c03ad26f4f8f330e9cbaa4ebb0e5bd892b52ccd936f3e1dfa22f1ef7",
+      "n": 100,
+      "first": 1100,
+      "seconds": 2.9639270730003773,
+      "written": "2026-10-10T01:31:47+00:00"
+    },
+    "chunk-0012": {
+      "sha256": "ba8a0972225a58a2030495f8e1d38e71578adb7f31b633bfc793ecda4305826d",
+      "n": 100,
+      "first": 1200,
+      "seconds": 6.943009197999345,
+      "written": "2026-10-10T01:31:54+00:00"
+    },
+    "chunk-0013": {
+      "sha256": "9ccb56b14585da64c473e5ffa7398bfe517f912e5fd1395c3a355e748ad6dd60",
+      "n": 100,
+      "first": 1300,
+      "seconds": 6.60911496299741,
+      "written": "2026-10-10T01:32:01+00:00"
+    },
+    "chunk-0014": {
+      "sha256": "8b8a457889609f92585048d1bf2fe1df6374d0db216d30cc26481fcc8e68bc51",
+      "n": 100,
+      "first": 1400,
+      "seconds": 5.493767934000061,
+      "written": "2026-10-10T01:32:06+00:00"
+    },
+    "chunk-0015": {
+      "sha256": "0ead26ce303bf14957936148068fa2b9c958b27d082cadf1bc2d1cabd9c2fcc7",
+      "n": 100,
+      "first": 1500,
+      "seconds": 6.110141044999182,
+      "written": "2026-10-10T01:32:12+00:00"
+    },
+    "chunk-0016": {
+      "sha256": "6e271e8504e7d0ca973ab01c9577730a41a6936aa52a72803cb0cd155cc360da",
+      "n": 100,
+      "first": 1600,
+      "seconds": 5.230723020998994,
+      "written": "2026-10-10T01:32:17+00:00"
+    },
+    "chunk-0017": {
+      "sha256": "c426926edf4899c8c102f5b34e98c64407b971647dc8db0eb82cb7bbf73d8647",
+      "n": 100,
+      "first": 1700,
+      "seconds": 3.6209409020011663,
+      "written": "2026-10-10T01:32:21+00:00"
+    },
+    "chunk-0018": {
+      "sha256": "362053a91ff862aede3f3195456bfb33c5b5de8ad8ef0fd6e8d8c8a83ff9ec83",
+      "n": 90,
+      "first": 1800,
+      "seconds": 3.5658828939995146,
+      "written": "2026-10-10T01:32:25+00:00"
+    }
+  },
+  "status": "complete",
+  "n_probes": 1890,
+  "probe_ids_sha256": "d35b79a5ec54eecddce13cc05574b20046709a0113e5fc56117d176b51b6e58f",
+  "probe_summary": {
+    "dataset": "mquake",
+    "n_items": 300,
+    "n_probes": 1890,
+    "by_family": {
+      "edit": 300,
+      "paraphrase": 300,
+      "locality_item": 600,
+      "locality": 50,
+      "near_miss_neighbour": 100,
+      "near_miss_edit": 100,
+      "revision": 50,
+      "revision_paraphrase": 50,
+      "unseen": 100,
+      "composition": 240
+    }
+  },
+  "payload": {
+    "path": "/home/derp/cap/assets/runs/pc_cap/R1/r1_63o/v15/d9/seal/payload-b14a47935dbf1e007f4b09587d7d749019bb8ba9ce250597383f3ca5710e9d26.json",
+    "sha256": "b1e583b366456d0a7b8b83ba504d8878254057f24ca33b660011df6589a4b5d7"
+  },
+  "max_locality_per_item": 3,
+  "code_sha": "c480f073cf67c1f9f6e6513f5abf09b67f7a5dd0",
+  "started": "2026-10-10T01:31:05+00:00",
+  "identity": {
+    "training": {
+      "path": "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-bp-s0/report.json",
+      "sha256": "179ad95311549c28c690f2155e6eb89878ae473de9f7bf28caef4d4fe2b1fa0f"
+    },
+    "reader": {
+      "path": "/home/derp/cap/assets/runs/additional_work/PC-reader/train-bp-s0/theta_avg150-300.npz",
+      "sha256": "693f1013e0b592c5b1ead013eaebf5ad2e462105be4168c48ff8a229942a1645",
+      "params_sha256": "0a978dc1d8c8d853b3ff623b0eea65f7f8d9e183b8f9b3484d03184ff4a4f150"
+    },
+    "recipe": {
+      "path": "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/43925e53c31860219a85ef90.json",
+      "sha256": "28f94eb9c00f5e273b98832981d805f87e5901f0f582b8fdfa730b8bcc3303f0"
+    },
+    "snapshot": {
+      "path": "/home/derp/cap/assets/extremes_analysis/ext-20261009/checkpoints/mquake_eval/eval-bp-s0-mquake/stream/checkpoint-300.snapshot",
+      "sha256": "6ea7c5dbd6ba9f2045282c7aa9f4128b41065417aac8ee4140e828a77182f008",
+      "state_sha256": "4213f56121be9e9849649e7a3f61be93e1f4b732a81a5db9a7782878efccd030",
+      "reader_sha256": "0a978dc1d8c8d853b3ff623b0eea65f7f8d9e183b8f9b3484d03184ff4a4f150",
+      "base_sha256": "c4ac3fb867dad146dbddfcd4af0b9b110d8de3bce41127bb1fc11b1e533bc082",
+      "interface": {
+        "read_taps": [
+          1,
+          2,
+          3
+        ],
+        "write_sites": [
+          1,
+          2,
+          3
+        ]
+      },
+      "acquisition": "adjoint"
+    },
+    "memory_state_sha256": "4213f56121be9e9849649e7a3f61be93e1f4b732a81a5db9a7782878efccd030",
+    "base_sha256": "c4ac3fb867dad146dbddfcd4af0b9b110d8de3bce41127bb1fc11b1e533bc082"
+  },
+  "finished": "2026-10-10T01:32:25+00:00",
+  "elapsed_process_seconds": 79.77746810700046,
+  "peak_host_rss_bytes": 2300882944,
+  "final_state_sha256": "4213f56121be9e9849649e7a3f61be93e1f4b732a81a5db9a7782878efccd030",
+  "other_cuda_processes": [
+    {
+      "pid": "1409",
+      "name": "swipl",
+      "used_memory": "1536 MiB"
+    },
+    {
+      "pid": "6223",
+      "name": "/usr/bin/kwin_wayland",
+      "used_memory": "18 MiB"
+    }
+  ]
+}

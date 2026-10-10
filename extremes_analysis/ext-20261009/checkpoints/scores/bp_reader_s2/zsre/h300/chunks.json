@@ -1,0 +1,185 @@
+{
+  "run_id": "ext-20261009",
+  "model": "bp_reader_s2",
+  "dataset": "zsre",
+  "horizon": 300,
+  "chunks": {
+    "chunk-0000": {
+      "sha256": "147bbf156bbd362178327bfaa3d27072e3f5861add2df993cec0a8b85e840e64",
+      "n": 100,
+      "first": 0,
+      "seconds": 4.997134326000378,
+      "written": "2026-10-09T22:12:09+00:00"
+    },
+    "chunk-0001": {
+      "sha256": "225007efc41f68736efd7688c7b3e3bed714cc9f72dfe7decd16206309d198d5",
+      "n": 100,
+      "first": 100,
+      "seconds": 3.531892291000986,
+      "written": "2026-10-09T22:12:13+00:00"
+    },
+    "chunk-0002": {
+      "sha256": "f000451c2bbf01fc246b9cc6ff28e6e3ba97b451258ddbd7761e309747bf85ab",
+      "n": 100,
+      "first": 200,
+      "seconds": 3.61251308500141,
+      "written": "2026-10-09T22:12:16+00:00"
+    },
+    "chunk-0003": {
+      "sha256": "4d3ccb041296cc324ef114acb2ce9c6a3186cbd193bf434d35c49796e20e8c71",
+      "n": 100,
+      "first": 300,
+      "seconds": 3.3517138620009064,
+      "written": "2026-10-09T22:12:20+00:00"
+    },
+    "chunk-0004": {
+      "sha256": "a15e6c2bea2b0a15bfec8bd99c1e3a565932d2d5ca561d926f8eff960e4eb0f0",
+      "n": 100,
+      "first": 400,
+      "seconds": 3.353355516999727,
+      "written": "2026-10-09T22:12:23+00:00"
+    },
+    "chunk-0005": {
+      "sha256": "aa1ef99a3777055d7bfef0e976919198b68335fb982fc00e7eb3d40cebb0a738",
+      "n": 100,
+      "first": 500,
+      "seconds": 3.426602493000246,
+      "written": "2026-10-09T22:12:27+00:00"
+    },
+    "chunk-0006": {
+      "sha256": "429856f30ce9ff88031234d3e41cbc1a6bd39fbfdb905339eae63e0bb04edbed",
+      "n": 100,
+      "first": 600,
+      "seconds": 3.3707368440009304,
+      "written": "2026-10-09T22:12:30+00:00"
+    },
+    "chunk-0007": {
+      "sha256": "34102ae307674006feac66815393d2e185cf9a885a6ecac1b38bc7f322131b94",
+      "n": 100,
+      "first": 700,
+      "seconds": 3.3202137230000517,
+      "written": "2026-10-09T22:12:33+00:00"
+    },
+    "chunk-0008": {
+      "sha256": "b8c660b3deaf7d533f1c6495e79eccd7512b8102cbaeac7e2aa616c41f0cf30e",
+      "n": 100,
+      "first": 800,
+      "seconds": 3.660347880999325,
+      "written": "2026-10-09T22:12:37+00:00"
+    },
+    "chunk-0009": {
+      "sha256": "f9fbc522622ac3ee47905751ca4c7c08aec081ec5a27a8fd631686cfc60470b7",
+      "n": 100,
+      "first": 900,
+      "seconds": 2.8544346679991577,
+      "written": "2026-10-09T22:12:40+00:00"
+    },
+    "chunk-0010": {
+      "sha256": "0e71d3ab245e2dbf8539570059196a90c725b617eb7110907f3d311846ca0458",
+      "n": 100,
+      "first": 1000,
+      "seconds": 2.9705706589993497,
+      "written": "2026-10-09T22:12:43+00:00"
+    },
+    "chunk-0011": {
+      "sha256": "55f70c5a8a84611a44c101890fb275aff8184cc330b979b89d5394b73218dd08",
+      "n": 100,
+      "first": 1100,
+      "seconds": 3.1089082899998175,
+      "written": "2026-10-09T22:12:46+00:00"
+    },
+    "chunk-0012": {
+      "sha256": "d6eb6b9a4eed1bb51eee0f20cbf727741f9fbb22fad98aa16c295ad9c5f9ebc3",
+      "n": 100,
+      "first": 1200,
+      "seconds": 3.0477816790007637,
+      "written": "2026-10-09T22:12:49+00:00"
+    },
+    "chunk-0013": {
+      "sha256": "b355037f69ff6f9266a042275ebbc061c5c691f76263b395f91613761ce8c572",
+      "n": 50,
+      "first": 1300,
+      "seconds": 1.436631597000087,
+      "written": "2026-10-09T22:12:50+00:00"
+    }
+  },
+  "status": "complete",
+  "n_probes": 1350,
+  "probe_ids_sha256": "2d10d381188fc4304f80f8bccf7034b624ed52226b7db0e33a47d26e3215f2a1",
+  "probe_summary": {
+    "dataset": "zsre",
+    "n_items": 300,
+    "n_probes": 1350,
+    "by_family": {
+      "edit": 300,
+      "paraphrase": 300,
+      "locality_item": 300,
+      "locality": 50,
+      "near_miss_neighbour": 100,
+      "near_miss_edit": 100,
+      "revision": 50,
+      "revision_paraphrase": 50,
+      "unseen": 100
+    }
+  },
+  "payload": {
+    "path": "/home/derp/cap/assets/runs/pc_cap/R1/r1_63o/v15/d9/seal/payload-8e4df877ccad361ba231bd0a49c4e2d3bff9990db7c1a9070157a6a54bc470dc.json",
+    "sha256": "66a3c7d79210dbfc50d642474d0c084da9cdd8b64141230038138e18971ccc7e"
+  },
+  "max_locality_per_item": 3,
+  "code_sha": "44e19ff831e0e944d288e7a4896a40577c597102",
+  "started": "2026-10-09T22:12:00+00:00",
+  "identity": {
+    "training": {
+      "path": "/home/derp/cap/pc_cap/results/additional_work/PC-reader/train-bp-s2/report.json",
+      "sha256": "991fe8e306f72ab84839621e25c47d7eea380844a4b2203564542cbc8af79a03"
+    },
+    "reader": {
+      "path": "/home/derp/cap/assets/runs/additional_work/PC-reader/train-bp-s2/theta_avg150-300.npz",
+      "sha256": "d0868c86fa8f3bea02eafc2ef5eed25a216e5f233f5cf4beea593740dd01030c",
+      "params_sha256": "c30cd21e2b6c088941bdefc067b093cb3b353eca1a184460aacf8d917334d94d"
+    },
+    "recipe": {
+      "path": "/home/derp/cap/pc_cap/docs/tasks/R1-final-cell-recipes/61348508e40d54351613ab14.json",
+      "sha256": "a14686a8bd0651e8e06b6bbf64b90420f175b7f77991dc5c885cd106ac340b35"
+    },
+    "snapshot": {
+      "path": "/home/derp/cap/assets/runs/additional_work/PC-reader/eval-bp-s2-zsre/stream/checkpoint-300.snapshot",
+      "sha256": "29dff4f7308d62698126016e09724e8095709bb5d052168cfbb6c8d81d0fdbf4",
+      "state_sha256": "cf5a09f05be246dfcfc66c26ad186b9777d160767b94da715710d3b99d5135ef",
+      "reader_sha256": "c30cd21e2b6c088941bdefc067b093cb3b353eca1a184460aacf8d917334d94d",
+      "base_sha256": "c4ac3fb867dad146dbddfcd4af0b9b110d8de3bce41127bb1fc11b1e533bc082",
+      "interface": {
+        "read_taps": [
+          1,
+          2,
+          3
+        ],
+        "write_sites": [
+          1,
+          2,
+          3
+        ]
+      },
+      "acquisition": "adjoint"
+    },
+    "memory_state_sha256": "cf5a09f05be246dfcfc66c26ad186b9777d160767b94da715710d3b99d5135ef",
+    "base_sha256": "c4ac3fb867dad146dbddfcd4af0b9b110d8de3bce41127bb1fc11b1e533bc082"
+  },
+  "finished": "2026-10-09T22:12:50+00:00",
+  "elapsed_process_seconds": 49.85936268899968,
+  "peak_host_rss_bytes": 2285252608,
+  "final_state_sha256": "cf5a09f05be246dfcfc66c26ad186b9777d160767b94da715710d3b99d5135ef",
+  "other_cuda_processes": [
+    {
+      "pid": "1409",
+      "name": "swipl",
+      "used_memory": "1536 MiB"
+    },
+    {
+      "pid": "6223",
+      "name": "/usr/bin/kwin_wayland",
+      "used_memory": "18 MiB"
+    }
+  ]
+}
