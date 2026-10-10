@@ -1,5 +1,6 @@
 # assets repository tracking rule (2026-09-18). Tracked: hash-bound evidence / receipts / manifests / JSON populations under
-# runs/pc_cap/R1, presentation materials, small fixture trees (files > 45 MB split by pc_cap/scripts/repo_size_policy.py).
+# runs/pc_cap/R1, presentation materials, small fixture trees. Size rule relaxed 2026-10-10: files up to 99 MB commit directly; larger ones are split by
+# pc_cap/aw/assets_size_policy.py (hook .githooks/pre-commit).
 # Not tracked (weights, caches, environments, raw data, multi-GB run outputs): listed below; they stay on disk.
 models/
 envs/
@@ -45,3 +46,4 @@ presentation-materials/.matplotlib/
 runs/pc_cap/additional_work/reader-training-cache/
 presentation-materials/.browser-check-colleague/
 presentation-materials/colleague_deck_20261004/browser-profile/
+data/prepared/revision_v1/r1_d1c_v1/record_review.jsonl

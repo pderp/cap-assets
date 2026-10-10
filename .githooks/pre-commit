@@ -1,2 +1,3 @@
 #!/bin/sh
-exec /home/derp/cap/venv/bin/python /home/derp/cap/pc_cap/scripts/repo_size_policy.py check
+# assets size policy (lead, 2026-10-10): no committed file above 99 MB (GitHub refuses 100 MB); pc_cap keeps its 45 MB rule
+exec /home/derp/cap/venv/bin/python /home/derp/cap/pc_cap/aw/assets_size_policy.py check

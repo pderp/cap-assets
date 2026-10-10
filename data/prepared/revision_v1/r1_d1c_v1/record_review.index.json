@@ -1,0 +1,23 @@
+{
+ "policy": "scripts/repo_size_policy.py split (byte parts; concatenate in order)",
+ "original": "record_review.jsonl",
+ "bytes": 119760218,
+ "sha256": "30c9b1d3aa602d9030c60d0f7e8b601e4efbd48427181e160414f4ed5a6d1469",
+ "parts": [
+  {
+   "path": "record_review.part-00.jsonl",
+   "bytes": 41943040,
+   "sha256": "cdc6b3481f84ddfb9fca5a913b293b7173e0db616ace0facef3459b9270b7e91"
+  },
+  {
+   "path": "record_review.part-01.jsonl",
+   "bytes": 41943040,
+   "sha256": "c564408f2551a248f4b7cd088944539f25a2e9b071f484c49a8b27c7d74a45fe"
+  },
+  {
+   "path": "record_review.part-02.jsonl",
+   "bytes": 35874138,
+   "sha256": "2ffce49650532fa96c0bdf796a156a35d6cd32e29558b85df07fabf10ec0e31e"
+  }
+ ]
+}
